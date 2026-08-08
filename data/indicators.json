@@ -1,0 +1,139 @@
+[
+  {
+    "id": "gdp",
+    "name": "GDP",
+    "name_full": "美國實質GDP",
+    "freq": "Q",
+    "org": "BEA",
+    "url": "https://www.bea.gov/data/gdp/gross-domestic-product",
+    "items": [
+      { "id": "gdp_headline", "name": "實質GDP年化季增率", "role": "headline", "unit": "%" },
+      { "id": "gdp_pce_contrib", "name": "消費貢獻度", "role": "contribution", "unit": "pp", "group": "consumption" },
+      { "id": "gdp_pce_goods_contrib", "name": "消費－商品貢獻度", "role": "contribution", "unit": "pp", "group": "consumption" },
+      { "id": "gdp_pce_durable_contrib", "name": "消費－耐久財貢獻度", "role": "contribution", "unit": "pp", "group": "consumption" },
+      { "id": "gdp_pce_nondurable_contrib", "name": "消費－非耐久財貢獻度", "role": "contribution", "unit": "pp", "group": "consumption" },
+      { "id": "gdp_pce_services_contrib", "name": "消費－服務貢獻度", "role": "contribution", "unit": "pp", "group": "consumption" },
+      { "id": "gdp_investment_contrib", "name": "私人投資貢獻度", "role": "contribution", "unit": "pp" },
+      { "id": "gdp_netexports_contrib", "name": "淨出口貢獻度", "role": "contribution", "unit": "pp" },
+      { "id": "gdp_government_contrib", "name": "政府支出貢獻度", "role": "contribution", "unit": "pp" }
+    ]
+  },
+  {
+    "id": "cpi",
+    "name": "CPI",
+    "name_full": "美國消費者物價指數",
+    "freq": "M",
+    "org": "BLS",
+    "url": "https://www.bls.gov/cpi/",
+    "items": [
+      { "id": "cpi_headline", "name": "總CPI", "role": "headline", "unit": "%" },
+      { "id": "cpi_core", "name": "核心CPI（排除食品能源）", "role": "headline", "unit": "%" },
+      { "id": "cpi_food", "name": "食品飲料", "role": "component", "unit": "%" },
+      { "id": "cpi_energy", "name": "能源", "role": "component", "unit": "%" },
+      { "id": "cpi_housing", "name": "居住", "role": "component", "unit": "%" },
+      { "id": "cpi_medical", "name": "醫療", "role": "component", "unit": "%" },
+      { "id": "cpi_transportation", "name": "交通", "role": "component", "unit": "%" },
+      { "id": "cpi_apparel", "name": "服飾", "role": "component", "unit": "%" },
+      { "id": "cpi_education_comm", "name": "教育通訊", "role": "component", "unit": "%" },
+      { "id": "cpi_other", "name": "其他", "role": "component", "unit": "%" },
+      { "id": "cpi_supercore", "name": "Super Core（核心服務排除房租）", "role": "component", "unit": "%" }
+    ]
+  },
+  {
+    "id": "pce",
+    "name": "PCE",
+    "name_full": "美國個人消費支出物價指數",
+    "freq": "M",
+    "org": "BEA",
+    "url": "https://www.bea.gov/data/personal-consumption-expenditures-price-index",
+    "items": [
+      { "id": "pce_headline", "name": "總PCE", "role": "headline", "unit": "%" },
+      { "id": "pce_core", "name": "核心PCE（排除食品能源）", "role": "headline", "unit": "%" },
+      { "id": "pce_goods", "name": "商品", "role": "component", "unit": "%" },
+      { "id": "pce_services", "name": "服務", "role": "component", "unit": "%" },
+      { "id": "pce_core_services_ex_housing", "name": "核心服務排除房租（近似計算）", "role": "component", "unit": "%", "note_methodology": "以名目支出權重反推，非BEA官方直接發布數字" }
+    ]
+  },
+  {
+    "id": "nfp",
+    "name": "NFP",
+    "name_full": "美國非農就業報告",
+    "freq": "M",
+    "org": "BLS",
+    "url": "https://www.bls.gov/ces/",
+    "items": [
+      { "id": "nfp_headline", "name": "總新增就業人數", "role": "headline", "unit": "k" },
+      { "id": "nfp_government", "name": "政府", "role": "component", "unit": "k", "group": "industry" },
+      { "id": "nfp_education_health", "name": "教育醫療", "role": "component", "unit": "k", "group": "industry" },
+      { "id": "nfp_prof_business", "name": "專業商業服務", "role": "component", "unit": "k", "group": "industry" },
+      { "id": "nfp_retail", "name": "零售", "role": "component", "unit": "k", "group": "industry" },
+      { "id": "nfp_manufacturing", "name": "製造", "role": "component", "unit": "k", "group": "industry" },
+      { "id": "nfp_construction", "name": "建築", "role": "component", "unit": "k", "group": "industry" },
+      { "id": "nfp_leisure_hospitality", "name": "休閒餐旅", "role": "component", "unit": "k", "group": "industry" },
+      { "id": "nfp_unemployment_rate", "name": "失業率", "role": "component", "unit": "%" },
+      { "id": "nfp_lfpr", "name": "勞動參與率", "role": "component", "unit": "%" },
+      { "id": "nfp_ahe_all", "name": "平均時薪－全體員工", "role": "component", "unit": "%", "group": "wages" },
+      { "id": "nfp_ahe_nonsup", "name": "平均時薪－生產與非管理人員", "role": "component", "unit": "%", "group": "wages" },
+      { "id": "nfp_hours_all", "name": "平均週工時－全體員工", "role": "component", "unit": "hrs", "group": "wages" },
+      { "id": "nfp_hours_nonsup", "name": "平均週工時－生產與非管理人員", "role": "component", "unit": "hrs", "group": "wages" }
+    ]
+  },
+  {
+    "id": "ism_mfg",
+    "name": "ISM製造業",
+    "name_full": "ISM製造業採購經理人指數",
+    "freq": "M",
+    "org": "ISM",
+    "url": "https://www.ismworld.org/supply-management-news-and-reports/reports/ism-report-on-business/pmi/",
+    "items": [
+      { "id": "ism_manufacturing_pmi", "name": "製造業PMI（複合指數）", "role": "headline", "unit": "index" },
+      { "id": "ism_mfg_new_orders", "name": "新訂單", "role": "component", "unit": "index", "in_composite": true },
+      { "id": "ism_mfg_production", "name": "生產", "role": "component", "unit": "index", "in_composite": true },
+      { "id": "ism_manufacturing_employment", "name": "就業", "role": "component", "unit": "index", "in_composite": true },
+      { "id": "ism_mfg_supplier_deliveries", "name": "供應商交期", "role": "component", "unit": "index", "in_composite": true },
+      { "id": "ism_mfg_inventories", "name": "存貨", "role": "component", "unit": "index", "in_composite": true },
+      { "id": "ism_mfg_customers_inventories", "name": "顧客存貨", "role": "component", "unit": "index", "in_composite": false },
+      { "id": "ism_mfg_prices_paid", "name": "物價", "role": "component", "unit": "index", "in_composite": false },
+      { "id": "ism_mfg_backlog", "name": "待辦訂單", "role": "component", "unit": "index", "in_composite": false },
+      { "id": "ism_mfg_new_export_orders", "name": "新出口訂單", "role": "component", "unit": "index", "in_composite": false },
+      { "id": "ism_mfg_imports", "name": "進口", "role": "component", "unit": "index", "in_composite": false }
+    ]
+  },
+  {
+    "id": "ism_svc",
+    "name": "ISM服務業",
+    "name_full": "ISM服務業採購經理人指數",
+    "freq": "M",
+    "org": "ISM",
+    "url": "https://www.ismworld.org/supply-management-news-and-reports/reports/ism-report-on-business/services/",
+    "items": [
+      { "id": "ism_services_pmi", "name": "服務業PMI（複合指數）", "role": "headline", "unit": "index" },
+      { "id": "ism_svc_business_activity", "name": "商業活動", "role": "component", "unit": "index", "in_composite": true },
+      { "id": "ism_svc_new_orders", "name": "新訂單", "role": "component", "unit": "index", "in_composite": true },
+      { "id": "ism_services_employment", "name": "就業", "role": "component", "unit": "index", "in_composite": true },
+      { "id": "ism_svc_supplier_deliveries", "name": "供應商交期", "role": "component", "unit": "index", "in_composite": true },
+      { "id": "ism_svc_inventories", "name": "存貨", "role": "component", "unit": "index", "in_composite": false },
+      { "id": "ism_services_prices_paid", "name": "物價", "role": "component", "unit": "index", "in_composite": false },
+      { "id": "ism_svc_backlog", "name": "待辦訂單", "role": "component", "unit": "index", "in_composite": false },
+      { "id": "ism_svc_new_export_orders", "name": "新出口訂單", "role": "component", "unit": "index", "in_composite": false },
+      { "id": "ism_svc_imports", "name": "進口訂單", "role": "component", "unit": "index", "in_composite": false },
+      { "id": "ism_svc_inventory_sentiment", "name": "存貨感受", "role": "component", "unit": "index", "in_composite": false }
+    ]
+  },
+  {
+    "id": "retail_sales",
+    "name": "零售銷售",
+    "name_full": "美國零售銷售月報",
+    "freq": "M",
+    "org": "Census",
+    "url": "https://www.census.gov/retail/marts/www/marts_current.pdf",
+    "items": [
+      { "id": "retail_headline", "name": "總零售銷售月增", "role": "headline", "unit": "%" },
+      { "id": "retail_core", "name": "核心零售銷售（排除汽車/汽油）", "role": "headline", "unit": "%" },
+      { "id": "retail_ecommerce", "name": "電商／非店面零售", "role": "component", "unit": "%" },
+      { "id": "retail_food_services", "name": "餐飲", "role": "component", "unit": "%" },
+      { "id": "retail_apparel", "name": "服飾", "role": "component", "unit": "%" },
+      { "id": "retail_building_materials", "name": "建材", "role": "component", "unit": "%" }
+    ]
+  }
+]
