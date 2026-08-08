@@ -92,6 +92,7 @@ def build_item(item: dict, m: dict, previous: dict, today: str) -> dict:
             new_since = today
 
     return {
+        "name": item.get("name", item_id),
         "value": res.get("value"),
         "value_fmt": fmt(res.get("value"), m) if res.get("ok") else "—",
         "asof": res.get("asof", ""),
