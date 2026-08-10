@@ -1,5 +1,5 @@
 {
- "build_time": "2026-08-08 13:21",
+ "build_time": "2026-08-10 22:42",
  "summary": {
   "green": 67,
   "yellow": 0,
@@ -19,7 +19,7 @@
      "value_fmt": "1.5%",
      "asof": "2026-04-01",
      "asof_label": "",
-     "age_days": 38,
+     "age_days": 40,
      "new_since": "",
      "history": [
       {
@@ -125,6 +125,7 @@
      "note": "位於近 24 期的第 25 百分位",
      "source_label": "BEA NIPA T10101 L1",
      "unit": "%",
+     "weight": null,
      "role": "headline",
      "group": "",
      "in_composite": null
@@ -135,7 +136,7 @@
      "value_fmt": "+2.1pp",
      "asof": "2026-04-01",
      "asof_label": "",
-     "age_days": 38,
+     "age_days": 40,
      "new_since": "",
      "history": [
       {
@@ -241,6 +242,7 @@
      "note": "對GDP貢獻 +2.12pp，屬成長動能；位於近 24 期的第 50 百分位",
      "source_label": "BEA NIPA T10102 L2",
      "unit": "pp",
+     "weight": null,
      "role": "contribution",
      "group": "consumption",
      "in_composite": null
@@ -251,7 +253,7 @@
      "value_fmt": "+1.1pp",
      "asof": "2026-04-01",
      "asof_label": "",
-     "age_days": 38,
+     "age_days": 40,
      "new_since": "",
      "history": [
       {
@@ -357,6 +359,7 @@
      "note": "對GDP貢獻 +1.08pp，屬成長動能；位於近 24 期的第 71 百分位",
      "source_label": "BEA NIPA T10102 L3",
      "unit": "pp",
+     "weight": null,
      "role": "contribution",
      "group": "consumption",
      "in_composite": null
@@ -367,7 +370,7 @@
      "value_fmt": "+0.5pp",
      "asof": "2026-04-01",
      "asof_label": "",
-     "age_days": 38,
+     "age_days": 40,
      "new_since": "",
      "history": [
       {
@@ -473,6 +476,7 @@
      "note": "對GDP貢獻 +0.49pp，屬成長動能；位於近 24 期的第 67 百分位",
      "source_label": "BEA NIPA T10102 L4",
      "unit": "pp",
+     "weight": null,
      "role": "contribution",
      "group": "consumption",
      "in_composite": null
@@ -483,7 +487,7 @@
      "value_fmt": "+0.6pp",
      "asof": "2026-04-01",
      "asof_label": "",
-     "age_days": 38,
+     "age_days": 40,
      "new_since": "",
      "history": [
       {
@@ -589,6 +593,7 @@
      "note": "對GDP貢獻 +0.60pp，屬成長動能；位於近 24 期的第 83 百分位",
      "source_label": "BEA NIPA T10102 L5",
      "unit": "pp",
+     "weight": null,
      "role": "contribution",
      "group": "consumption",
      "in_composite": null
@@ -599,7 +604,7 @@
      "value_fmt": "+1.0pp",
      "asof": "2026-04-01",
      "asof_label": "",
-     "age_days": 38,
+     "age_days": 40,
      "new_since": "",
      "history": [
       {
@@ -705,6 +710,7 @@
      "note": "對GDP貢獻 +1.04pp，屬成長動能；位於近 24 期的第 21 百分位",
      "source_label": "BEA NIPA T10102 L6",
      "unit": "pp",
+     "weight": null,
      "role": "contribution",
      "group": "consumption",
      "in_composite": null
@@ -715,7 +721,7 @@
      "value_fmt": "+0.5pp",
      "asof": "2026-04-01",
      "asof_label": "",
-     "age_days": 38,
+     "age_days": 40,
      "new_since": "",
      "history": [
       {
@@ -821,6 +827,7 @@
      "note": "對GDP貢獻 +0.53pp，屬成長動能；位於近 24 期的第 50 百分位",
      "source_label": "BEA NIPA T10102 L7",
      "unit": "pp",
+     "weight": null,
      "role": "contribution",
      "group": "",
      "in_composite": null
@@ -831,7 +838,7 @@
      "value_fmt": "-1.0pp",
      "asof": "2026-04-01",
      "asof_label": "",
-     "age_days": 38,
+     "age_days": 40,
      "new_since": "",
      "history": [
       {
@@ -937,6 +944,7 @@
      "note": "對GDP貢獻 -1.01pp，拖累整體成長；連續 4 期走降、位於近 24 期的第 29 百分位",
      "source_label": "BEA NIPA T10102 L15",
      "unit": "pp",
+     "weight": null,
      "role": "contribution",
      "group": "",
      "in_composite": null
@@ -947,7 +955,7 @@
      "value_fmt": "-0.1pp",
      "asof": "2026-04-01",
      "asof_label": "",
-     "age_days": 38,
+     "age_days": 40,
      "new_since": "",
      "history": [
       {
@@ -1053,6 +1061,7 @@
      "note": "對GDP貢獻 -0.14pp，拖累整體成長；位於近 24 期的第 33 百分位",
      "source_label": "BEA NIPA T10102 L22",
      "unit": "pp",
+     "weight": null,
      "role": "contribution",
      "group": "",
      "in_composite": null
@@ -1072,7 +1081,7 @@
      "value_fmt": "3.5%",
      "asof": "2026-06-01",
      "asof_label": "",
-     "age_days": 38,
+     "age_days": 40,
      "new_since": "",
      "history": [
       {
@@ -1180,6 +1189,7 @@
      "note": "年增 3.5%，高於2%目標 1.5pp；位於近 24 期的第 92 百分位",
      "source_label": "BLS API CUUR0000SA0",
      "unit": "%",
+     "weight": 100.0,
      "role": "headline",
      "group": "",
      "in_composite": null
@@ -1190,7 +1200,7 @@
      "value_fmt": "2.6%",
      "asof": "2026-06-01",
      "asof_label": "",
-     "age_days": 38,
+     "age_days": 40,
      "new_since": "",
      "history": [
       {
@@ -1298,6 +1308,7 @@
      "note": "年增 2.6%，高於2%目標 0.6pp；位於近 24 期的第 12 百分位",
      "source_label": "BLS API CUUR0000SA0L1E",
      "unit": "%",
+     "weight": 79.919,
      "role": "headline",
      "group": "",
      "in_composite": null
@@ -1308,7 +1319,7 @@
      "value_fmt": "2.9%",
      "asof": "2026-06-01",
      "asof_label": "",
-     "age_days": 38,
+     "age_days": 40,
      "new_since": "",
      "history": [
       {
@@ -1416,6 +1427,7 @@
      "note": "位於近 24 期的第 75 百分位",
      "source_label": "BLS API CUSR0000SAF",
      "unit": "%",
+     "weight": 14.539,
      "role": "component",
      "group": "",
      "in_composite": null
@@ -1426,7 +1438,7 @@
      "value_fmt": "15.5%",
      "asof": "2026-06-01",
      "asof_label": "",
-     "age_days": 38,
+     "age_days": 40,
      "new_since": "",
      "history": [
       {
@@ -1534,6 +1546,7 @@
      "note": "位於近 24 期的第 92 百分位",
      "source_label": "BLS API CUSR0000SA0E",
      "unit": "%",
+     "weight": 6.383,
      "role": "component",
      "group": "",
      "in_composite": null
@@ -1544,7 +1557,7 @@
      "value_fmt": "3.3%",
      "asof": "2026-06-01",
      "asof_label": "",
-     "age_days": 38,
+     "age_days": 40,
      "new_since": "",
      "history": [
       {
@@ -1652,6 +1665,7 @@
      "note": "位於近 24 期的第 8 百分位",
      "source_label": "BLS API CUSR0000SAH",
      "unit": "%",
+     "weight": 44.469,
      "role": "component",
      "group": "",
      "in_composite": null
@@ -1662,7 +1676,7 @@
      "value_fmt": "2.0%",
      "asof": "2026-06-01",
      "asof_label": "",
-     "age_days": 38,
+     "age_days": 40,
      "new_since": "",
      "history": [
       {
@@ -1770,6 +1784,7 @@
      "note": "創近 24 期新低",
      "source_label": "BLS API CUSR0000SAM",
      "unit": "%",
+     "weight": 8.423,
      "role": "component",
      "group": "",
      "in_composite": null
@@ -1780,7 +1795,7 @@
      "value_fmt": "6.2%",
      "asof": "2026-06-01",
      "asof_label": "",
-     "age_days": 38,
+     "age_days": 40,
      "new_since": "",
      "history": [
       {
@@ -1888,6 +1903,7 @@
      "note": "位於近 24 期的第 92 百分位",
      "source_label": "BLS API CUSR0000SAT",
      "unit": "%",
+     "weight": 16.316,
      "role": "component",
      "group": "",
      "in_composite": null
@@ -1898,7 +1914,7 @@
      "value_fmt": "3.9%",
      "asof": "2026-06-01",
      "asof_label": "",
-     "age_days": 38,
+     "age_days": 40,
      "new_since": "",
      "history": [
       {
@@ -2006,6 +2022,7 @@
      "note": "位於近 24 期的第 92 百分位",
      "source_label": "BLS API CUSR0000SAA",
      "unit": "%",
+     "weight": 2.368,
      "role": "component",
      "group": "",
      "in_composite": null
@@ -2016,7 +2033,7 @@
      "value_fmt": "-0.1%",
      "asof": "2026-06-01",
      "asof_label": "",
-     "age_days": 38,
+     "age_days": 40,
      "new_since": "",
      "history": [
       {
@@ -2124,6 +2141,7 @@
      "note": "創近 24 期新低",
      "source_label": "BLS API CUSR0000SAE",
      "unit": "%",
+     "weight": 5.846,
      "role": "component",
      "group": "",
      "in_composite": null
@@ -2134,7 +2152,7 @@
      "value_fmt": "4.6%",
      "asof": "2026-06-01",
      "asof_label": "",
-     "age_days": 38,
+     "age_days": 40,
      "new_since": "",
      "history": [
       {
@@ -2242,6 +2260,7 @@
      "note": "位於近 24 期的第 88 百分位",
      "source_label": "BLS API CUSR0000SAG",
      "unit": "%",
+     "weight": 2.902,
      "role": "component",
      "group": "",
      "in_composite": null
@@ -2252,7 +2271,7 @@
      "value_fmt": "3.1%",
      "asof": "2026-06-01",
      "asof_label": "",
-     "age_days": 38,
+     "age_days": 40,
      "new_since": "",
      "history": [
       {
@@ -2360,6 +2379,7 @@
      "note": "創近 24 期新低",
      "source_label": "BLS API CUSR0000SASL2RS",
      "unit": "%",
+     "weight": 28.673,
      "role": "component",
      "group": "",
      "in_composite": null
@@ -2379,7 +2399,7 @@
      "value_fmt": "3.7%",
      "asof": "2026-06-01",
      "asof_label": "",
-     "age_days": 38,
+     "age_days": 40,
      "new_since": "",
      "history": [
       {
@@ -2487,6 +2507,7 @@
      "note": "年增 3.7%，高於2%目標 1.7pp；位於近 24 期的第 92 百分位",
      "source_label": "BEA NIUnderlyingDetail U20404 L1",
      "unit": "%",
+     "weight": null,
      "role": "headline",
      "group": "",
      "in_composite": null
@@ -2497,7 +2518,7 @@
      "value_fmt": "3.3%",
      "asof": "2026-06-01",
      "asof_label": "",
-     "age_days": 38,
+     "age_days": 40,
      "new_since": "",
      "history": [
       {
@@ -2605,6 +2626,7 @@
      "note": "年增 3.3%，高於2%目標 1.3pp；位於近 24 期的第 92 百分位",
      "source_label": "BEA NIUnderlyingDetail U20404 L374",
      "unit": "%",
+     "weight": null,
      "role": "headline",
      "group": "",
      "in_composite": null
@@ -2615,7 +2637,7 @@
      "value_fmt": "3.7%",
      "asof": "2026-06-01",
      "asof_label": "",
-     "age_days": 38,
+     "age_days": 40,
      "new_since": "",
      "history": [
       {
@@ -2723,6 +2745,7 @@
      "note": "位於近 24 期的第 88 百分位",
      "source_label": "BEA NIUnderlyingDetail U20404 L2",
      "unit": "%",
+     "weight": null,
      "role": "component",
      "group": "",
      "in_composite": null
@@ -2733,7 +2756,7 @@
      "value_fmt": "3.7%",
      "asof": "2026-06-01",
      "asof_label": "",
-     "age_days": 38,
+     "age_days": 40,
      "new_since": "",
      "history": [
       {
@@ -2841,6 +2864,7 @@
      "note": "位於近 24 期的第 67 百分位",
      "source_label": "BEA NIUnderlyingDetail U20404 L150",
      "unit": "%",
+     "weight": null,
      "role": "component",
      "group": "",
      "in_composite": null
@@ -2851,7 +2875,7 @@
      "value_fmt": "3.8%",
      "asof": "2026-06-01",
      "asof_label": "",
-     "age_days": 38,
+     "age_days": 40,
      "new_since": "",
      "history": [
       {
@@ -2959,6 +2983,7 @@
      "note": "位於近 24 期的第 88 百分位",
      "source_label": "derived：BEA名目權重反推（非BEA官方直接數字）",
      "unit": "%",
+     "weight": null,
      "role": "component",
      "group": "",
      "in_composite": null
@@ -2978,7 +3003,7 @@
      "value_fmt": "-23k",
      "asof": "2026-07-01",
      "asof_label": "",
-     "age_days": 8,
+     "age_days": 10,
      "new_since": "",
      "history": [
       {
@@ -3084,6 +3109,7 @@
      "note": "月增 -23千人，低於 10–15 萬盈虧平衡區間；連續 4 期走降、位於近 24 期的第 21 百分位",
      "source_label": "BLS API CES0000000001",
      "unit": "k",
+     "weight": null,
      "role": "headline",
      "group": "",
      "in_composite": null
@@ -3094,7 +3120,7 @@
      "value_fmt": "-53k",
      "asof": "2026-07-01",
      "asof_label": "",
-     "age_days": 8,
+     "age_days": 10,
      "new_since": "",
      "history": [
       {
@@ -3200,6 +3226,7 @@
      "note": "位於近 24 期的第 8 百分位",
      "source_label": "BLS API CES9000000001",
      "unit": "k",
+     "weight": null,
      "role": "component",
      "group": "industry",
      "in_composite": null
@@ -3210,7 +3237,7 @@
      "value_fmt": "+25k",
      "asof": "2026-07-01",
      "asof_label": "",
-     "age_days": 8,
+     "age_days": 10,
      "new_since": "",
      "history": [
       {
@@ -3316,6 +3343,7 @@
      "note": "位於近 24 期的第 17 百分位",
      "source_label": "BLS API CES6500000001",
      "unit": "k",
+     "weight": null,
      "role": "component",
      "group": "industry",
      "in_composite": null
@@ -3326,7 +3354,7 @@
      "value_fmt": "+18k",
      "asof": "2026-07-01",
      "asof_label": "",
-     "age_days": 8,
+     "age_days": 10,
      "new_since": "",
      "history": [
       {
@@ -3432,6 +3460,7 @@
      "note": "位於近 24 期的第 75 百分位",
      "source_label": "BLS API CES6000000001",
      "unit": "k",
+     "weight": null,
      "role": "component",
      "group": "industry",
      "in_composite": null
@@ -3442,7 +3471,7 @@
      "value_fmt": "-19k",
      "asof": "2026-07-01",
      "asof_label": "",
-     "age_days": 8,
+     "age_days": 10,
      "new_since": "",
      "history": [
       {
@@ -3548,6 +3577,7 @@
      "note": "連續 3 期走降、位於近 24 期的第 21 百分位",
      "source_label": "BLS API CES4200000001",
      "unit": "k",
+     "weight": null,
      "role": "component",
      "group": "industry",
      "in_composite": null
@@ -3558,7 +3588,7 @@
      "value_fmt": "+5k",
      "asof": "2026-07-01",
      "asof_label": "",
-     "age_days": 8,
+     "age_days": 10,
      "new_since": "",
      "history": [
       {
@@ -3664,6 +3694,7 @@
      "note": "位於近 24 期的第 88 百分位",
      "source_label": "BLS API CES3000000001",
      "unit": "k",
+     "weight": null,
      "role": "component",
      "group": "industry",
      "in_composite": null
@@ -3674,7 +3705,7 @@
      "value_fmt": "+22k",
      "asof": "2026-07-01",
      "asof_label": "",
-     "age_days": 8,
+     "age_days": 10,
      "new_since": "",
      "history": [
       {
@@ -3780,6 +3811,7 @@
      "note": "位於近 24 期的第 88 百分位",
      "source_label": "BLS API CES2000000001",
      "unit": "k",
+     "weight": null,
      "role": "component",
      "group": "industry",
      "in_composite": null
@@ -3790,7 +3822,7 @@
      "value_fmt": "-40k",
      "asof": "2026-07-01",
      "asof_label": "",
-     "age_days": 8,
+     "age_days": 10,
      "new_since": "",
      "history": [
       {
@@ -3896,6 +3928,7 @@
      "note": "位於近 24 期的第 8 百分位",
      "source_label": "BLS API CES7000000001",
      "unit": "k",
+     "weight": null,
      "role": "component",
      "group": "industry",
      "in_composite": null
@@ -3906,7 +3939,7 @@
      "value_fmt": "4.1%",
      "asof": "2026-07-01",
      "asof_label": "",
-     "age_days": 8,
+     "age_days": 10,
      "new_since": "",
      "history": [
       {
@@ -4012,6 +4045,7 @@
      "note": "Sahm Rule 計數 0.00pp，距門檻尚有 0.50pp；位於近 24 期的第 25 百分位",
      "source_label": "BLS API LNS14000000",
      "unit": "%",
+     "weight": null,
      "role": "component",
      "group": "",
      "in_composite": null
@@ -4022,7 +4056,7 @@
      "value_fmt": "61.4%",
      "asof": "2026-07-01",
      "asof_label": "",
-     "age_days": 8,
+     "age_days": 10,
      "new_since": "",
      "history": [
       {
@@ -4128,6 +4162,7 @@
      "note": "創近 24 期新低",
      "source_label": "BLS API LNS11300000",
      "unit": "%",
+     "weight": null,
      "role": "component",
      "group": "",
      "in_composite": null
@@ -4138,7 +4173,7 @@
      "value_fmt": "3.2%",
      "asof": "2026-07-01",
      "asof_label": "",
-     "age_days": 8,
+     "age_days": 10,
      "new_since": "",
      "history": [
       {
@@ -4246,6 +4281,7 @@
      "note": "創近 24 期新低",
      "source_label": "BLS API CES0500000003",
      "unit": "%",
+     "weight": null,
      "role": "component",
      "group": "wages",
      "in_composite": null
@@ -4256,7 +4292,7 @@
      "value_fmt": "3.2%",
      "asof": "2026-07-01",
      "asof_label": "",
-     "age_days": 8,
+     "age_days": 10,
      "new_since": "",
      "history": [
       {
@@ -4364,6 +4400,7 @@
      "note": "連續 3 期走降、創近 24 期新低",
      "source_label": "BLS API CES0500000008",
      "unit": "%",
+     "weight": null,
      "role": "component",
      "group": "wages",
      "in_composite": null
@@ -4374,7 +4411,7 @@
      "value_fmt": "34.3hrs",
      "asof": "2026-07-01",
      "asof_label": "",
-     "age_days": 8,
+     "age_days": 10,
      "new_since": "",
      "history": [
       {
@@ -4480,6 +4517,7 @@
      "note": "創近 24 期新高",
      "source_label": "BLS API CES0500000002",
      "unit": "hrs",
+     "weight": null,
      "role": "component",
      "group": "wages",
      "in_composite": null
@@ -4490,7 +4528,7 @@
      "value_fmt": "33.8hrs",
      "asof": "2026-07-01",
      "asof_label": "",
-     "age_days": 8,
+     "age_days": 10,
      "new_since": "",
      "history": [
       {
@@ -4596,6 +4634,7 @@
      "note": "創近 24 期新高",
      "source_label": "BLS API CES0500000007",
      "unit": "hrs",
+     "weight": null,
      "role": "component",
      "group": "wages",
      "in_composite": null
@@ -4615,7 +4654,7 @@
      "value_fmt": "55.6",
      "asof": "2026-07-01",
      "asof_label": "2026 July",
-     "age_days": 8,
+     "age_days": 10,
      "new_since": "",
      "history": [
       {
@@ -4721,6 +4760,7 @@
      "note": "高於 50 榮枯線；創近 24 期新高",
      "source_label": "ISM 官方新聞稿（PR Newswire）",
      "unit": "",
+     "weight": null,
      "role": "headline",
      "group": "",
      "in_composite": null
@@ -4731,7 +4771,7 @@
      "value_fmt": "56.7",
      "asof": "2026-07-01",
      "asof_label": "2026 July",
-     "age_days": 8,
+     "age_days": 10,
      "new_since": "",
      "history": [
       {
@@ -4837,6 +4877,7 @@
      "note": "高於 50 榮枯線；位於近 24 期的第 92 百分位",
      "source_label": "ISM 官方新聞稿（PR Newswire）",
      "unit": "",
+     "weight": null,
      "role": "component",
      "group": "",
      "in_composite": true
@@ -4847,7 +4888,7 @@
      "value_fmt": "58.5",
      "asof": "2026-07-01",
      "asof_label": "2026 July",
-     "age_days": 8,
+     "age_days": 10,
      "new_since": "",
      "history": [
       {
@@ -4953,6 +4994,7 @@
      "note": "高於 50 榮枯線；創近 24 期新高",
      "source_label": "ISM 官方新聞稿（PR Newswire）",
      "unit": "",
+     "weight": null,
      "role": "component",
      "group": "",
      "in_composite": true
@@ -4963,7 +5005,7 @@
      "value_fmt": "52.8",
      "asof": "2026-07-01",
      "asof_label": "2026 July",
-     "age_days": 8,
+     "age_days": 10,
      "new_since": "",
      "history": [
       {
@@ -5069,6 +5111,7 @@
      "note": "高於 50 榮枯線；連續 3 期走升、創近 24 期新高",
      "source_label": "ISM 官方新聞稿（PR Newswire）",
      "unit": "",
+     "weight": null,
      "role": "component",
      "group": "",
      "in_composite": true
@@ -5079,7 +5122,7 @@
      "value_fmt": "58.9",
      "asof": "2026-07-01",
      "asof_label": "2026 July",
-     "age_days": 8,
+     "age_days": 10,
      "new_since": "",
      "history": [
       {
@@ -5185,6 +5228,7 @@
      "note": "高於 50 榮枯線；位於近 24 期的第 92 百分位",
      "source_label": "ISM 官方新聞稿（PR Newswire）",
      "unit": "",
+     "weight": null,
      "role": "component",
      "group": "",
      "in_composite": true
@@ -5195,7 +5239,7 @@
      "value_fmt": "51.2",
      "asof": "2026-07-01",
      "asof_label": "2026 July",
-     "age_days": 8,
+     "age_days": 10,
      "new_since": "",
      "history": [
       {
@@ -5301,6 +5345,7 @@
      "note": "高於 50 榮枯線；位於近 24 期的第 92 百分位",
      "source_label": "ISM 官方新聞稿（PR Newswire）",
      "unit": "",
+     "weight": null,
      "role": "component",
      "group": "",
      "in_composite": true
@@ -5311,7 +5356,7 @@
      "value_fmt": "40.7",
      "asof": "2026-07-01",
      "asof_label": "2026 July",
-     "age_days": 8,
+     "age_days": 10,
      "new_since": "",
      "history": [
       {
@@ -5417,6 +5462,7 @@
      "note": "低於 50 榮枯線；位於近 24 期的第 21 百分位",
      "source_label": "ISM 官方新聞稿（PR Newswire）",
      "unit": "",
+     "weight": null,
      "role": "component",
      "group": "",
      "in_composite": false
@@ -5427,7 +5473,7 @@
      "value_fmt": "71.1",
      "asof": "2026-07-01",
      "asof_label": "2026 July",
-     "age_days": 8,
+     "age_days": 10,
      "new_since": "",
      "history": [
       {
@@ -5533,6 +5579,7 @@
      "note": "高於 50 榮枯線；連續 3 期走降、位於近 24 期的第 83 百分位",
      "source_label": "ISM 官方新聞稿（PR Newswire）",
      "unit": "",
+     "weight": null,
      "role": "component",
      "group": "",
      "in_composite": false
@@ -5543,7 +5590,7 @@
      "value_fmt": "55.0",
      "asof": "2026-07-01",
      "asof_label": "2026 July",
-     "age_days": 8,
+     "age_days": 10,
      "new_since": "",
      "history": [
       {
@@ -5649,6 +5696,7 @@
      "note": "高於 50 榮枯線；位於近 24 期的第 96 百分位",
      "source_label": "ISM 官方新聞稿（PR Newswire）",
      "unit": "",
+     "weight": null,
      "role": "component",
      "group": "",
      "in_composite": false
@@ -5659,7 +5707,7 @@
      "value_fmt": "53.0",
      "asof": "2026-07-01",
      "asof_label": "2026 July",
-     "age_days": 8,
+     "age_days": 10,
      "new_since": "",
      "history": [
       {
@@ -5765,6 +5813,7 @@
      "note": "高於 50 榮枯線；創近 24 期新高",
      "source_label": "ISM 官方新聞稿（PR Newswire）",
      "unit": "",
+     "weight": null,
      "role": "component",
      "group": "",
      "in_composite": false
@@ -5775,7 +5824,7 @@
      "value_fmt": "55.7",
      "asof": "2026-07-01",
      "asof_label": "2026 July",
-     "age_days": 8,
+     "age_days": 10,
      "new_since": "",
      "history": [
       {
@@ -5881,6 +5930,7 @@
      "note": "高於 50 榮枯線；創近 24 期新高",
      "source_label": "ISM 官方新聞稿（PR Newswire）",
      "unit": "",
+     "weight": null,
      "role": "component",
      "group": "",
      "in_composite": false
@@ -5900,7 +5950,7 @@
      "value_fmt": "54.1",
      "asof": "2026-07-01",
      "asof_label": "2026 July",
-     "age_days": 8,
+     "age_days": 10,
      "new_since": "",
      "history": [
       {
@@ -6006,6 +6056,7 @@
      "note": "高於 50 榮枯線；位於近 24 期的第 79 百分位",
      "source_label": "ISM 官方新聞稿（PR Newswire）",
      "unit": "",
+     "weight": null,
      "role": "headline",
      "group": "",
      "in_composite": null
@@ -6016,7 +6067,7 @@
      "value_fmt": "59.1",
      "asof": "2026-07-01",
      "asof_label": "2026 July",
-     "age_days": 8,
+     "age_days": 10,
      "new_since": "",
      "history": [
       {
@@ -6122,6 +6173,7 @@
      "note": "高於 50 榮枯線；位於近 24 期的第 92 百分位",
      "source_label": "ISM 官方新聞稿（PR Newswire）",
      "unit": "",
+     "weight": null,
      "role": "component",
      "group": "",
      "in_composite": true
@@ -6132,7 +6184,7 @@
      "value_fmt": "57.2",
      "asof": "2026-07-01",
      "asof_label": "2026 July",
-     "age_days": 8,
+     "age_days": 10,
      "new_since": "",
      "history": [
       {
@@ -6238,6 +6290,7 @@
      "note": "高於 50 榮枯線；位於近 24 期的第 75 百分位",
      "source_label": "ISM 官方新聞稿（PR Newswire）",
      "unit": "",
+     "weight": null,
      "role": "component",
      "group": "",
      "in_composite": true
@@ -6248,7 +6301,7 @@
      "value_fmt": "47.4",
      "asof": "2026-07-01",
      "asof_label": "2026 July",
-     "age_days": 8,
+     "age_days": 10,
      "new_since": "",
      "history": [
       {
@@ -6354,6 +6407,7 @@
      "note": "低於 50 榮枯線；位於近 24 期的第 29 百分位",
      "source_label": "ISM 官方新聞稿（PR Newswire）",
      "unit": "",
+     "weight": null,
      "role": "component",
      "group": "",
      "in_composite": true
@@ -6364,7 +6418,7 @@
      "value_fmt": "52.8",
      "asof": "2026-07-01",
      "asof_label": "2026 July",
-     "age_days": 8,
+     "age_days": 10,
      "new_since": "",
      "history": [
       {
@@ -6470,6 +6524,7 @@
      "note": "高於 50 榮枯線；連續 3 期走降、位於近 24 期的第 58 百分位",
      "source_label": "ISM 官方新聞稿（PR Newswire）",
      "unit": "",
+     "weight": null,
      "role": "component",
      "group": "",
      "in_composite": true
@@ -6480,7 +6535,7 @@
      "value_fmt": "51.4",
      "asof": "2026-07-01",
      "asof_label": "2026 July",
-     "age_days": 8,
+     "age_days": 10,
      "new_since": "",
      "history": [
       {
@@ -6586,6 +6641,7 @@
      "note": "高於 50 榮枯線；位於近 24 期的第 46 百分位",
      "source_label": "ISM 官方新聞稿（PR Newswire）",
      "unit": "",
+     "weight": null,
      "role": "component",
      "group": "",
      "in_composite": false
@@ -6596,7 +6652,7 @@
      "value_fmt": "70.3",
      "asof": "2026-07-01",
      "asof_label": "2026 July",
-     "age_days": 8,
+     "age_days": 10,
      "new_since": "",
      "history": [
       {
@@ -6702,6 +6758,7 @@
      "note": "高於 50 榮枯線；位於近 24 期的第 88 百分位",
      "source_label": "ISM 官方新聞稿（PR Newswire）",
      "unit": "",
+     "weight": null,
      "role": "component",
      "group": "",
      "in_composite": false
@@ -6712,7 +6769,7 @@
      "value_fmt": "50.9",
      "asof": "2026-07-01",
      "asof_label": "2026 July",
-     "age_days": 8,
+     "age_days": 10,
      "new_since": "",
      "history": [
       {
@@ -6818,6 +6875,7 @@
      "note": "高於 50 榮枯線；位於近 24 期的第 75 百分位",
      "source_label": "ISM 官方新聞稿（PR Newswire）",
      "unit": "",
+     "weight": null,
      "role": "component",
      "group": "",
      "in_composite": false
@@ -6828,7 +6886,7 @@
      "value_fmt": "52.0",
      "asof": "2026-07-01",
      "asof_label": "2026 July",
-     "age_days": 8,
+     "age_days": 10,
      "new_since": "",
      "history": [
       {
@@ -6934,6 +6992,7 @@
      "note": "高於 50 榮枯線；位於近 24 期的第 75 百分位",
      "source_label": "ISM 官方新聞稿（PR Newswire）",
      "unit": "",
+     "weight": null,
      "role": "component",
      "group": "",
      "in_composite": false
@@ -6944,7 +7003,7 @@
      "value_fmt": "51.8",
      "asof": "2026-07-01",
      "asof_label": "2026 July",
-     "age_days": 8,
+     "age_days": 10,
      "new_since": "",
      "history": [
       {
@@ -7050,6 +7109,7 @@
      "note": "高於 50 榮枯線；位於近 24 期的第 75 百分位",
      "source_label": "ISM 官方新聞稿（PR Newswire）",
      "unit": "",
+     "weight": null,
      "role": "component",
      "group": "",
      "in_composite": false
@@ -7060,7 +7120,7 @@
      "value_fmt": "52.5",
      "asof": "2026-07-01",
      "asof_label": "2026 July",
-     "age_days": 8,
+     "age_days": 10,
      "new_since": "",
      "history": [
       {
@@ -7166,6 +7226,7 @@
      "note": "高於 50 榮枯線；創近 24 期新低",
      "source_label": "ISM 官方新聞稿（PR Newswire）",
      "unit": "",
+     "weight": null,
      "role": "component",
      "group": "",
      "in_composite": false
@@ -7185,7 +7246,7 @@
      "value_fmt": "0.2%",
      "asof": "2026-06-01",
      "asof_label": "",
-     "age_days": 38,
+     "age_days": 40,
      "new_since": "",
      "history": [
       {
@@ -7291,6 +7352,7 @@
      "note": "月增 0.2%，消費動能持穩；位於近 24 期的第 42 百分位",
      "source_label": "Census MARTS 44X72",
      "unit": "%",
+     "weight": null,
      "role": "headline",
      "group": "",
      "in_composite": null
@@ -7301,7 +7363,7 @@
      "value_fmt": "0.4%",
      "asof": "2026-06-01",
      "asof_label": "",
-     "age_days": 38,
+     "age_days": 40,
      "new_since": "",
      "history": [
       {
@@ -7407,6 +7469,7 @@
      "note": "月增 0.4%，消費動能強勁；位於近 24 期的第 54 百分位",
      "source_label": "Census MARTS 44W72",
      "unit": "%",
+     "weight": null,
      "role": "headline",
      "group": "",
      "in_composite": null
@@ -7417,7 +7480,7 @@
      "value_fmt": "1.9%",
      "asof": "2026-06-01",
      "asof_label": "",
-     "age_days": 38,
+     "age_days": 40,
      "new_since": "",
      "history": [
       {
@@ -7523,6 +7586,7 @@
      "note": "位於近 24 期的第 88 百分位",
      "source_label": "Census MARTS 454",
      "unit": "%",
+     "weight": null,
      "role": "component",
      "group": "",
      "in_composite": null
@@ -7533,7 +7597,7 @@
      "value_fmt": "0.1%",
      "asof": "2026-06-01",
      "asof_label": "",
-     "age_days": 38,
+     "age_days": 40,
      "new_since": "",
      "history": [
       {
@@ -7639,6 +7703,7 @@
      "note": "位於近 24 期的第 38 百分位",
      "source_label": "Census MARTS 722",
      "unit": "%",
+     "weight": null,
      "role": "component",
      "group": "",
      "in_composite": null
@@ -7649,7 +7714,7 @@
      "value_fmt": "-0.3%",
      "asof": "2026-06-01",
      "asof_label": "",
-     "age_days": 38,
+     "age_days": 40,
      "new_since": "",
      "history": [
       {
@@ -7755,6 +7820,7 @@
      "note": "位於近 24 期的第 29 百分位",
      "source_label": "Census MARTS 448",
      "unit": "%",
+     "weight": null,
      "role": "component",
      "group": "",
      "in_composite": null
@@ -7765,7 +7831,7 @@
      "value_fmt": "0.1%",
      "asof": "2026-06-01",
      "asof_label": "",
-     "age_days": 38,
+     "age_days": 40,
      "new_since": "",
      "history": [
       {
@@ -7871,6 +7937,7 @@
      "note": "位於近 24 期的第 46 百分位",
      "source_label": "Census MARTS 444",
      "unit": "%",
+     "weight": null,
      "role": "component",
      "group": "",
      "in_composite": null

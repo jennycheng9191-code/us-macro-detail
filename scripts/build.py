@@ -106,6 +106,7 @@ def build_item(item: dict, m: dict, previous: dict, today: str) -> dict:
         "note": note,
         "source_label": res.get("source_label", ""),
         "unit": m.get("unit", ""),
+        "weight": m.get("weight"),
         "role": item.get("role", "component"),
         "group": item.get("group", ""),
         "in_composite": item.get("in_composite"),

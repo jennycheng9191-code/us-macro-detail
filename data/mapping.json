@@ -10,7 +10,8 @@
     },
     "display": "沿用us-macro-guide common.transform()的詞彙：level=原始值 | yoy=年增率% | mom=月增率% | mom_diff=月變動絕對量 | weighted_ex_component=名目權重反推排除法(僅PCE核心服務排除房租用)",
     "also_series": "若指定，'also'列出的附加形式改用這支序列計算（例如CPI headline的YoY用NSA、MoM用SA），不指定則沿用主序列",
-    "驗證時間": "2026-08-08，BEA/BLS/Census三把金鑰皆已啟用測試成功"
+    "驗證時間": "2026-08-08，BEA/BLS/Census三把金鑰皆已啟用測試成功",
+    "weight": "CPI分項權重（Relative Importance，佔all items的%）。BLS只在每年12月公布一次，且官網www.bls.gov的HTML/XLSX頁面有Akamai bot防護、程式化抓取一律403（api.bls.gov的時間序列API不受影響），實測確認過改真實瀏覽器header也一樣被擋。改為手動登錄：來源 https://www.bls.gov/cpi/tables/relative-importance/2025.htm（Table 1, U.S. City Average, December 2025, 2024權重基礎），下次更新等BLS每年1月公布新的12月數字時手動校正。"
   },
   "gdp_headline": {
     "source": "bea",
@@ -159,6 +160,7 @@
       "mom"
     ],
     "unit": "%",
+    "weight": 100.0,
     "note": "YoY用NSA，MoM用SA，沿用us-macro-guide既有慣例",
     "sanity": {
       "min": -3,
@@ -176,6 +178,7 @@
       "mom"
     ],
     "unit": "%",
+    "weight": 79.919,
     "sanity": {
       "min": -1,
       "max": 10
@@ -191,6 +194,7 @@
       "mom"
     ],
     "unit": "%",
+    "weight": 14.539,
     "note": "Food and beverages",
     "sanity": {
       "min": -3,
@@ -207,6 +211,7 @@
       "mom"
     ],
     "unit": "%",
+    "weight": 6.383,
     "sanity": {
       "min": -40,
       "max": 60
@@ -222,6 +227,7 @@
       "mom"
     ],
     "unit": "%",
+    "weight": 44.469,
     "sanity": {
       "min": -2,
       "max": 12
@@ -237,6 +243,7 @@
       "mom"
     ],
     "unit": "%",
+    "weight": 8.423,
     "sanity": {
       "min": -3,
       "max": 12
@@ -252,6 +259,7 @@
       "mom"
     ],
     "unit": "%",
+    "weight": 16.316,
     "sanity": {
       "min": -20,
       "max": 25
@@ -267,6 +275,7 @@
       "mom"
     ],
     "unit": "%",
+    "weight": 2.368,
     "sanity": {
       "min": -10,
       "max": 15
@@ -282,6 +291,7 @@
       "mom"
     ],
     "unit": "%",
+    "weight": 5.846,
     "sanity": {
       "min": -5,
       "max": 10
@@ -297,6 +307,7 @@
       "mom"
     ],
     "unit": "%",
+    "weight": 2.902,
     "sanity": {
       "min": -5,
       "max": 10
@@ -312,6 +323,7 @@
       "mom"
     ],
     "unit": "%",
+    "weight": 28.673,
     "note": "BLS官方標題為Services less rent of shelter，即市場慣稱的CPI Super Core",
     "sanity": {
       "min": -2,

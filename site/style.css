@@ -12,6 +12,15 @@
   --gray: #6b7684;
   --up: #ef5b5b;
   --down: #35c98c;
+  --s1: #3987e5;
+  --s2: #d95926;
+  --s3: #199e70;
+  --s4: #c98500;
+  --s5: #d55181;
+  --s6: #008300;
+  --s7: #9085e9;
+  --other: #545b64;
+  --gridline: #232c36;
 }
 
 * { box-sizing: border-box; }
@@ -183,3 +192,73 @@ footer.site {
 }
 
 .loading { color: var(--text3); padding: 40px; text-align: center; }
+
+/* 走勢比較圖（堆疊長條＋headline折線） */
+.trend-chart-wrap {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 16px 18px 10px;
+  margin-bottom: 22px;
+}
+.trend-chart-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 10px;
+}
+.trend-chart-head .title { font-size: 13.5px; color: var(--text2); font-weight: 600; }
+.trend-chart-head .hint { font-size: 11.5px; color: var(--text3); }
+.trend-legend { display: flex; gap: 14px; flex-wrap: wrap; font-size: 12px; color: var(--text2); margin-bottom: 6px; }
+.trend-legend .item { display: inline-flex; align-items: center; gap: 5px; }
+.trend-legend .swatch { display: inline-block; width: 10px; height: 10px; border-radius: 2px; }
+.trend-legend .line-swatch { display: inline-block; width: 14px; height: 2px; background: var(--text); }
+.trend-chart-svg { display: block; width: 100%; height: auto; }
+.trend-chart-svg .hit-col { fill: transparent; cursor: crosshair; }
+.trend-chart-svg .hit-col:hover { fill: rgba(255,255,255,0.04); }
+.trend-chart-svg .axis-label { fill: var(--text3); font-size: 10.5px; }
+.trend-chart-svg .axis-year { fill: var(--text2); font-weight: 600; }
+.trend-chart-svg .end-label { fill: var(--text); font-size: 12px; font-weight: 700; font-variant-numeric: tabular-nums; }
+.trend-chart-svg .baseline { stroke: var(--text3); stroke-width: 1; }
+.trend-chart-svg .gridline { stroke: var(--gridline); stroke-width: 1; }
+
+.chart-tooltip {
+  position: fixed;
+  pointer-events: none;
+  background: var(--card2);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 8px 10px;
+  font-size: 12px;
+  color: var(--text2);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.4);
+  z-index: 50;
+  display: none;
+  white-space: nowrap;
+}
+.chart-tooltip .t-title { color: var(--text); font-weight: 700; margin-bottom: 5px; }
+.chart-tooltip .t-row { display: flex; align-items: center; justify-content: space-between; gap: 14px; margin: 2px 0; }
+.chart-tooltip .t-row .k { display: flex; align-items: center; gap: 5px; color: var(--text2); }
+.chart-tooltip .t-row .k .sw { width: 8px; height: 8px; border-radius: 2px; flex-shrink: 0; }
+.chart-tooltip .t-row .v { font-weight: 600; color: var(--text); font-variant-numeric: tabular-nums; }
+.chart-tooltip .t-row.total { border-top: 1px solid var(--border); margin-top: 4px; padding-top: 4px; }
+
+/* 當期比較直條圖 */
+.bar-compare {
+  margin: 4px 0 18px;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 14px 18px 12px;
+}
+.bar-compare .title { font-size: 13px; color: var(--text2); font-weight: 600; margin-bottom: 10px; }
+.bar-compare-row { display: flex; align-items: center; gap: 10px; margin: 8px 0; }
+.bar-compare-row .label { width: 128px; flex-shrink: 0; font-size: 12px; color: var(--text2); display: flex; align-items: center; gap: 6px; }
+.bar-compare-row .label .sw { width: 9px; height: 9px; border-radius: 2px; flex-shrink: 0; }
+.bar-compare-row .track { flex: 1; position: relative; height: 20px; }
+.bar-compare-row .track .zero { position: absolute; top: 0; bottom: 0; width: 1px; background: var(--text3); }
+.bar-compare-row .track .bar { position: absolute; top: 2px; height: 16px; border-radius: 4px; }
+.bar-compare-row .value { width: 60px; flex-shrink: 0; text-align: right; font-size: 13px; font-weight: 700; font-variant-numeric: tabular-nums; }
+.chart-footnote { font-size: 11px; color: var(--text3); margin-top: 8px; }
