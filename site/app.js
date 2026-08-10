@@ -614,5 +614,11 @@
       });
   }
 
-  document.addEventListener("DOMContentLoaded", boot);
+  // app.js 一律由 gate.js 解鎖後動態插入 <script> 載入，這時 DOMContentLoaded
+  // 早就觸發過了，所以直接呼叫 boot()，不能再靠監聽 DOMContentLoaded。
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", boot);
+  } else {
+    boot();
+  }
 })();
