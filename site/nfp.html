@@ -3,13 +3,32 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<meta name="robots" content="noindex" />
+<meta name="robots" content="noindex, nofollow" />
 <title>NFP 非農就業拆項分析｜美國總經數據分項分析</title>
 <link rel="stylesheet" href="style.css" />
+<style>
+  /* 密碼閘門：未解鎖前整頁不顯示（gate.js 驗證通過後移除 .locked） */
+  html.locked body > *{visibility:hidden}
+  html.locked #gate{visibility:visible}
+  #gate{position:fixed;inset:0;z-index:99;background:var(--bg);
+    display:flex;align-items:center;justify-content:center;padding:24px}
+  #gate form{width:100%;max-width:320px;background:var(--card);border:1px solid var(--border);
+    border-radius:12px;padding:24px;display:flex;flex-direction:column;gap:10px}
+  .gate-title{font-size:16px;font-weight:600}
+  .gate-sub{font-size:12.5px;color:var(--text3);margin-bottom:4px}
+  #gatepw{background:var(--card2);border:1px solid var(--border);border-radius:8px;
+    color:var(--text);padding:10px 12px;font-size:15px;min-height:42px;font-family:inherit}
+  .btn{display:inline-flex;align-items:center;justify-content:center;gap:6px;
+    padding:10px 14px;border-radius:8px;border:1px solid var(--border);
+    background:var(--card2);color:var(--text);font-size:14px;cursor:pointer;font-family:inherit}
+  .btn-primary{background:var(--accent);border-color:var(--accent);color:#06111f;font-weight:600}
+  .gate-msg{font-size:12px;color:var(--up);min-height:16px}
+</style>
+<script>document.documentElement.className='locked';</script>
 </head>
 <body>
 <div id="app"><div class="loading">載入中…</div></div>
 <script>window.PAGE_INDICATOR = "nfp";</script>
-<script src="app.js"></script>
+<script src="gate.js"></script>
 </body>
 </html>
