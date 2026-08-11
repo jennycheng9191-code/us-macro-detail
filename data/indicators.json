@@ -130,6 +130,7 @@
     "items": [
       { "id": "retail_headline", "name": "總零售銷售月增", "role": "headline", "unit": "%" },
       { "id": "retail_core", "name": "核心零售銷售（排除汽車/汽油）", "role": "headline", "unit": "%" },
+      { "id": "retail_control", "name": "控制組零售銷售（排除汽車/建材/加油/餐飲，自算）", "role": "headline", "unit": "%", "note_methodology": "排除汽車/建材/加油站/餐飲，Census未直接發布，依官方季調金額自算月增率" },
       { "id": "retail_ecommerce", "name": "電商／非店面零售", "role": "component", "unit": "%" },
       { "id": "retail_food_services", "name": "餐飲", "role": "component", "unit": "%" },
       { "id": "retail_apparel", "name": "服飾", "role": "component", "unit": "%" },

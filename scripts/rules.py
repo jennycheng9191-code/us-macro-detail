@@ -139,7 +139,7 @@ def build_note(item: dict, m: dict, res: dict) -> str:
         elif iid in _NEAR_TARGET_IDS:
             if (s := near_target_2pct(res)):
                 parts.append(s)
-        elif iid in ("retail_headline", "retail_core"):
+        elif iid in ("retail_headline", "retail_core", "retail_control"):
             if (s := retail_momentum(res)):
                 parts.append(s)
     except Exception:                          # noqa: BLE001

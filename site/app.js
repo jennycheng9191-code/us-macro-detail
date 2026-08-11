@@ -77,11 +77,15 @@
       lineIds: ["ism_services_pmi", "ism_svc_new_orders", "ism_services_employment"],
       lineLabels: { ism_services_pmi: "綜合PMI", ism_svc_new_orders: "新訂單", ism_services_employment: "就業" },
     },
-    // 只有4個分項，振幅跟headline相近，挑電商（市場最常引用的結構性趨勢）當第三條線
+    // 控制組是Fed／市場判讀消費動能的主線（BEA估算PCE商品消費的口徑），
+    // 跟總零售/核心零售同單位、振幅相近，直接疊第三條；電商當第四條看結構性趨勢
     retail_sales: {
       unit: "pct",
-      lineIds: ["retail_headline", "retail_core", "retail_ecommerce"],
-      lineLabels: { retail_headline: "總零售", retail_core: "核心零售", retail_ecommerce: "電商" },
+      lineIds: ["retail_headline", "retail_core", "retail_control", "retail_ecommerce"],
+      lineLabels: {
+        retail_headline: "總零售", retail_core: "核心零售",
+        retail_control: "控制組", retail_ecommerce: "電商",
+      },
     },
   };
 

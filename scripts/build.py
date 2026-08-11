@@ -34,6 +34,8 @@ def _fetch_one(item_id: str, m: dict) -> dict:
         return bls.fetch(item_id, m)
     if src == "census":
         return census.fetch(item_id, m)
+    if src == "census_derived":
+        return census.fetch_derived(item_id, m)
     if src == "prnewswire":
         return prnewswire.fetch(item_id, m)
     if src == "derived":
