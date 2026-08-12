@@ -91,8 +91,20 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          curl -sf -X POST \
-            -H "Authorization: Bearer $GH_TOKEN" \
-            -H "Accept: application/vnd.github+json" \
-            "https://api.github.com/repos/${{ github.repository }}/actions/workflows/pages.yml/dispatches" \
-            -d '{"ref":"main"}'
+          # 2026-08-12 踩坑：單次 curl 遇到偶發 TLS 錯誤（exit 60）就整個 run 標紅，
+          # 資料明明已經 push 進 repo，卻因為沒觸發部署而讓網站停在舊版。
+          # 改成重試 3 次；真的都失敗也只警告不讓 run 失敗——資料已安全提交，
+          # 下一次排程會再 dispatch 一次補上。
+          for i in 1 2 3; do
+            if curl -sf --retry 2 --retry-connrefused --max-time 30 -X POST \
+              -H "Authorization: Bearer $GH_TOKEN" \
+              -H "Accept: application/vnd.github+json" \
+              "https://api.github.com/repos/${{ github.repository }}/actions/workflows/pages.yml/dispatches" \
+              -d '{"ref":"main"}'; then
+              echo "已觸發部署"
+              exit 0
+            fi
+            echo "觸發部署失敗（第 $i 次），10 秒後重試"
+            sleep 10
+          done
+          echo "::warning::部署觸發 3 次皆失敗，但資料已提交；請手動補跑 pages.yml 或等下次排程"

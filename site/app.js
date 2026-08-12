@@ -463,10 +463,21 @@
       `</nav>`;
   }
 
-  function buildHeader(meta) {
+  // 手動更新按鈕只掛首頁。站台是靜態頁＋公開 repo，沒有後端也不能放 token
+  // （原始碼公開，密碼閘門擋不住），所以不直接呼叫 API，改開 GitHub Actions
+  // 的 update workflow 頁讓使用者按「Run workflow」——零 token 外洩風險。
+  const UPDATE_WORKFLOW_URL =
+    "https://github.com/jennycheng9191-code/us-macro-detail/actions/workflows/update.yml";
+
+  function buildHeader(meta, opts) {
+    opts = opts || {};
+    const updateBtn = opts.showUpdate
+      ? `<a class="update-btn" href="${UPDATE_WORKFLOW_URL}" target="_blank" rel="noopener"
+            title="開啟 GitHub Actions，按頁面右側的 Run workflow 立即重抓（約 3 分鐘後本頁重整即可看到新數值）">⟳ 立即更新</a>`
+      : "";
     return `<header class="top">
       <div class="brand"><a href="index.html">美國總經數據分項分析</a></div>
-      <div class="meta">${fmtBuildTime(meta.build_time)}</div>
+      <div class="meta">${fmtBuildTime(meta.build_time)}${updateBtn}</div>
     </header>`;
   }
 
@@ -504,7 +515,7 @@
     }).join("");
 
     root.innerHTML = `
-      ${buildHeader(data)}
+      ${buildHeader(data, { showUpdate: true })}
       <main>
         <div class="page-head">
           <h1>美國總經數據分項分析</h1>
