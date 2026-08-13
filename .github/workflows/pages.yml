@@ -9,6 +9,7 @@ permissions:
   contents: read
   pages: write
   id-token: write
+  issues: write     # 失敗時開 issue 通知
 
 concurrency:
   group: pages
@@ -35,3 +36,28 @@ jobs:
       - name: 發佈到 GitHub Pages
         id: deploy
         uses: actions/deploy-pages@v4
+
+      - name: 失敗時開 issue 通知
+        # 部署失敗跟抓取失敗要分開看：repo 裡的資料是新的，只有線上頁面停在舊版，
+        # 多數情況重跑一次本 workflow 就好。
+        if: failure()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          title="🔴 自動化失敗：${{ github.workflow }}"
+          body=$(printf '%s\n' \
+            "**workflow**：${{ github.workflow }}" \
+            "**觸發方式**：${{ github.event_name }}" \
+            "**時間**：$(TZ=Asia/Taipei date '+%Y-%m-%d %H:%M') 台北" \
+            "**log**：$RUN_URL" \
+            "" \
+            "repo 裡的資料是新的，只有線上網站停在舊版。多數情況重跑一次本 workflow 即可。" \
+            "處理完請把這張 issue 關掉——還開著的話，之後的失敗只會累積留言不會另開新張。")
+          existing=$(gh issue list --state open --label automation-failure --limit 50 \
+            --json number,title --jq ".[] | select(.title == \"$title\") | .number" | head -1)
+          if [ -n "$existing" ]; then
+            gh issue comment "$existing" --body "$body"
+          else
+            gh issue create --title "$title" --label automation-failure --body "$body"
+          fi

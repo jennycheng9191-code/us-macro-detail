@@ -19,6 +19,7 @@ on:
 permissions:
   contents: write
   actions: write
+  issues: write     # 失敗時開 issue 通知
 
 concurrency:
   group: update-data
@@ -108,3 +109,29 @@ jobs:
             sleep 10
           done
           echo "::warning::部署觸發 3 次皆失敗，但資料已提交；請手動補跑 pages.yml 或等下次排程"
+
+      - name: 失敗時開 issue 通知
+        # 2026-08-12 踩坑：排程失敗沒有任何通知，是「剛好想更新」才發現網站停在舊資料。
+        # 開 issue 與留言 GitHub 都會寄信，不必另接 Slack／webhook。
+        # 已有未關閉的同名 issue 時只補留言，避免連續失敗每天開一張新的。
+        if: failure()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          title="🔴 自動化失敗：${{ github.workflow }}"
+          body=$(printf '%s\n' \
+            "**workflow**：${{ github.workflow }}" \
+            "**觸發方式**：${{ github.event_name }}" \
+            "**時間**：$(TZ=Asia/Taipei date '+%Y-%m-%d %H:%M') 台北" \
+            "**log**：$RUN_URL" \
+            "" \
+            "資料未更新，網站仍停在上一版。修好後手動補跑一次 update workflow 即可。" \
+            "處理完請把這張 issue 關掉——還開著的話，之後的失敗只會累積留言不會另開新張。")
+          existing=$(gh issue list --state open --label automation-failure --limit 50 \
+            --json number,title --jq ".[] | select(.title == \"$title\") | .number" | head -1)
+          if [ -n "$existing" ]; then
+            gh issue comment "$existing" --body "$body"
+          else
+            gh issue create --title "$title" --label automation-failure --body "$body"
+          fi
