@@ -69,15 +69,16 @@ def near_target_2pct(res: dict) -> str | None:
     return f"年增 {v:.1f}%，低於2%目標 {-gap:.1f}pp"
 
 
-def retail_momentum(res: dict) -> str | None:
+def retail_momentum(res: dict, m: dict) -> str | None:
     v = res.get("value")
     if v is None:
         return None
+    d = m.get("decimals", 1)          # 判讀文字位數跟卡片數字一致，避免同張卡兩種精度
     if v >= 0.4:
-        return f"月增 {v:.1f}%，消費動能強勁"
+        return f"月增 {v:.{d}f}%，消費動能強勁"
     if v <= -0.2:
-        return f"月增 {v:.1f}%，消費動能疲弱"
-    return f"月增 {v:.1f}%，消費動能持穩"
+        return f"月增 {v:.{d}f}%，消費動能疲弱"
+    return f"月增 {v:.{d}f}%，消費動能持穩"
 
 
 # ---------------------------------------------------------------- 通用規則
@@ -140,7 +141,7 @@ def build_note(item: dict, m: dict, res: dict) -> str:
             if (s := near_target_2pct(res)):
                 parts.append(s)
         elif iid in ("retail_headline", "retail_core", "retail_control"):
-            if (s := retail_momentum(res)):
+            if (s := retail_momentum(res, m)):
                 parts.append(s)
     except Exception:                          # noqa: BLE001
         pass

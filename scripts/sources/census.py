@@ -81,6 +81,9 @@ def fetch_derived(card_id: str, m: dict) -> dict:
 
     latest = hist[-1]
     minus_label = "－".join(m["minus_categories"])
+    # level_note：把當月與前月的季調金額水位一起帶到卡片上。自算序列沒有官方數字可對，
+    # 比月增率更快驗算——水位對得上，月增率一定對；水位差一大截就是減項扣錯了
+    lvl, prev_lvl = levels[-1][1], levels[-2][1]
     return {
         "ok": True,
         "value": latest["value"],
@@ -88,7 +91,11 @@ def fetch_derived(card_id: str, m: dict) -> dict:
         "history": hist[-24:],
         "raw_latest": levels[-1][1],
         "freq": "M",
-        "extras": {"level_musd": levels[-1][1]},
+        "extras": {
+            "level_musd": lvl,
+            "prev_level_musd": prev_lvl,
+            "level_note": f"季調水位 {lvl:,.0f}　前月 {prev_lvl:,.0f}（百萬美元）",
+        },
         "also": {},
         "source_label": f"Census MARTS {m['base_category']}－{minus_label}（依官方季調金額自算）",
     }

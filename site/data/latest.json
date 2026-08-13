@@ -1,5 +1,5 @@
 {
- "build_time": "2026-08-13 13:22",
+ "build_time": "2026-08-13 20:56",
  "summary": {
   "green": 68,
   "yellow": 0,
@@ -119,12 +119,14 @@
        "value": 1.5
       }
      ],
+     "extras": {},
      "also": {},
      "status": "green",
      "notes": [],
      "note": "位於近 24 期的第 25 百分位",
      "source_label": "BEA NIPA T10101 L1",
      "unit": "%",
+     "decimals": null,
      "weight": null,
      "role": "headline",
      "group": "",
@@ -236,12 +238,14 @@
        "value": 2.12
       }
      ],
+     "extras": {},
      "also": {},
      "status": "green",
      "notes": [],
      "note": "對GDP貢獻 +2.12pp，屬成長動能；位於近 24 期的第 50 百分位",
      "source_label": "BEA NIPA T10102 L2",
      "unit": "pp",
+     "decimals": null,
      "weight": null,
      "role": "contribution",
      "group": "consumption",
@@ -353,12 +357,14 @@
        "value": 1.08
       }
      ],
+     "extras": {},
      "also": {},
      "status": "green",
      "notes": [],
      "note": "對GDP貢獻 +1.08pp，屬成長動能；位於近 24 期的第 71 百分位",
      "source_label": "BEA NIPA T10102 L3",
      "unit": "pp",
+     "decimals": null,
      "weight": null,
      "role": "contribution",
      "group": "consumption",
@@ -470,12 +476,14 @@
        "value": 0.49
       }
      ],
+     "extras": {},
      "also": {},
      "status": "green",
      "notes": [],
      "note": "對GDP貢獻 +0.49pp，屬成長動能；位於近 24 期的第 67 百分位",
      "source_label": "BEA NIPA T10102 L4",
      "unit": "pp",
+     "decimals": null,
      "weight": null,
      "role": "contribution",
      "group": "consumption",
@@ -587,12 +595,14 @@
        "value": 0.6
       }
      ],
+     "extras": {},
      "also": {},
      "status": "green",
      "notes": [],
      "note": "對GDP貢獻 +0.60pp，屬成長動能；位於近 24 期的第 83 百分位",
      "source_label": "BEA NIPA T10102 L5",
      "unit": "pp",
+     "decimals": null,
      "weight": null,
      "role": "contribution",
      "group": "consumption",
@@ -704,12 +714,14 @@
        "value": 1.04
       }
      ],
+     "extras": {},
      "also": {},
      "status": "green",
      "notes": [],
      "note": "對GDP貢獻 +1.04pp，屬成長動能；位於近 24 期的第 21 百分位",
      "source_label": "BEA NIPA T10102 L6",
      "unit": "pp",
+     "decimals": null,
      "weight": null,
      "role": "contribution",
      "group": "consumption",
@@ -821,12 +833,14 @@
        "value": 0.53
       }
      ],
+     "extras": {},
      "also": {},
      "status": "green",
      "notes": [],
      "note": "對GDP貢獻 +0.53pp，屬成長動能；位於近 24 期的第 50 百分位",
      "source_label": "BEA NIPA T10102 L7",
      "unit": "pp",
+     "decimals": null,
      "weight": null,
      "role": "contribution",
      "group": "",
@@ -938,12 +952,14 @@
        "value": -1.01
       }
      ],
+     "extras": {},
      "also": {},
      "status": "green",
      "notes": [],
      "note": "對GDP貢獻 -1.01pp，拖累整體成長；連續 4 期走降、位於近 24 期的第 29 百分位",
      "source_label": "BEA NIPA T10102 L15",
      "unit": "pp",
+     "decimals": null,
      "weight": null,
      "role": "contribution",
      "group": "",
@@ -1055,12 +1071,14 @@
        "value": -0.14
       }
      ],
+     "extras": {},
      "also": {},
      "status": "green",
      "notes": [],
      "note": "對GDP貢獻 -0.14pp，拖累整體成長；位於近 24 期的第 33 百分位",
      "source_label": "BEA NIPA T10102 L22",
      "unit": "pp",
+     "decimals": null,
      "weight": null,
      "role": "contribution",
      "group": "",
@@ -1181,6 +1199,7 @@
        "value": 3.364825041479902
       }
      ],
+     "extras": {},
      "also": {
       "mom": 0.07366914435544825
      },
@@ -1189,6 +1208,7 @@
      "note": "年增 3.4%，高於2%目標 1.4pp；位於近 24 期的第 88 百分位",
      "source_label": "BLS API CUUR0000SA0",
      "unit": "%",
+     "decimals": null,
      "weight": 100.0,
      "role": "headline",
      "group": "",
@@ -1300,6 +1320,7 @@
        "value": 2.4782661559973107
       }
      ],
+     "extras": {},
      "also": {
       "mom": 0.2154345141564873
      },
@@ -1308,6 +1329,7 @@
      "note": "年增 2.5%，高於2%目標 0.5pp；位於近 24 期的第 8 百分位",
      "source_label": "BLS API CUUR0000SA0L1E",
      "unit": "%",
+     "decimals": null,
      "weight": 79.919,
      "role": "headline",
      "group": "",
@@ -1419,6 +1441,7 @@
        "value": 2.8907138044939718
       }
      ],
+     "extras": {},
      "also": {
       "mom": 0.08372041998780944
      },
@@ -1427,6 +1450,7 @@
      "note": "連續 3 期走降、位於近 24 期的第 67 百分位",
      "source_label": "BLS API CUSR0000SAF",
      "unit": "%",
+     "decimals": null,
      "weight": 14.539,
      "role": "component",
      "group": "",
@@ -1538,6 +1562,7 @@
        "value": 14.445333818446414
       }
      ],
+     "extras": {},
      "also": {
       "mom": -1.483604246922865
      },
@@ -1546,6 +1571,7 @@
      "note": "位於近 24 期的第 88 百分位",
      "source_label": "BLS API CUSR0000SA0E",
      "unit": "%",
+     "decimals": null,
      "weight": 6.383,
      "role": "component",
      "group": "",
@@ -1657,6 +1683,7 @@
        "value": 3.2473061367728873
       }
      ],
+     "extras": {},
      "also": {
       "mom": 0.14452600770618051
      },
@@ -1665,6 +1692,7 @@
      "note": "連續 3 期走降、創近 24 期新低",
      "source_label": "BLS API CUSR0000SAH",
      "unit": "%",
+     "decimals": null,
      "weight": 44.469,
      "role": "component",
      "group": "",
@@ -1776,6 +1804,7 @@
        "value": 1.7012575926084406
       }
      ],
+     "extras": {},
      "also": {
       "mom": 0.3562486176371893
      },
@@ -1784,6 +1813,7 @@
      "note": "創近 24 期新低",
      "source_label": "BLS API CUSR0000SAM",
      "unit": "%",
+     "decimals": null,
      "weight": 8.423,
      "role": "component",
      "group": "",
@@ -1895,6 +1925,7 @@
        "value": 5.582035919252215
       }
      ],
+     "extras": {},
      "also": {
       "mom": -0.47798169952938396
      },
@@ -1903,6 +1934,7 @@
      "note": "位於近 24 期的第 88 百分位",
      "source_label": "BLS API CUSR0000SAT",
      "unit": "%",
+     "decimals": null,
      "weight": 16.316,
      "role": "component",
      "group": "",
@@ -2014,6 +2046,7 @@
        "value": 3.867411727088621
       }
      ],
+     "extras": {},
      "also": {
       "mom": 0.0887662952176349
      },
@@ -2022,6 +2055,7 @@
      "note": "位於近 24 期的第 88 百分位",
      "source_label": "BLS API CUSR0000SAA",
      "unit": "%",
+     "decimals": null,
      "weight": 2.368,
      "role": "component",
      "group": "",
@@ -2133,6 +2167,7 @@
        "value": 0.5459607752370754
       }
      ],
+     "extras": {},
      "also": {
       "mom": 0.5822505516057896
      },
@@ -2141,6 +2176,7 @@
      "note": "位於近 24 期的第 58 百分位",
      "source_label": "BLS API CUSR0000SAE",
      "unit": "%",
+     "decimals": null,
      "weight": 5.846,
      "role": "component",
      "group": "",
@@ -2252,6 +2288,7 @@
        "value": 4.299197166875812
       }
      ],
+     "extras": {},
      "also": {
       "mom": 0.05706256431907697
      },
@@ -2260,6 +2297,7 @@
      "note": "位於近 24 期的第 79 百分位",
      "source_label": "BLS API CUSR0000SAG",
      "unit": "%",
+     "decimals": null,
      "weight": 2.902,
      "role": "component",
      "group": "",
@@ -2371,6 +2409,7 @@
        "value": 2.985925900269004
       }
      ],
+     "extras": {},
      "also": {
       "mom": 0.19139873838578403
      },
@@ -2379,6 +2418,7 @@
      "note": "創近 24 期新低",
      "source_label": "BLS API CUSR0000SASL2RS",
      "unit": "%",
+     "decimals": null,
      "weight": 28.673,
      "role": "component",
      "group": "",
@@ -2499,6 +2539,7 @@
        "value": 3.668052673520439
       }
      ],
+     "extras": {},
      "also": {
       "mom": -0.10871631124795833
      },
@@ -2507,6 +2548,7 @@
      "note": "年增 3.7%，高於2%目標 1.7pp；位於近 24 期的第 92 百分位",
      "source_label": "BEA NIUnderlyingDetail U20404 L1",
      "unit": "%",
+     "decimals": null,
      "weight": null,
      "role": "headline",
      "group": "",
@@ -2618,6 +2660,7 @@
        "value": 3.286526430967074
       }
      ],
+     "extras": {},
      "also": {
       "mom": 0.13221209279443702
      },
@@ -2626,6 +2669,7 @@
      "note": "年增 3.3%，高於2%目標 1.3pp；位於近 24 期的第 92 百分位",
      "source_label": "BEA NIUnderlyingDetail U20404 L374",
      "unit": "%",
+     "decimals": null,
      "weight": null,
      "role": "headline",
      "group": "",
@@ -2737,6 +2781,7 @@
        "value": 3.703382480485695
       }
      ],
+     "extras": {},
      "also": {
       "mom": -0.6258155132435217
      },
@@ -2745,6 +2790,7 @@
      "note": "位於近 24 期的第 88 百分位",
      "source_label": "BEA NIUnderlyingDetail U20404 L2",
      "unit": "%",
+     "decimals": null,
      "weight": null,
      "role": "component",
      "group": "",
@@ -2856,6 +2902,7 @@
        "value": 3.653709606756017
       }
      ],
+     "extras": {},
      "also": {
       "mom": 0.12696188954315346
      },
@@ -2864,6 +2911,7 @@
      "note": "位於近 24 期的第 67 百分位",
      "source_label": "BEA NIUnderlyingDetail U20404 L150",
      "unit": "%",
+     "decimals": null,
      "weight": null,
      "role": "component",
      "group": "",
@@ -2975,6 +3023,7 @@
        "value": 3.8124004385057253
       }
      ],
+     "extras": {},
      "also": {
       "mom": 0.12495591955226093
      },
@@ -2983,6 +3032,7 @@
      "note": "位於近 24 期的第 88 百分位",
      "source_label": "derived：BEA名目權重反推（非BEA官方直接數字）",
      "unit": "%",
+     "decimals": null,
      "weight": null,
      "role": "component",
      "group": "",
@@ -3103,12 +3153,14 @@
        "value": -23.0
       }
      ],
+     "extras": {},
      "also": {},
      "status": "green",
      "notes": [],
      "note": "月增 -23千人，低於 10–15 萬盈虧平衡區間；連續 4 期走降、位於近 24 期的第 21 百分位",
      "source_label": "BLS API CES0000000001",
      "unit": "k",
+     "decimals": null,
      "weight": null,
      "role": "headline",
      "group": "",
@@ -3220,12 +3272,14 @@
        "value": -53.0
       }
      ],
+     "extras": {},
      "also": {},
      "status": "green",
      "notes": [],
      "note": "位於近 24 期的第 8 百分位",
      "source_label": "BLS API CES9000000001",
      "unit": "k",
+     "decimals": null,
      "weight": null,
      "role": "component",
      "group": "industry",
@@ -3337,12 +3391,14 @@
        "value": 25.0
       }
      ],
+     "extras": {},
      "also": {},
      "status": "green",
      "notes": [],
      "note": "位於近 24 期的第 17 百分位",
      "source_label": "BLS API CES6500000001",
      "unit": "k",
+     "decimals": null,
      "weight": null,
      "role": "component",
      "group": "industry",
@@ -3454,12 +3510,14 @@
        "value": 18.0
       }
      ],
+     "extras": {},
      "also": {},
      "status": "green",
      "notes": [],
      "note": "位於近 24 期的第 75 百分位",
      "source_label": "BLS API CES6000000001",
      "unit": "k",
+     "decimals": null,
      "weight": null,
      "role": "component",
      "group": "industry",
@@ -3571,12 +3629,14 @@
        "value": -19.399999999999636
       }
      ],
+     "extras": {},
      "also": {},
      "status": "green",
      "notes": [],
      "note": "連續 3 期走降、位於近 24 期的第 21 百分位",
      "source_label": "BLS API CES4200000001",
      "unit": "k",
+     "decimals": null,
      "weight": null,
      "role": "component",
      "group": "industry",
@@ -3688,12 +3748,14 @@
        "value": 5.0
       }
      ],
+     "extras": {},
      "also": {},
      "status": "green",
      "notes": [],
      "note": "位於近 24 期的第 88 百分位",
      "source_label": "BLS API CES3000000001",
      "unit": "k",
+     "decimals": null,
      "weight": null,
      "role": "component",
      "group": "industry",
@@ -3805,12 +3867,14 @@
        "value": 22.0
       }
      ],
+     "extras": {},
      "also": {},
      "status": "green",
      "notes": [],
      "note": "位於近 24 期的第 88 百分位",
      "source_label": "BLS API CES2000000001",
      "unit": "k",
+     "decimals": null,
      "weight": null,
      "role": "component",
      "group": "industry",
@@ -3922,12 +3986,14 @@
        "value": -40.0
       }
      ],
+     "extras": {},
      "also": {},
      "status": "green",
      "notes": [],
      "note": "位於近 24 期的第 8 百分位",
      "source_label": "BLS API CES7000000001",
      "unit": "k",
+     "decimals": null,
      "weight": null,
      "role": "component",
      "group": "industry",
@@ -4039,12 +4105,14 @@
        "value": 4.1
       }
      ],
+     "extras": {},
      "also": {},
      "status": "green",
      "notes": [],
      "note": "Sahm Rule 計數 0.00pp，距門檻尚有 0.50pp；位於近 24 期的第 25 百分位",
      "source_label": "BLS API LNS14000000",
      "unit": "%",
+     "decimals": null,
      "weight": null,
      "role": "component",
      "group": "",
@@ -4156,12 +4224,14 @@
        "value": 61.4
       }
      ],
+     "extras": {},
      "also": {},
      "status": "green",
      "notes": [],
      "note": "創近 24 期新低",
      "source_label": "BLS API LNS11300000",
      "unit": "%",
+     "decimals": null,
      "weight": null,
      "role": "component",
      "group": "",
@@ -4273,6 +4343,7 @@
        "value": 3.153276665752669
       }
      ],
+     "extras": {},
      "also": {
       "mom": 0.05319148936169249
      },
@@ -4281,6 +4352,7 @@
      "note": "創近 24 期新低",
      "source_label": "BLS API CES0500000003",
      "unit": "%",
+     "decimals": null,
      "weight": null,
      "role": "component",
      "group": "wages",
@@ -4392,6 +4464,7 @@
        "value": 3.217585218222352
       }
      ],
+     "extras": {},
      "also": {
       "mom": 0.12360939431397266
      },
@@ -4400,6 +4473,7 @@
      "note": "連續 3 期走降、創近 24 期新低",
      "source_label": "BLS API CES0500000008",
      "unit": "%",
+     "decimals": null,
      "weight": null,
      "role": "component",
      "group": "wages",
@@ -4511,12 +4585,14 @@
        "value": 34.3
       }
      ],
+     "extras": {},
      "also": {},
      "status": "green",
      "notes": [],
      "note": "創近 24 期新高",
      "source_label": "BLS API CES0500000002",
      "unit": "hrs",
+     "decimals": null,
      "weight": null,
      "role": "component",
      "group": "wages",
@@ -4628,12 +4704,14 @@
        "value": 33.8
       }
      ],
+     "extras": {},
      "also": {},
      "status": "green",
      "notes": [],
      "note": "創近 24 期新高",
      "source_label": "BLS API CES0500000007",
      "unit": "hrs",
+     "decimals": null,
      "weight": null,
      "role": "component",
      "group": "wages",
@@ -4754,12 +4832,14 @@
        "value": 55.6
       }
      ],
+     "extras": {},
      "also": {},
      "status": "green",
      "notes": [],
      "note": "高於 50 榮枯線；創近 24 期新高",
      "source_label": "ISM 官方新聞稿（PR Newswire）",
      "unit": "",
+     "decimals": null,
      "weight": null,
      "role": "headline",
      "group": "",
@@ -4871,12 +4951,14 @@
        "value": 56.7
       }
      ],
+     "extras": {},
      "also": {},
      "status": "green",
      "notes": [],
      "note": "高於 50 榮枯線；位於近 24 期的第 92 百分位",
      "source_label": "ISM 官方新聞稿（PR Newswire）",
      "unit": "",
+     "decimals": null,
      "weight": null,
      "role": "component",
      "group": "",
@@ -4988,12 +5070,14 @@
        "value": 58.5
       }
      ],
+     "extras": {},
      "also": {},
      "status": "green",
      "notes": [],
      "note": "高於 50 榮枯線；創近 24 期新高",
      "source_label": "ISM 官方新聞稿（PR Newswire）",
      "unit": "",
+     "decimals": null,
      "weight": null,
      "role": "component",
      "group": "",
@@ -5105,12 +5189,14 @@
        "value": 52.8
       }
      ],
+     "extras": {},
      "also": {},
      "status": "green",
      "notes": [],
      "note": "高於 50 榮枯線；連續 3 期走升、創近 24 期新高",
      "source_label": "ISM 官方新聞稿（PR Newswire）",
      "unit": "",
+     "decimals": null,
      "weight": null,
      "role": "component",
      "group": "",
@@ -5222,12 +5308,14 @@
        "value": 58.9
       }
      ],
+     "extras": {},
      "also": {},
      "status": "green",
      "notes": [],
      "note": "高於 50 榮枯線；位於近 24 期的第 92 百分位",
      "source_label": "ISM 官方新聞稿（PR Newswire）",
      "unit": "",
+     "decimals": null,
      "weight": null,
      "role": "component",
      "group": "",
@@ -5339,12 +5427,14 @@
        "value": 51.2
       }
      ],
+     "extras": {},
      "also": {},
      "status": "green",
      "notes": [],
      "note": "高於 50 榮枯線；位於近 24 期的第 92 百分位",
      "source_label": "ISM 官方新聞稿（PR Newswire）",
      "unit": "",
+     "decimals": null,
      "weight": null,
      "role": "component",
      "group": "",
@@ -5456,12 +5546,14 @@
        "value": 40.7
       }
      ],
+     "extras": {},
      "also": {},
      "status": "green",
      "notes": [],
      "note": "低於 50 榮枯線；位於近 24 期的第 21 百分位",
      "source_label": "ISM 官方新聞稿（PR Newswire）",
      "unit": "",
+     "decimals": null,
      "weight": null,
      "role": "component",
      "group": "",
@@ -5573,12 +5665,14 @@
        "value": 71.1
       }
      ],
+     "extras": {},
      "also": {},
      "status": "green",
      "notes": [],
      "note": "高於 50 榮枯線；連續 3 期走降、位於近 24 期的第 83 百分位",
      "source_label": "ISM 官方新聞稿（PR Newswire）",
      "unit": "",
+     "decimals": null,
      "weight": null,
      "role": "component",
      "group": "",
@@ -5690,12 +5784,14 @@
        "value": 55.0
       }
      ],
+     "extras": {},
      "also": {},
      "status": "green",
      "notes": [],
      "note": "高於 50 榮枯線；位於近 24 期的第 96 百分位",
      "source_label": "ISM 官方新聞稿（PR Newswire）",
      "unit": "",
+     "decimals": null,
      "weight": null,
      "role": "component",
      "group": "",
@@ -5807,12 +5903,14 @@
        "value": 53.0
       }
      ],
+     "extras": {},
      "also": {},
      "status": "green",
      "notes": [],
      "note": "高於 50 榮枯線；創近 24 期新高",
      "source_label": "ISM 官方新聞稿（PR Newswire）",
      "unit": "",
+     "decimals": null,
      "weight": null,
      "role": "component",
      "group": "",
@@ -5924,12 +6022,14 @@
        "value": 55.7
       }
      ],
+     "extras": {},
      "also": {},
      "status": "green",
      "notes": [],
      "note": "高於 50 榮枯線；創近 24 期新高",
      "source_label": "ISM 官方新聞稿（PR Newswire）",
      "unit": "",
+     "decimals": null,
      "weight": null,
      "role": "component",
      "group": "",
@@ -6050,12 +6150,14 @@
        "value": 54.1
       }
      ],
+     "extras": {},
      "also": {},
      "status": "green",
      "notes": [],
      "note": "高於 50 榮枯線；位於近 24 期的第 79 百分位",
      "source_label": "ISM 官方新聞稿（PR Newswire）",
      "unit": "",
+     "decimals": null,
      "weight": null,
      "role": "headline",
      "group": "",
@@ -6167,12 +6269,14 @@
        "value": 59.1
       }
      ],
+     "extras": {},
      "also": {},
      "status": "green",
      "notes": [],
      "note": "高於 50 榮枯線；位於近 24 期的第 92 百分位",
      "source_label": "ISM 官方新聞稿（PR Newswire）",
      "unit": "",
+     "decimals": null,
      "weight": null,
      "role": "component",
      "group": "",
@@ -6284,12 +6388,14 @@
        "value": 57.2
       }
      ],
+     "extras": {},
      "also": {},
      "status": "green",
      "notes": [],
      "note": "高於 50 榮枯線；位於近 24 期的第 75 百分位",
      "source_label": "ISM 官方新聞稿（PR Newswire）",
      "unit": "",
+     "decimals": null,
      "weight": null,
      "role": "component",
      "group": "",
@@ -6401,12 +6507,14 @@
        "value": 47.4
       }
      ],
+     "extras": {},
      "also": {},
      "status": "green",
      "notes": [],
      "note": "低於 50 榮枯線；位於近 24 期的第 29 百分位",
      "source_label": "ISM 官方新聞稿（PR Newswire）",
      "unit": "",
+     "decimals": null,
      "weight": null,
      "role": "component",
      "group": "",
@@ -6518,12 +6626,14 @@
        "value": 52.8
       }
      ],
+     "extras": {},
      "also": {},
      "status": "green",
      "notes": [],
      "note": "高於 50 榮枯線；連續 3 期走降、位於近 24 期的第 58 百分位",
      "source_label": "ISM 官方新聞稿（PR Newswire）",
      "unit": "",
+     "decimals": null,
      "weight": null,
      "role": "component",
      "group": "",
@@ -6635,12 +6745,14 @@
        "value": 51.4
       }
      ],
+     "extras": {},
      "also": {},
      "status": "green",
      "notes": [],
      "note": "高於 50 榮枯線；位於近 24 期的第 46 百分位",
      "source_label": "ISM 官方新聞稿（PR Newswire）",
      "unit": "",
+     "decimals": null,
      "weight": null,
      "role": "component",
      "group": "",
@@ -6752,12 +6864,14 @@
        "value": 70.3
       }
      ],
+     "extras": {},
      "also": {},
      "status": "green",
      "notes": [],
      "note": "高於 50 榮枯線；位於近 24 期的第 88 百分位",
      "source_label": "ISM 官方新聞稿（PR Newswire）",
      "unit": "",
+     "decimals": null,
      "weight": null,
      "role": "component",
      "group": "",
@@ -6869,12 +6983,14 @@
        "value": 50.9
       }
      ],
+     "extras": {},
      "also": {},
      "status": "green",
      "notes": [],
      "note": "高於 50 榮枯線；位於近 24 期的第 75 百分位",
      "source_label": "ISM 官方新聞稿（PR Newswire）",
      "unit": "",
+     "decimals": null,
      "weight": null,
      "role": "component",
      "group": "",
@@ -6986,12 +7102,14 @@
        "value": 52.0
       }
      ],
+     "extras": {},
      "also": {},
      "status": "green",
      "notes": [],
      "note": "高於 50 榮枯線；位於近 24 期的第 75 百分位",
      "source_label": "ISM 官方新聞稿（PR Newswire）",
      "unit": "",
+     "decimals": null,
      "weight": null,
      "role": "component",
      "group": "",
@@ -7103,12 +7221,14 @@
        "value": 51.8
       }
      ],
+     "extras": {},
      "also": {},
      "status": "green",
      "notes": [],
      "note": "高於 50 榮枯線；位於近 24 期的第 75 百分位",
      "source_label": "ISM 官方新聞稿（PR Newswire）",
      "unit": "",
+     "decimals": null,
      "weight": null,
      "role": "component",
      "group": "",
@@ -7220,12 +7340,14 @@
        "value": 52.5
       }
      ],
+     "extras": {},
      "also": {},
      "status": "green",
      "notes": [],
      "note": "高於 50 榮枯線；創近 24 期新低",
      "source_label": "ISM 官方新聞稿（PR Newswire）",
      "unit": "",
+     "decimals": null,
      "weight": null,
      "role": "component",
      "group": "",
@@ -7346,12 +7468,14 @@
        "value": 0.2
       }
      ],
+     "extras": {},
      "also": {},
      "status": "green",
      "notes": [],
      "note": "月增 0.2%，消費動能持穩；位於近 24 期的第 42 百分位",
      "source_label": "Census MARTS 44X72",
      "unit": "%",
+     "decimals": null,
      "weight": null,
      "role": "headline",
      "group": "",
@@ -7463,12 +7587,14 @@
        "value": 0.4
       }
      ],
+     "extras": {},
      "also": {},
      "status": "green",
      "notes": [],
      "note": "月增 0.4%，消費動能強勁；位於近 24 期的第 54 百分位",
      "source_label": "Census MARTS 44W72",
      "unit": "%",
+     "decimals": null,
      "weight": null,
      "role": "headline",
      "group": "",
@@ -7477,7 +7603,7 @@
     "retail_control": {
      "name": "控制組零售銷售（排除汽車/建材/加油/餐飲，自算）",
      "value": 0.55,
-     "value_fmt": "0.6%",
+     "value_fmt": "0.55%",
      "asof": "2026-06-01",
      "asof_label": "",
      "age_days": 43,
@@ -7580,12 +7706,18 @@
        "value": 0.55
       }
      ],
+     "extras": {
+      "level_musd": 420155.0,
+      "prev_level_musd": 417852.0,
+      "level_note": "季調水位 420,155　前月 417,852（百萬美元）"
+     },
      "also": {},
      "status": "green",
      "notes": [],
-     "note": "月增 0.6%，消費動能強勁；位於近 24 期的第 58 百分位",
+     "note": "月增 0.55%，消費動能強勁；位於近 24 期的第 58 百分位",
      "source_label": "Census MARTS 44000－441－444－447（依官方季調金額自算）",
      "unit": "%",
+     "decimals": 2,
      "weight": null,
      "role": "headline",
      "group": "",
@@ -7697,12 +7829,14 @@
        "value": 1.9
       }
      ],
+     "extras": {},
      "also": {},
      "status": "green",
      "notes": [],
      "note": "位於近 24 期的第 88 百分位",
      "source_label": "Census MARTS 454",
      "unit": "%",
+     "decimals": null,
      "weight": null,
      "role": "component",
      "group": "",
@@ -7814,12 +7948,14 @@
        "value": 0.1
       }
      ],
+     "extras": {},
      "also": {},
      "status": "green",
      "notes": [],
      "note": "位於近 24 期的第 38 百分位",
      "source_label": "Census MARTS 722",
      "unit": "%",
+     "decimals": null,
      "weight": null,
      "role": "component",
      "group": "",
@@ -7931,12 +8067,14 @@
        "value": -0.3
       }
      ],
+     "extras": {},
      "also": {},
      "status": "green",
      "notes": [],
      "note": "位於近 24 期的第 29 百分位",
      "source_label": "Census MARTS 448",
      "unit": "%",
+     "decimals": null,
      "weight": null,
      "role": "component",
      "group": "",
@@ -8048,12 +8186,14 @@
        "value": 0.1
       }
      ],
+     "extras": {},
      "also": {},
      "status": "green",
      "notes": [],
      "note": "位於近 24 期的第 46 百分位",
      "source_label": "Census MARTS 444",
      "unit": "%",
+     "decimals": null,
      "weight": null,
      "role": "component",
      "group": "",

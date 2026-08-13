@@ -97,12 +97,15 @@
     return q ? `${dateStr.slice(0, 4)} ${q}` : dateStr;
   }
 
-  function fmtStackValue(v, unit) {
+  // d＝該拆項的小數位數（latest.json 的 decimals，來自 mapping.json），沒設就用各單位的
+  // 預設值。目前只有零售控制組設 2 位：它是自算數列，有真實精度可跟官方表對帳；
+  // 官方直接發布的數列本來就只到 1 位，多補一位是假精度。
+  function fmtStackValue(v, unit, d) {
     const s = v >= 0 ? "+" : "";
     if (unit === "k") return `${s}${Math.round(v)}k`;
-    if (unit === "pct") return `${v.toFixed(1)}%`;
-    if (unit === "idx") return v.toFixed(1);
-    return `${s}${v.toFixed(2)}pp`;
+    if (unit === "pct") return `${v.toFixed(d ?? 1)}%`;
+    if (unit === "idx") return v.toFixed(d ?? 1);
+    return `${s}${v.toFixed(d ?? 2)}pp`;
   }
 
   // 季頻標Q1-Q4（年份只在Q1標一次）；月頻只在每年1月標年份。共用給堆疊圖跟疊圖。
@@ -141,7 +144,7 @@
           <div class="zero" style="left:50%"></div>
           <div class="bar" style="left:${left}%;width:${pct}%;background:${r.color}"></div>
         </div>
-        <div class="value">${fmtStackValue(r.value, unit)}</div>
+        <div class="value">${fmtStackValue(r.value, unit, r.decimals)}</div>
       </div>`;
     }).join("");
   }
@@ -385,7 +388,7 @@
     // 收集終點標籤位置，太靠近時垂直錯開，避免疊字看不清楚
     const endLabels = lines.map((l) => {
       const lastVal = l.item.history[n - 1].value;
-      return { color: l.color, y: yOf(lastVal), text: fmtStackValue(lastVal, cfg.unit) };
+      return { color: l.color, y: yOf(lastVal), text: fmtStackValue(lastVal, cfg.unit, l.item.decimals) };
     }).sort((a, b) => a.y - b.y);
     for (let i = 1; i < endLabels.length; i++) {
       if (endLabels[i].y - endLabels[i - 1].y < 14) endLabels[i].y = endLabels[i - 1].y + 14;
@@ -400,7 +403,7 @@
     lines.forEach((l, idx) => {
       const lastVal = l.item.history[n - 1].value;
       const label = endLabels.find((e) => e.color === l.color) || { y: yOf(lastVal) };
-      linesSvg += `<text class="end-label" x="${(xOf(n - 1) + 10).toFixed(1)}" y="${(label.y + 4).toFixed(1)}">${fmtStackValue(lastVal, cfg.unit)}</text>`;
+      linesSvg += `<text class="end-label" x="${(xOf(n - 1) + 10).toFixed(1)}" y="${(label.y + 4).toFixed(1)}">${fmtStackValue(lastVal, cfg.unit, l.item.decimals)}</text>`;
     });
 
     const axisSvg = buildAxisLabels(dates, xOf, H, cfg.axisStyle);
@@ -418,7 +421,7 @@
     const svgId = `trend-${g.__id}`;
     const tooltipData = dates.map((date, i) => ({
       date,
-      rows: lines.map((l) => ({ label: l.label, vFmt: fmtStackValue(l.item.history[i].value, cfg.unit), color: l.color })),
+      rows: lines.map((l) => ({ label: l.label, vFmt: fmtStackValue(l.item.history[i].value, cfg.unit, l.item.decimals), color: l.color })),
     }));
     window.__trendTooltipData = window.__trendTooltipData || {};
     window.__trendTooltipData[svgId] = tooltipData;
@@ -444,7 +447,7 @@
       items.map((it) => {
         const base = cfg.lineLabels[it.id] || it.name;
         const label = it.weight != null ? `${base}(${Math.round(it.weight)}%)` : base;
-        return { label, color: lineColor[it.id] || "var(--other)", value: it.value };
+        return { label, color: lineColor[it.id] || "var(--other)", value: it.value, decimals: it.decimals };
       }),
       cfg.unit
     );
@@ -494,6 +497,7 @@
         ${badge}
       </div>
       <div class="value">${item.value_fmt}</div>
+      ${item.extras && item.extras.level_note ? `<div class="level">${item.extras.level_note}</div>` : ""}
       ${sparkline(item.history, 200, 36)}
       <div class="note">${item.note || ""}</div>
       <div class="asof">${item.asof || "—"}</div>
@@ -564,6 +568,7 @@
       <div class="headline-tile">
         <div class="name">${statusDot(it.status)}${it.name}</div>
         <div class="value">${it.value_fmt}</div>
+        ${it.extras && it.extras.level_note ? `<div class="level">${it.extras.level_note}</div>` : ""}
         <div class="note">${it.note || ""}</div>
         <div class="asof">${it.asof || "—"}</div>
       </div>`).join("");

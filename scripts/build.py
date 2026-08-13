@@ -47,7 +47,9 @@ def fmt(value, m: dict) -> str:
     if value is None:
         return "—"
     unit = m.get("unit", "")
-    d = 0 if unit == "k" else 1
+    # decimals 覆寫預設位數：官方直接發布的數列本來就只有 1 位（多顯示是假精度），
+    # 自算數列（如零售控制組由季調金額相減）才有真實 2 位精度，方便跟官方表對帳
+    d = m.get("decimals", 0 if unit == "k" else 1)
     s = f"{value:,.{d}f}"
     if unit in ("%", "pp"):
         sign = "+" if value > 0 and unit == "pp" else ""
@@ -102,12 +104,14 @@ def build_item(item: dict, m: dict, previous: dict, today: str) -> dict:
         "age_days": res.get("age_days"),
         "new_since": new_since,
         "history": res.get("history", []),
+        "extras": res.get("extras", {}),
         "also": res.get("also", {}),
         "status": status,
         "notes": notes,
         "note": note,
         "source_label": res.get("source_label", ""),
         "unit": m.get("unit", ""),
+        "decimals": m.get("decimals"),
         "weight": m.get("weight"),
         "role": item.get("role", "component"),
         "group": item.get("group", ""),
