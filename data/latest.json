@@ -1,5 +1,5 @@
 {
- "build_time": "2026-08-14 13:18",
+ "build_time": "2026-08-14 21:35",
  "summary": {
   "green": 68,
   "yellow": 0,
@@ -7364,17 +7364,13 @@
    "items": {
     "retail_headline": {
      "name": "總零售銷售月增",
-     "value": 0.2,
-     "value_fmt": "0.2%",
-     "asof": "2026-06-01",
+     "value": -0.6,
+     "value_fmt": "-0.6%",
+     "asof": "2026-07-01",
      "asof_label": "",
-     "age_days": 44,
-     "new_since": "",
+     "age_days": 14,
+     "new_since": "2026-08-14",
      "history": [
-      {
-       "date": "2024-07-01",
-       "value": 0.9
-      },
       {
        "date": "2024-08-01",
        "value": -0.3
@@ -7417,7 +7413,7 @@
       },
       {
        "date": "2025-06-01",
-       "value": 0.8
+       "value": 0.7
       },
       {
        "date": "2025-07-01",
@@ -7425,7 +7421,7 @@
       },
       {
        "date": "2025-08-01",
-       "value": 0.5
+       "value": 0.6
       },
       {
        "date": "2025-09-01",
@@ -7461,18 +7457,22 @@
       },
       {
        "date": "2026-05-01",
-       "value": 1.0
+       "value": 0.9
       },
       {
        "date": "2026-06-01",
        "value": 0.2
+      },
+      {
+       "date": "2026-07-01",
+       "value": -0.6
       }
      ],
      "extras": {},
      "also": {},
      "status": "green",
      "notes": [],
-     "note": "月增 0.2%，消費動能持穩；位於近 24 期的第 42 百分位",
+     "note": "月增 -0.6%，消費動能疲弱；位於近 24 期的第 12 百分位",
      "source_label": "Census MARTS 44X72",
      "unit": "%",
      "decimals": null,
@@ -7483,17 +7483,13 @@
     },
     "retail_core": {
      "name": "核心零售銷售（排除汽車/汽油）",
-     "value": 0.4,
-     "value_fmt": "0.4%",
-     "asof": "2026-06-01",
+     "value": -0.2,
+     "value_fmt": "-0.2%",
+     "asof": "2026-07-01",
      "asof_label": "",
-     "age_days": 44,
-     "new_since": "",
+     "age_days": 14,
+     "new_since": "2026-08-14",
      "history": [
-      {
-       "date": "2024-07-01",
-       "value": 0.4
-      },
       {
        "date": "2024-08-01",
        "value": -0.1
@@ -7536,15 +7532,15 @@
       },
       {
        "date": "2025-06-01",
-       "value": 0.8
+       "value": 0.7
       },
       {
        "date": "2025-07-01",
-       "value": 0.6
+       "value": 0.7
       },
       {
        "date": "2025-08-01",
-       "value": 0.6
+       "value": 0.7
       },
       {
        "date": "2025-09-01",
@@ -7580,18 +7576,22 @@
       },
       {
        "date": "2026-05-01",
-       "value": 0.8
+       "value": 0.7
       },
       {
        "date": "2026-06-01",
        "value": 0.4
+      },
+      {
+       "date": "2026-07-01",
+       "value": -0.2
       }
      ],
      "extras": {},
      "also": {},
      "status": "green",
      "notes": [],
-     "note": "月增 0.4%，消費動能強勁；位於近 24 期的第 54 百分位",
+     "note": "月增 -0.2%，消費動能疲弱；位於近 24 期的第 8 百分位",
      "source_label": "Census MARTS 44W72",
      "unit": "%",
      "decimals": null,
@@ -7602,40 +7602,36 @@
     },
     "retail_control": {
      "name": "控制組零售銷售（排除汽車/建材/加油/餐飲，自算）",
-     "value": 0.55,
-     "value_fmt": "0.55%",
-     "asof": "2026-06-01",
+     "value": -0.44,
+     "value_fmt": "-0.44%",
+     "asof": "2026-07-01",
      "asof_label": "",
-     "age_days": 44,
-     "new_since": "",
+     "age_days": 14,
+     "new_since": "2026-08-14",
      "history": [
-      {
-       "date": "2024-07-01",
-       "value": 0.24
-      },
       {
        "date": "2024-08-01",
        "value": -0.26
       },
       {
        "date": "2024-09-01",
-       "value": 1.53
+       "value": 1.48
       },
       {
        "date": "2024-10-01",
-       "value": 0.02
+       "value": 0.01
       },
       {
        "date": "2024-11-01",
-       "value": 0.0
+       "value": 0.04
       },
       {
        "date": "2024-12-01",
-       "value": 1.24
+       "value": 1.22
       },
       {
        "date": "2025-01-01",
-       "value": -0.92
+       "value": -0.93
       },
       {
        "date": "2025-02-01",
@@ -7643,11 +7639,11 @@
       },
       {
        "date": "2025-03-01",
-       "value": 0.22
+       "value": 0.26
       },
       {
        "date": "2025-04-01",
-       "value": 0.05
+       "value": 0.04
       },
       {
        "date": "2025-05-01",
@@ -7655,67 +7651,71 @@
       },
       {
        "date": "2025-06-01",
-       "value": 0.66
-      },
-      {
-       "date": "2025-07-01",
-       "value": 0.88
-      },
-      {
-       "date": "2025-08-01",
-       "value": 0.65
-      },
-      {
-       "date": "2025-09-01",
-       "value": -0.19
-      },
-      {
-       "date": "2025-10-01",
        "value": 0.51
       },
       {
-       "date": "2025-11-01",
-       "value": 0.15
-      },
-      {
-       "date": "2025-12-01",
-       "value": -0.06
-      },
-      {
-       "date": "2026-01-01",
-       "value": 0.49
-      },
-      {
-       "date": "2026-02-01",
-       "value": 0.89
-      },
-      {
-       "date": "2026-03-01",
+       "date": "2025-07-01",
        "value": 0.96
       },
       {
+       "date": "2025-08-01",
+       "value": 0.64
+      },
+      {
+       "date": "2025-09-01",
+       "value": -0.18
+      },
+      {
+       "date": "2025-10-01",
+       "value": 0.45
+      },
+      {
+       "date": "2025-11-01",
+       "value": 0.22
+      },
+      {
+       "date": "2025-12-01",
+       "value": -0.04
+      },
+      {
+       "date": "2026-01-01",
+       "value": 0.47
+      },
+      {
+       "date": "2026-02-01",
+       "value": 0.92
+      },
+      {
+       "date": "2026-03-01",
+       "value": 0.9
+      },
+      {
        "date": "2026-04-01",
-       "value": 0.56
+       "value": 0.57
       },
       {
        "date": "2026-05-01",
-       "value": 0.86
+       "value": 0.6
       },
       {
        "date": "2026-06-01",
-       "value": 0.55
+       "value": 0.36
+      },
+      {
+       "date": "2026-07-01",
+       "value": -0.44
       }
      ],
      "extras": {
-      "level_musd": 420155.0,
-      "prev_level_musd": 417852.0,
-      "level_note": "季調水位 420,155　前月 417,852（百萬美元）"
+      "level_musd": 428275.0,
+      "prev_level_musd": 430155.0,
+      "level_note": "季調水位 428,275　前月 430,155（百萬美元）"
      },
      "also": {},
      "status": "green",
      "notes": [],
-     "note": "月增 0.55%，消費動能強勁；位於近 24 期的第 58 百分位",
-     "source_label": "Census MARTS 44000－441－444－447（依官方季調金額自算）",
+     "note": "月增 -0.44%，消費動能疲弱；位於近 24 期的第 8 百分位",
+     "source_label": "Census MARTS 44000－441X－444－447（依官方季調金額自算）",
      "unit": "%",
      "decimals": 2,
      "weight": null,
@@ -7725,17 +7725,13 @@
     },
     "retail_ecommerce": {
      "name": "電商／非店面零售",
-     "value": 1.9,
-     "value_fmt": "1.9%",
-     "asof": "2026-06-01",
+     "value": -2.2,
+     "value_fmt": "-2.2%",
+     "asof": "2026-07-01",
      "asof_label": "",
-     "age_days": 44,
-     "new_since": "",
+     "age_days": 14,
+     "new_since": "2026-08-14",
      "history": [
-      {
-       "date": "2024-07-01",
-       "value": -1.5
-      },
       {
        "date": "2024-08-01",
        "value": -0.1
@@ -7778,15 +7774,15 @@
       },
       {
        "date": "2025-06-01",
-       "value": 0.1
+       "value": -0.2
       },
       {
        "date": "2025-07-01",
-       "value": 1.5
+       "value": 2.0
       },
       {
        "date": "2025-08-01",
-       "value": 2.0
+       "value": 1.7
       },
       {
        "date": "2025-09-01",
@@ -7822,18 +7818,22 @@
       },
       {
        "date": "2026-05-01",
-       "value": 1.4
+       "value": 0.5
       },
       {
        "date": "2026-06-01",
-       "value": 1.9
+       "value": 0.9
+      },
+      {
+       "date": "2026-07-01",
+       "value": -2.2
       }
      ],
      "extras": {},
      "also": {},
      "status": "green",
      "notes": [],
-     "note": "位於近 24 期的第 88 百分位",
+     "note": "位於近 24 期的第 8 百分位",
      "source_label": "Census MARTS 454",
      "unit": "%",
      "decimals": null,
@@ -7844,17 +7844,13 @@
     },
     "retail_food_services": {
      "name": "餐飲",
-     "value": 0.1,
-     "value_fmt": "0.1%",
-     "asof": "2026-06-01",
+     "value": 0.5,
+     "value_fmt": "0.5%",
+     "asof": "2026-07-01",
      "asof_label": "",
-     "age_days": 44,
-     "new_since": "",
+     "age_days": 14,
+     "new_since": "2026-08-14",
      "history": [
-      {
-       "date": "2024-07-01",
-       "value": 0.6
-      },
       {
        "date": "2024-08-01",
        "value": 0.4
@@ -7897,15 +7893,15 @@
       },
       {
        "date": "2025-06-01",
-       "value": 0.8
+       "value": 0.7
       },
       {
        "date": "2025-07-01",
-       "value": 0.2
+       "value": -0.1
       },
       {
        "date": "2025-08-01",
-       "value": 0.6
+       "value": 1.0
       },
       {
        "date": "2025-09-01",
@@ -7941,18 +7937,22 @@
       },
       {
        "date": "2026-05-01",
-       "value": 1.2
+       "value": 1.3
       },
       {
        "date": "2026-06-01",
-       "value": 0.1
+       "value": 0.4
+      },
+      {
+       "date": "2026-07-01",
+       "value": 0.5
       }
      ],
      "extras": {},
      "also": {},
      "status": "green",
      "notes": [],
-     "note": "位於近 24 期的第 38 百分位",
+     "note": "位於近 24 期的第 62 百分位",
      "source_label": "Census MARTS 722",
      "unit": "%",
      "decimals": null,
@@ -7963,17 +7963,13 @@
     },
     "retail_apparel": {
      "name": "服飾",
-     "value": -0.3,
-     "value_fmt": "-0.3%",
-     "asof": "2026-06-01",
+     "value": 1.9,
+     "value_fmt": "1.9%",
+     "asof": "2026-07-01",
      "asof_label": "",
-     "age_days": 44,
-     "new_since": "",
+     "age_days": 14,
+     "new_since": "2026-08-14",
      "history": [
-      {
-       "date": "2024-07-01",
-       "value": 0.1
-      },
       {
        "date": "2024-08-01",
        "value": -1.3
@@ -8016,15 +8012,15 @@
       },
       {
        "date": "2025-06-01",
-       "value": 1.0
+       "value": 1.3
       },
       {
        "date": "2025-07-01",
-       "value": 1.5
+       "value": 1.1
       },
       {
        "date": "2025-08-01",
-       "value": 0.6
+       "value": 0.7
       },
       {
        "date": "2025-09-01",
@@ -8060,18 +8056,22 @@
       },
       {
        "date": "2026-05-01",
-       "value": 0.9
+       "value": 1.0
       },
       {
        "date": "2026-06-01",
-       "value": -0.3
+       "value": -0.7
+      },
+      {
+       "date": "2026-07-01",
+       "value": 1.9
       }
      ],
      "extras": {},
      "also": {},
      "status": "green",
      "notes": [],
-     "note": "位於近 24 期的第 29 百分位",
+     "note": "位於近 24 期的第 96 百分位",
      "source_label": "Census MARTS 448",
      "unit": "%",
      "decimals": null,
@@ -8082,17 +8082,13 @@
     },
     "retail_building_materials": {
      "name": "建材",
-     "value": 0.1,
-     "value_fmt": "0.1%",
-     "asof": "2026-06-01",
+     "value": 0.3,
+     "value_fmt": "0.3%",
+     "asof": "2026-07-01",
      "asof_label": "",
-     "age_days": 44,
-     "new_since": "",
+     "age_days": 14,
+     "new_since": "2026-08-14",
      "history": [
-      {
-       "date": "2024-07-01",
-       "value": 1.3
-      },
       {
        "date": "2024-08-01",
        "value": -0.1
@@ -8135,15 +8131,15 @@
       },
       {
        "date": "2025-06-01",
-       "value": 1.7
+       "value": 1.4
       },
       {
        "date": "2025-07-01",
-       "value": -0.9
+       "value": -0.8
       },
       {
        "date": "2025-08-01",
-       "value": 0.2
+       "value": 0.4
       },
       {
        "date": "2025-09-01",
@@ -8179,11 +8175,15 @@
       },
       {
        "date": "2026-05-01",
-       "value": -0.3
+       "value": 0.2
       },
       {
        "date": "2026-06-01",
-       "value": 0.1
+       "value": 1.2
+      },
+      {
+       "date": "2026-07-01",
+       "value": 0.3
       }
      ],
      "extras": {},
