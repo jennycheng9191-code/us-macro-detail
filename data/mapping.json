@@ -896,7 +896,7 @@
     "dataset": "marts",
     "base_category": "44000",
     "minus_categories": [
-      "441",
+      "441X",
       "444",
       "447"
     ],
@@ -906,7 +906,7 @@
     "display": "level",
     "unit": "%",
     "decimals": 2,
-    "note": "控制組（control group）＝零售貿易總額44000－汽車及零件441－建材444－加油站447，即BEA估算PCE商品消費時採用的口徑（44000本身已不含餐飲722）。Census未發布此組合序列，依官方季調金額(SM)自算月增率，卡片標註「自算」。顯示 2 位小數：本序列是自算的，有真實 2 位精度，方便跟 marts_current.xlsx Table 1 手動對帳",
+    "note": "控制組（control group）＝零售貿易總額44000－汽車及其他機動車經銷商441X－建材444－加油站447，即BEA估算PCE商品消費時採用的口徑（44000本身已不含餐飲722）。汽車扣的是441X（xlsx Table 1 的「4411, 4412 Auto & other motor veh. dealers」）而非整條441「Motor vehicle & parts dealers」——4413汽車零件／輪胎店要留在控制組裡，定義寫的是 ex auto dealers 不是 ex parts。2026-08-14 修正：原本扣441，會系統性低估月增率約0.04~0.05pp（2026-07 算成-0.48%，市場實際-0.4%）。Census未發布此組合序列，依官方季調金額(SM)自算月增率，卡片標註「自算」。顯示 2 位小數：本序列是自算的，有真實 2 位精度，方便跟 marts_current.xlsx Table 1 手動對帳",
     "sanity": {
       "min": -5,
       "max": 5
