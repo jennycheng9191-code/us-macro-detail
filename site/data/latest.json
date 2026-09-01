@@ -1,5 +1,5 @@
 {
- "build_time": "2026-09-01 09:25",
+ "build_time": "2026-09-02 06:03",
  "summary": {
   "green": 68,
   "yellow": 0,
@@ -4728,17 +4728,13 @@
    "items": {
     "ism_manufacturing_pmi": {
      "name": "製造業PMI（複合指數）",
-     "value": 55.6,
-     "value_fmt": "55.6",
-     "asof": "2026-07-01",
-     "asof_label": "2026 July",
-     "age_days": 32,
-     "new_since": "",
+     "value": 54.6,
+     "value_fmt": "54.6",
+     "asof": "2026-08-01",
+     "asof_label": "2026 August",
+     "age_days": 1,
+     "new_since": "2026-09-02",
      "history": [
-      {
-       "date": "2024-08-01",
-       "value": 47.2
-      },
       {
        "date": "2024-09-01",
        "value": 47.2
@@ -4830,13 +4826,17 @@
       {
        "date": "2026-07-01",
        "value": 55.6
+      },
+      {
+       "date": "2026-08-01",
+       "value": 54.6
       }
      ],
      "extras": {},
      "also": {},
      "status": "green",
      "notes": [],
-     "note": "高於 50 榮枯線；創近 24 期新高",
+     "note": "高於 50 榮枯線；位於近 24 期的第 96 百分位",
      "source_label": "ISM 官方新聞稿（PR Newswire）",
      "unit": "",
      "decimals": null,
@@ -4847,17 +4847,13 @@
     },
     "ism_mfg_new_orders": {
      "name": "新訂單",
-     "value": 56.7,
-     "value_fmt": "56.7",
-     "asof": "2026-07-01",
-     "asof_label": "2026 July",
-     "age_days": 32,
-     "new_since": "",
+     "value": 53.7,
+     "value_fmt": "53.7",
+     "asof": "2026-08-01",
+     "asof_label": "2026 August",
+     "age_days": 1,
+     "new_since": "2026-09-02",
      "history": [
-      {
-       "date": "2024-08-01",
-       "value": 44.6
-      },
       {
        "date": "2024-09-01",
        "value": 46.1
@@ -4949,13 +4945,17 @@
       {
        "date": "2026-07-01",
        "value": 56.7
+      },
+      {
+       "date": "2026-08-01",
+       "value": 53.7
       }
      ],
      "extras": {},
      "also": {},
      "status": "green",
      "notes": [],
-     "note": "高於 50 榮枯線；位於近 24 期的第 92 百分位",
+     "note": "高於 50 榮枯線；位於近 24 期的第 71 百分位",
      "source_label": "ISM 官方新聞稿（PR Newswire）",
      "unit": "",
      "decimals": null,
@@ -4966,17 +4966,13 @@
     },
     "ism_mfg_production": {
      "name": "生產",
-     "value": 58.5,
-     "value_fmt": "58.5",
-     "asof": "2026-07-01",
-     "asof_label": "2026 July",
-     "age_days": 32,
-     "new_since": "",
+     "value": 58.3,
+     "value_fmt": "58.3",
+     "asof": "2026-08-01",
+     "asof_label": "2026 August",
+     "age_days": 1,
+     "new_since": "2026-09-02",
      "history": [
-      {
-       "date": "2024-08-01",
-       "value": 44.8
-      },
       {
        "date": "2024-09-01",
        "value": 49.8
@@ -5068,13 +5064,17 @@
       {
        "date": "2026-07-01",
        "value": 58.5
+      },
+      {
+       "date": "2026-08-01",
+       "value": 58.3
       }
      ],
      "extras": {},
      "also": {},
      "status": "green",
      "notes": [],
-     "note": "高於 50 榮枯線；創近 24 期新高",
+     "note": "高於 50 榮枯線；位於近 24 期的第 96 百分位",
      "source_label": "ISM 官方新聞稿（PR Newswire）",
      "unit": "",
      "decimals": null,
@@ -5085,17 +5085,13 @@
     },
     "ism_manufacturing_employment": {
      "name": "就業",
-     "value": 52.8,
-     "value_fmt": "52.8",
-     "asof": "2026-07-01",
-     "asof_label": "2026 July",
-     "age_days": 32,
-     "new_since": "",
+     "value": 51.2,
+     "value_fmt": "51.2",
+     "asof": "2026-08-01",
+     "asof_label": "2026 August",
+     "age_days": 1,
+     "new_since": "2026-09-02",
      "history": [
-      {
-       "date": "2024-08-01",
-       "value": 46.0
-      },
       {
        "date": "2024-09-01",
        "value": 43.9
@@ -5187,13 +5183,17 @@
       {
        "date": "2026-07-01",
        "value": 52.8
+      },
+      {
+       "date": "2026-08-01",
+       "value": 51.2
       }
      ],
      "extras": {},
      "also": {},
      "status": "green",
      "notes": [],
-     "note": "高於 50 榮枯線；連續 3 期走升、創近 24 期新高",
+     "note": "高於 50 榮枯線；位於近 24 期的第 96 百分位",
      "source_label": "ISM 官方新聞稿（PR Newswire）",
      "unit": "",
      "decimals": null,
@@ -5204,17 +5204,13 @@
     },
     "ism_mfg_supplier_deliveries": {
      "name": "供應商交期",
-     "value": 58.9,
-     "value_fmt": "58.9",
-     "asof": "2026-07-01",
-     "asof_label": "2026 July",
-     "age_days": 32,
-     "new_since": "",
+     "value": 59.3,
+     "value_fmt": "59.3",
+     "asof": "2026-08-01",
+     "asof_label": "2026 August",
+     "age_days": 1,
+     "new_since": "2026-09-02",
      "history": [
-      {
-       "date": "2024-08-01",
-       "value": 50.5
-      },
       {
        "date": "2024-09-01",
        "value": 52.2
@@ -5306,6 +5302,10 @@
       {
        "date": "2026-07-01",
        "value": 58.9
+      },
+      {
+       "date": "2026-08-01",
+       "value": 59.3
       }
      ],
      "extras": {},
@@ -5323,17 +5323,13 @@
     },
     "ism_mfg_inventories": {
      "name": "存貨",
-     "value": 51.2,
-     "value_fmt": "51.2",
-     "asof": "2026-07-01",
-     "asof_label": "2026 July",
-     "age_days": 32,
-     "new_since": "",
+     "value": 50.6,
+     "value_fmt": "50.6",
+     "asof": "2026-08-01",
+     "asof_label": "2026 August",
+     "age_days": 1,
+     "new_since": "2026-09-02",
      "history": [
-      {
-       "date": "2024-08-01",
-       "value": 50.3
-      },
       {
        "date": "2024-09-01",
        "value": 43.9
@@ -5425,13 +5421,17 @@
       {
        "date": "2026-07-01",
        "value": 51.2
+      },
+      {
+       "date": "2026-08-01",
+       "value": 50.6
       }
      ],
      "extras": {},
      "also": {},
      "status": "green",
      "notes": [],
-     "note": "高於 50 榮枯線；位於近 24 期的第 92 百分位",
+     "note": "高於 50 榮枯線；位於近 24 期的第 83 百分位",
      "source_label": "ISM 官方新聞稿（PR Newswire）",
      "unit": "",
      "decimals": null,
@@ -5442,17 +5442,13 @@
     },
     "ism_mfg_customers_inventories": {
      "name": "顧客存貨",
-     "value": 40.7,
-     "value_fmt": "40.7",
-     "asof": "2026-07-01",
-     "asof_label": "2026 July",
-     "age_days": 32,
-     "new_since": "",
+     "value": 42.8,
+     "value_fmt": "42.8",
+     "asof": "2026-08-01",
+     "asof_label": "2026 August",
+     "age_days": 1,
+     "new_since": "2026-09-02",
      "history": [
-      {
-       "date": "2024-08-01",
-       "value": 48.4
-      },
       {
        "date": "2024-09-01",
        "value": 50.0
@@ -5544,13 +5540,17 @@
       {
        "date": "2026-07-01",
        "value": 40.7
+      },
+      {
+       "date": "2026-08-01",
+       "value": 42.8
       }
      ],
      "extras": {},
      "also": {},
      "status": "green",
      "notes": [],
-     "note": "低於 50 榮枯線；位於近 24 期的第 21 百分位",
+     "note": "低於 50 榮枯線；位於近 24 期的第 33 百分位",
      "source_label": "ISM 官方新聞稿（PR Newswire）",
      "unit": "",
      "decimals": null,
@@ -5563,15 +5563,11 @@
      "name": "物價",
      "value": 71.1,
      "value_fmt": "71.1",
-     "asof": "2026-07-01",
-     "asof_label": "2026 July",
-     "age_days": 32,
-     "new_since": "",
+     "asof": "2026-08-01",
+     "asof_label": "2026 August",
+     "age_days": 1,
+     "new_since": "2026-09-02",
      "history": [
-      {
-       "date": "2024-08-01",
-       "value": 54.0
-      },
       {
        "date": "2024-09-01",
        "value": 48.3
@@ -5663,13 +5659,17 @@
       {
        "date": "2026-07-01",
        "value": 71.1
+      },
+      {
+       "date": "2026-08-01",
+       "value": 71.1
       }
      ],
      "extras": {},
      "also": {},
      "status": "green",
      "notes": [],
-     "note": "高於 50 榮枯線；連續 3 期走降、位於近 24 期的第 83 百分位",
+     "note": "高於 50 榮枯線；位於近 24 期的第 83 百分位",
      "source_label": "ISM 官方新聞稿（PR Newswire）",
      "unit": "",
      "decimals": null,
@@ -5680,17 +5680,13 @@
     },
     "ism_mfg_backlog": {
      "name": "待辦訂單",
-     "value": 55.0,
-     "value_fmt": "55.0",
-     "asof": "2026-07-01",
-     "asof_label": "2026 July",
-     "age_days": 32,
-     "new_since": "",
+     "value": 51.8,
+     "value_fmt": "51.8",
+     "asof": "2026-08-01",
+     "asof_label": "2026 August",
+     "age_days": 1,
+     "new_since": "2026-09-02",
      "history": [
-      {
-       "date": "2024-08-01",
-       "value": 43.6
-      },
       {
        "date": "2024-09-01",
        "value": 44.1
@@ -5782,13 +5778,17 @@
       {
        "date": "2026-07-01",
        "value": 55.0
+      },
+      {
+       "date": "2026-08-01",
+       "value": 51.8
       }
      ],
      "extras": {},
      "also": {},
      "status": "green",
      "notes": [],
-     "note": "高於 50 榮枯線；位於近 24 期的第 96 百分位",
+     "note": "高於 50 榮枯線；位於近 24 期的第 83 百分位",
      "source_label": "ISM 官方新聞稿（PR Newswire）",
      "unit": "",
      "decimals": null,
@@ -5799,17 +5799,13 @@
     },
     "ism_mfg_new_export_orders": {
      "name": "新出口訂單",
-     "value": 53.0,
-     "value_fmt": "53.0",
-     "asof": "2026-07-01",
-     "asof_label": "2026 July",
-     "age_days": 32,
-     "new_since": "",
+     "value": 53.2,
+     "value_fmt": "53.2",
+     "asof": "2026-08-01",
+     "asof_label": "2026 August",
+     "age_days": 1,
+     "new_since": "2026-09-02",
      "history": [
-      {
-       "date": "2024-08-01",
-       "value": 48.6
-      },
       {
        "date": "2024-09-01",
        "value": 45.3
@@ -5901,6 +5897,10 @@
       {
        "date": "2026-07-01",
        "value": 53.0
+      },
+      {
+       "date": "2026-08-01",
+       "value": 53.2
       }
      ],
      "extras": {},
@@ -5918,17 +5918,13 @@
     },
     "ism_mfg_imports": {
      "name": "進口",
-     "value": 55.7,
-     "value_fmt": "55.7",
-     "asof": "2026-07-01",
-     "asof_label": "2026 July",
-     "age_days": 32,
-     "new_since": "",
+     "value": 52.5,
+     "value_fmt": "52.5",
+     "asof": "2026-08-01",
+     "asof_label": "2026 August",
+     "age_days": 1,
+     "new_since": "2026-09-02",
      "history": [
-      {
-       "date": "2024-08-01",
-       "value": 49.6
-      },
       {
        "date": "2024-09-01",
        "value": 48.3
@@ -6020,13 +6016,17 @@
       {
        "date": "2026-07-01",
        "value": 55.7
+      },
+      {
+       "date": "2026-08-01",
+       "value": 52.5
       }
      ],
      "extras": {},
      "also": {},
      "status": "green",
      "notes": [],
-     "note": "高於 50 榮枯線；創近 24 期新高",
+     "note": "高於 50 榮枯線；位於近 24 期的第 75 百分位",
      "source_label": "ISM 官方新聞稿（PR Newswire）",
      "unit": "",
      "decimals": null,
