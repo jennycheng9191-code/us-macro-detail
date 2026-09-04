@@ -1,5 +1,5 @@
 {
- "build_time": "2026-09-04 08:27",
+ "build_time": "2026-09-05 05:51",
  "summary": {
   "green": 68,
   "yellow": 0,
@@ -3049,17 +3049,13 @@
    "items": {
     "nfp_headline": {
      "name": "總新增就業人數",
-     "value": -23.0,
-     "value_fmt": "-23k",
-     "asof": "2026-07-01",
+     "value": 162.0,
+     "value_fmt": "+162k",
+     "asof": "2026-08-01",
      "asof_label": "",
-     "age_days": 35,
-     "new_since": "",
+     "age_days": 4,
+     "new_since": "2026-09-05",
      "history": [
-      {
-       "date": "2024-08-01",
-       "value": 9.0
-      },
       {
        "date": "2024-09-01",
        "value": 155.0
@@ -3146,18 +3142,22 @@
       },
       {
        "date": "2026-06-01",
-       "value": 20.0
+       "value": 31.0
       },
       {
        "date": "2026-07-01",
-       "value": -23.0
+       "value": 21.0
+      },
+      {
+       "date": "2026-08-01",
+       "value": 162.0
       }
      ],
      "extras": {},
      "also": {},
      "status": "green",
      "notes": [],
-     "note": "月增 -23千人，低於 10–15 萬盈虧平衡區間；連續 4 期走降、位於近 24 期的第 21 百分位",
+     "note": "月增 162千人，高於 10–15 萬盈虧平衡區間；位於近 24 期的第 92 百分位",
      "source_label": "BLS API CES0000000001",
      "unit": "k",
      "decimals": null,
@@ -3168,17 +3168,13 @@
     },
     "nfp_government": {
      "name": "政府",
-     "value": -53.0,
-     "value_fmt": "-53k",
-     "asof": "2026-07-01",
+     "value": 35.0,
+     "value_fmt": "+35k",
+     "asof": "2026-08-01",
      "asof_label": "",
-     "age_days": 35,
-     "new_since": "",
+     "age_days": 4,
+     "new_since": "2026-09-05",
      "history": [
-      {
-       "date": "2024-08-01",
-       "value": 36.0
-      },
       {
        "date": "2024-09-01",
        "value": 13.0
@@ -3265,18 +3261,22 @@
       },
       {
        "date": "2026-06-01",
-       "value": -10.0
+       "value": 5.0
       },
       {
        "date": "2026-07-01",
-       "value": -53.0
+       "value": -50.0
+      },
+      {
+       "date": "2026-08-01",
+       "value": 35.0
       }
      ],
      "extras": {},
      "also": {},
      "status": "green",
      "notes": [],
-     "note": "位於近 24 期的第 8 百分位",
+     "note": "位於近 24 期的第 96 百分位",
      "source_label": "BLS API CES9000000001",
      "unit": "k",
      "decimals": null,
@@ -3287,17 +3287,13 @@
     },
     "nfp_education_health": {
      "name": "教育醫療",
-     "value": 25.0,
-     "value_fmt": "+25k",
-     "asof": "2026-07-01",
+     "value": 29.0,
+     "value_fmt": "+29k",
+     "asof": "2026-08-01",
      "asof_label": "",
-     "age_days": 35,
-     "new_since": "",
+     "age_days": 4,
+     "new_since": "2026-09-05",
      "history": [
-      {
-       "date": "2024-08-01",
-       "value": 58.0
-      },
       {
        "date": "2024-09-01",
        "value": 118.0
@@ -3384,18 +3380,22 @@
       },
       {
        "date": "2026-06-01",
-       "value": 54.0
+       "value": 50.0
       },
       {
        "date": "2026-07-01",
-       "value": 25.0
+       "value": 12.0
+      },
+      {
+       "date": "2026-08-01",
+       "value": 29.0
       }
      ],
      "extras": {},
      "also": {},
      "status": "green",
      "notes": [],
-     "note": "位於近 24 期的第 17 百分位",
+     "note": "位於近 24 期的第 21 百分位",
      "source_label": "BLS API CES6500000001",
      "unit": "k",
      "decimals": null,
@@ -3406,17 +3406,13 @@
     },
     "nfp_prof_business": {
      "name": "專業商業服務",
-     "value": 18.0,
-     "value_fmt": "+18k",
-     "asof": "2026-07-01",
+     "value": 10.0,
+     "value_fmt": "+10k",
+     "asof": "2026-08-01",
      "asof_label": "",
-     "age_days": 35,
-     "new_since": "",
+     "age_days": 4,
+     "new_since": "2026-09-05",
      "history": [
-      {
-       "date": "2024-08-01",
-       "value": -40.0
-      },
       {
        "date": "2024-09-01",
        "value": -19.0
@@ -3503,18 +3499,22 @@
       },
       {
        "date": "2026-06-01",
-       "value": 34.0
+       "value": 36.0
       },
       {
        "date": "2026-07-01",
-       "value": 18.0
+       "value": 15.0
+      },
+      {
+       "date": "2026-08-01",
+       "value": 10.0
       }
      ],
      "extras": {},
      "also": {},
      "status": "green",
      "notes": [],
-     "note": "位於近 24 期的第 75 百分位",
+     "note": "位於近 24 期的第 62 百分位",
      "source_label": "BLS API CES6000000001",
      "unit": "k",
      "decimals": null,
@@ -3525,17 +3525,13 @@
     },
     "nfp_retail": {
      "name": "零售",
-     "value": -19.399999999999636,
-     "value_fmt": "-19k",
-     "asof": "2026-07-01",
+     "value": 1.4000000000014552,
+     "value_fmt": "+1k",
+     "asof": "2026-08-01",
      "asof_label": "",
-     "age_days": 35,
-     "new_since": "",
+     "age_days": 4,
+     "new_since": "2026-09-05",
      "history": [
-      {
-       "date": "2024-08-01",
-       "value": -22.399999999999636
-      },
       {
        "date": "2024-09-01",
        "value": -1.6999999999989086
@@ -3622,18 +3618,22 @@
       },
       {
        "date": "2026-06-01",
-       "value": -3.7000000000007276
+       "value": 9.600000000000364
       },
       {
        "date": "2026-07-01",
-       "value": -19.399999999999636
+       "value": 13.199999999998909
+      },
+      {
+       "date": "2026-08-01",
+       "value": 1.4000000000014552
       }
      ],
      "extras": {},
      "also": {},
      "status": "green",
      "notes": [],
-     "note": "連續 3 期走降、位於近 24 期的第 21 百分位",
+     "note": "位於近 24 期的第 50 百分位",
      "source_label": "BLS API CES4200000001",
      "unit": "k",
      "decimals": null,
@@ -3644,17 +3644,13 @@
     },
     "nfp_manufacturing": {
      "name": "製造",
-     "value": 5.0,
-     "value_fmt": "+5k",
-     "asof": "2026-07-01",
+     "value": 16.0,
+     "value_fmt": "+16k",
+     "asof": "2026-08-01",
      "asof_label": "",
-     "age_days": 35,
-     "new_since": "",
+     "age_days": 4,
+     "new_since": "2026-09-05",
      "history": [
-      {
-       "date": "2024-08-01",
-       "value": -34.0
-      },
       {
        "date": "2024-09-01",
        "value": -14.0
@@ -3741,18 +3737,22 @@
       },
       {
        "date": "2026-06-01",
-       "value": 11.0
+       "value": 13.0
       },
       {
        "date": "2026-07-01",
-       "value": 5.0
+       "value": 14.0
+      },
+      {
+       "date": "2026-08-01",
+       "value": 16.0
       }
      ],
      "extras": {},
      "also": {},
      "status": "green",
      "notes": [],
-     "note": "位於近 24 期的第 88 百分位",
+     "note": "連續 3 期走升、創近 24 期新高",
      "source_label": "BLS API CES3000000001",
      "unit": "k",
      "decimals": null,
@@ -3765,15 +3765,11 @@
      "name": "建築",
      "value": 22.0,
      "value_fmt": "+22k",
-     "asof": "2026-07-01",
+     "asof": "2026-08-01",
      "asof_label": "",
-     "age_days": 35,
-     "new_since": "",
+     "age_days": 4,
+     "new_since": "2026-09-05",
      "history": [
-      {
-       "date": "2024-08-01",
-       "value": 28.0
-      },
       {
        "date": "2024-09-01",
        "value": 18.0
@@ -3860,10 +3856,14 @@
       },
       {
        "date": "2026-06-01",
-       "value": 5.0
+       "value": 3.0
       },
       {
        "date": "2026-07-01",
+       "value": 18.0
+      },
+      {
+       "date": "2026-08-01",
        "value": 22.0
       }
      ],
@@ -3871,7 +3871,7 @@
      "also": {},
      "status": "green",
      "notes": [],
-     "note": "位於近 24 期的第 88 百分位",
+     "note": "連續 3 期走升、位於近 24 期的第 92 百分位",
      "source_label": "BLS API CES2000000001",
      "unit": "k",
      "decimals": null,
@@ -3882,17 +3882,13 @@
     },
     "nfp_leisure_hospitality": {
      "name": "休閒餐旅",
-     "value": -40.0,
-     "value_fmt": "-40k",
-     "asof": "2026-07-01",
+     "value": 62.0,
+     "value_fmt": "+62k",
+     "asof": "2026-08-01",
      "asof_label": "",
-     "age_days": 35,
-     "new_since": "",
+     "age_days": 4,
+     "new_since": "2026-09-05",
      "history": [
-      {
-       "date": "2024-08-01",
-       "value": -5.0
-      },
       {
        "date": "2024-09-01",
        "value": 30.0
@@ -3979,18 +3975,22 @@
       },
       {
        "date": "2026-06-01",
-       "value": -43.0
+       "value": -54.0
       },
       {
        "date": "2026-07-01",
-       "value": -40.0
+       "value": -21.0
+      },
+      {
+       "date": "2026-08-01",
+       "value": 62.0
       }
      ],
      "extras": {},
      "also": {},
      "status": "green",
      "notes": [],
-     "note": "位於近 24 期的第 8 百分位",
+     "note": "創近 24 期新高",
      "source_label": "BLS API CES7000000001",
      "unit": "k",
      "decimals": null,
@@ -4003,15 +4003,11 @@
      "name": "失業率",
      "value": 4.1,
      "value_fmt": "4.1%",
-     "asof": "2026-07-01",
+     "asof": "2026-08-01",
      "asof_label": "",
-     "age_days": 35,
-     "new_since": "",
+     "age_days": 4,
+     "new_since": "2026-09-05",
      "history": [
-      {
-       "date": "2024-07-01",
-       "value": 4.2
-      },
       {
        "date": "2024-08-01",
        "value": 4.2
@@ -4103,13 +4099,17 @@
       {
        "date": "2026-07-01",
        "value": 4.1
+      },
+      {
+       "date": "2026-08-01",
+       "value": 4.1
       }
      ],
      "extras": {},
      "also": {},
      "status": "green",
      "notes": [],
-     "note": "Sahm Rule 計數 0.00pp，距門檻尚有 0.50pp；位於近 24 期的第 25 百分位",
+     "note": "Sahm Rule 計數 0.00pp，距門檻尚有 0.50pp；位於近 24 期的第 29 百分位",
      "source_label": "BLS API LNS14000000",
      "unit": "%",
      "decimals": null,
@@ -4120,17 +4120,13 @@
     },
     "nfp_lfpr": {
      "name": "勞動參與率",
-     "value": 61.4,
-     "value_fmt": "61.4%",
-     "asof": "2026-07-01",
+     "value": 61.6,
+     "value_fmt": "61.6%",
+     "asof": "2026-08-01",
      "asof_label": "",
-     "age_days": 35,
-     "new_since": "",
+     "age_days": 4,
+     "new_since": "2026-09-05",
      "history": [
-      {
-       "date": "2024-07-01",
-       "value": 62.7
-      },
       {
        "date": "2024-08-01",
        "value": 62.7
@@ -4222,13 +4218,17 @@
       {
        "date": "2026-07-01",
        "value": 61.4
+      },
+      {
+       "date": "2026-08-01",
+       "value": 61.6
       }
      ],
      "extras": {},
      "also": {},
      "status": "green",
      "notes": [],
-     "note": "創近 24 期新低",
+     "note": "位於近 24 期的第 12 百分位",
      "source_label": "BLS API LNS11300000",
      "unit": "%",
      "decimals": null,
@@ -4239,17 +4239,13 @@
     },
     "nfp_ahe_all": {
      "name": "平均時薪－全體員工",
-     "value": 3.153276665752669,
-     "value_fmt": "3.2%",
-     "asof": "2026-07-01",
+     "value": 3.085745494265435,
+     "value_fmt": "3.1%",
+     "asof": "2026-08-01",
      "asof_label": "",
-     "age_days": 35,
-     "new_since": "",
+     "age_days": 4,
+     "new_since": "2026-09-05",
      "history": [
-      {
-       "date": "2024-08-01",
-       "value": 3.9244614930658006
-      },
       {
        "date": "2024-09-01",
        "value": 3.9106145251396773
@@ -4336,16 +4332,20 @@
       },
       {
        "date": "2026-06-01",
-       "value": 3.4103410341034257
+       "value": 3.3828382838283932
       },
       {
        "date": "2026-07-01",
-       "value": 3.153276665752669
+       "value": 3.2355360570331726
+      },
+      {
+       "date": "2026-08-01",
+       "value": 3.085745494265435
       }
      ],
      "extras": {},
      "also": {
-      "mom": 0.05319148936169249
+      "mom": 0.26560424966799445
      },
      "status": "green",
      "notes": [],
@@ -4360,17 +4360,13 @@
     },
     "nfp_ahe_nonsup": {
      "name": "平均時薪－生產與非管理人員",
-     "value": 3.217585218222352,
-     "value_fmt": "3.2%",
-     "asof": "2026-07-01",
+     "value": 3.3026357573832987,
+     "value_fmt": "3.3%",
+     "asof": "2026-08-01",
      "asof_label": "",
-     "age_days": 35,
-     "new_since": "",
+     "age_days": 4,
+     "new_since": "2026-09-05",
      "history": [
-      {
-       "date": "2024-08-01",
-       "value": 4.163799036476257
-      },
       {
        "date": "2024-09-01",
        "value": 4.146675805346134
@@ -4457,20 +4453,24 @@
       },
       {
        "date": "2026-06-01",
-       "value": 3.353561162567864
+       "value": 3.417438518045368
       },
       {
        "date": "2026-07-01",
-       "value": 3.217585218222352
+       "value": 3.281299776999047
+      },
+      {
+       "date": "2026-08-01",
+       "value": 3.3026357573832987
       }
      ],
      "extras": {},
      "also": {
-      "mom": 0.12360939431397266
+      "mom": 0.33929673041332986
      },
      "status": "green",
      "notes": [],
-     "note": "連續 3 期走降、創近 24 期新低",
+     "note": "位於近 24 期的第 8 百分位",
      "source_label": "BLS API CES0500000008",
      "unit": "%",
      "decimals": null,
@@ -4481,17 +4481,13 @@
     },
     "nfp_hours_all": {
      "name": "平均週工時－全體員工",
-     "value": 34.3,
-     "value_fmt": "34.3hrs",
-     "asof": "2026-07-01",
+     "value": 34.4,
+     "value_fmt": "34.4hrs",
+     "asof": "2026-08-01",
      "asof_label": "",
-     "age_days": 35,
-     "new_since": "",
+     "age_days": 4,
+     "new_since": "2026-09-05",
      "history": [
-      {
-       "date": "2024-08-01",
-       "value": 34.3
-      },
       {
        "date": "2024-09-01",
        "value": 34.3
@@ -4583,6 +4579,10 @@
       {
        "date": "2026-07-01",
        "value": 34.3
+      },
+      {
+       "date": "2026-08-01",
+       "value": 34.4
       }
      ],
      "extras": {},
@@ -4602,15 +4602,11 @@
      "name": "平均週工時－生產與非管理人員",
      "value": 33.8,
      "value_fmt": "33.8hrs",
-     "asof": "2026-07-01",
+     "asof": "2026-08-01",
      "asof_label": "",
-     "age_days": 35,
-     "new_since": "",
+     "age_days": 4,
+     "new_since": "2026-09-05",
      "history": [
-      {
-       "date": "2024-08-01",
-       "value": 33.7
-      },
       {
        "date": "2024-09-01",
        "value": 33.7
@@ -4701,6 +4697,10 @@
       },
       {
        "date": "2026-07-01",
+       "value": 33.8
+      },
+      {
+       "date": "2026-08-01",
        "value": 33.8
       }
      ],
