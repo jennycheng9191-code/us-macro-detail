@@ -1,8 +1,8 @@
 {
- "build_time": "2026-09-09 08:50",
+ "build_time": "2026-09-10 05:58",
  "summary": {
-  "green": 63,
-  "yellow": 5,
+  "green": 68,
+  "yellow": 0,
   "gray": 0
  },
  "indicators": {
@@ -2439,7 +2439,7 @@
      "value_fmt": "3.7%",
      "asof": "2026-07-01",
      "asof_label": "",
-     "age_days": null,
+     "age_days": 40,
      "new_since": "2026-08-27",
      "history": [
       {
@@ -2543,11 +2543,8 @@
      "also": {
       "mom": 0.15594808830463602
      },
-     "status": "yellow",
-     "notes": [
-      "抓取例外：取得 JSON 失敗 https://apps.bea.gov/api/data/: HTTPSConnectionPool(host='apps.bea.gov', port=443): Read timed out. (read timeout=30)",
-      "本次未取得，沿用 2026-07-01 的前值"
-     ],
+     "status": "green",
+     "notes": [],
      "note": "年增 3.7%，高於2%目標 1.7pp；位於近 24 期的第 88 百分位",
      "source_label": "BEA NIUnderlyingDetail U20404 L1",
      "unit": "%",
@@ -2563,7 +2560,7 @@
      "value_fmt": "3.3%",
      "asof": "2026-07-01",
      "asof_label": "",
-     "age_days": null,
+     "age_days": 40,
      "new_since": "2026-08-27",
      "history": [
       {
@@ -2667,11 +2664,8 @@
      "also": {
       "mom": 0.2455155058386671
      },
-     "status": "yellow",
-     "notes": [
-      "抓取例外：取得 JSON 失敗 https://apps.bea.gov/api/data/: HTTPSConnectionPool(host='apps.bea.gov', port=443): Read timed out. (read timeout=30)",
-      "本次未取得，沿用 2026-07-01 的前值"
-     ],
+     "status": "green",
+     "notes": [],
      "note": "年增 3.3%，高於2%目標 1.3pp；位於近 24 期的第 96 百分位",
      "source_label": "BEA NIUnderlyingDetail U20404 L374",
      "unit": "%",
@@ -2687,7 +2681,7 @@
      "value_fmt": "3.7%",
      "asof": "2026-07-01",
      "asof_label": "",
-     "age_days": null,
+     "age_days": 40,
      "new_since": "2026-08-27",
      "history": [
       {
@@ -2791,11 +2785,8 @@
      "also": {
       "mom": -0.10956750110822089
      },
-     "status": "yellow",
-     "notes": [
-      "抓取例外：取得 JSON 失敗 https://apps.bea.gov/api/data/: HTTPSConnectionPool(host='apps.bea.gov', port=443): Read timed out. (read timeout=30)",
-      "本次未取得，沿用 2026-07-01 的前值"
-     ],
+     "status": "green",
+     "notes": [],
      "note": "位於近 24 期的第 88 百分位",
      "source_label": "BEA NIUnderlyingDetail U20404 L2",
      "unit": "%",
@@ -2811,7 +2802,7 @@
      "value_fmt": "3.7%",
      "asof": "2026-07-01",
      "asof_label": "",
-     "age_days": null,
+     "age_days": 40,
      "new_since": "2026-08-27",
      "history": [
       {
@@ -2915,11 +2906,8 @@
      "also": {
       "mom": 0.27453921832787387
      },
-     "status": "yellow",
-     "notes": [
-      "抓取例外：取得 JSON 失敗 https://apps.bea.gov/api/data/: HTTPSConnectionPool(host='apps.bea.gov', port=443): Read timed out. (read timeout=30)",
-      "本次未取得，沿用 2026-07-01 的前值"
-     ],
+     "status": "green",
+     "notes": [],
      "note": "位於近 24 期的第 67 百分位",
      "source_label": "BEA NIUnderlyingDetail U20404 L150",
      "unit": "%",
@@ -2935,7 +2923,7 @@
      "value_fmt": "3.8%",
      "asof": "2026-07-01",
      "asof_label": "",
-     "age_days": null,
+     "age_days": 40,
      "new_since": "2026-08-27",
      "history": [
       {
@@ -3039,11 +3027,8 @@
      "also": {
       "mom": 0.2795174647760579
      },
-     "status": "yellow",
-     "notes": [
-      "抓取例外：取得 JSON 失敗 https://apps.bea.gov/api/data/: HTTPSConnectionPool(host='apps.bea.gov', port=443): Read timed out. (read timeout=30)",
-      "本次未取得，沿用 2026-07-01 的前值"
-     ],
+     "status": "green",
+     "notes": [],
      "note": "位於近 24 期的第 83 百分位",
      "source_label": "derived：BEA名目權重反推（非BEA官方直接數字）",
      "unit": "%",
