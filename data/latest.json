@@ -1,8 +1,8 @@
 {
- "build_time": "2026-10-04 06:35",
+ "build_time": "2026-10-04 10:03",
  "summary": {
-  "green": 61,
-  "yellow": 7,
+  "green": 52,
+  "yellow": 16,
   "gray": 0
  },
  "indicators": {
@@ -19,7 +19,7 @@
      "value_fmt": "2.2%",
      "asof": "2026-04-01",
      "asof_label": "",
-     "age_days": 94,
+     "age_days": null,
      "new_since": "",
      "history": [
       {
@@ -121,8 +121,11 @@
      ],
      "extras": {},
      "also": {},
-     "status": "green",
-     "notes": [],
+     "status": "yellow",
+     "notes": [
+      "抓取例外：取得 JSON 失敗 https://apps.bea.gov/api/data/: 503 Server Error: Service Unavailable for url: https://apps.bea.gov/api/data/?UserID=505B506A-7732-45AD-A7BB-85CA3DD13957&method=GetData&datasetname=NIPA&TableName=T10101&Frequency=Q&Year=ALL&ResultFormat=JSON",
+      "本次未取得，沿用 2026-04-01 的前值"
+     ],
      "note": "位於近 24 期的第 29 百分位",
      "source_label": "BEA NIPA T10101 L1",
      "unit": "%",
@@ -138,7 +141,7 @@
      "value_fmt": "+2.5pp",
      "asof": "2026-04-01",
      "asof_label": "",
-     "age_days": 94,
+     "age_days": null,
      "new_since": "",
      "history": [
       {
@@ -240,8 +243,11 @@
      ],
      "extras": {},
      "also": {},
-     "status": "green",
-     "notes": [],
+     "status": "yellow",
+     "notes": [
+      "抓取例外：取得 JSON 失敗 https://apps.bea.gov/api/data/: 503 Server Error: Service Unavailable for url: https://apps.bea.gov/api/data/?UserID=505B506A-7732-45AD-A7BB-85CA3DD13957&method=GetData&datasetname=NIPA&TableName=T10102&Frequency=Q&Year=ALL&ResultFormat=JSON",
+      "本次未取得，沿用 2026-04-01 的前值"
+     ],
      "note": "對GDP貢獻 +2.51pp，屬成長動能；位於近 24 期的第 67 百分位",
      "source_label": "BEA NIPA T10102 L2",
      "unit": "pp",
@@ -257,7 +263,7 @@
      "value_fmt": "+0.9pp",
      "asof": "2026-04-01",
      "asof_label": "",
-     "age_days": 94,
+     "age_days": null,
      "new_since": "",
      "history": [
       {
@@ -359,8 +365,11 @@
      ],
      "extras": {},
      "also": {},
-     "status": "green",
-     "notes": [],
+     "status": "yellow",
+     "notes": [
+      "抓取例外：取得 JSON 失敗 https://apps.bea.gov/api/data/: 503 Server Error: Service Unavailable for url: https://apps.bea.gov/api/data/?UserID=505B506A-7732-45AD-A7BB-85CA3DD13957&method=GetData&datasetname=NIPA&TableName=T10102&Frequency=Q&Year=ALL&ResultFormat=JSON",
+      "本次未取得，沿用 2026-04-01 的前值"
+     ],
      "note": "對GDP貢獻 +0.94pp，屬成長動能；位於近 24 期的第 71 百分位",
      "source_label": "BEA NIPA T10102 L3",
      "unit": "pp",
@@ -376,7 +385,7 @@
      "value_fmt": "+0.5pp",
      "asof": "2026-04-01",
      "asof_label": "",
-     "age_days": 94,
+     "age_days": null,
      "new_since": "",
      "history": [
       {
@@ -478,8 +487,11 @@
      ],
      "extras": {},
      "also": {},
-     "status": "green",
-     "notes": [],
+     "status": "yellow",
+     "notes": [
+      "抓取例外：取得 JSON 失敗 https://apps.bea.gov/api/data/: 503 Server Error: Service Unavailable for url: https://apps.bea.gov/api/data/?UserID=505B506A-7732-45AD-A7BB-85CA3DD13957&method=GetData&datasetname=NIPA&TableName=T10102&Frequency=Q&Year=ALL&ResultFormat=JSON",
+      "本次未取得，沿用 2026-04-01 的前值"
+     ],
      "note": "對GDP貢獻 +0.52pp，屬成長動能；位於近 24 期的第 67 百分位",
      "source_label": "BEA NIPA T10102 L4",
      "unit": "pp",
@@ -495,7 +507,7 @@
      "value_fmt": "+0.4pp",
      "asof": "2026-04-01",
      "asof_label": "",
-     "age_days": 94,
+     "age_days": null,
      "new_since": "",
      "history": [
       {
@@ -597,8 +609,11 @@
      ],
      "extras": {},
      "also": {},
-     "status": "green",
-     "notes": [],
+     "status": "yellow",
+     "notes": [
+      "抓取例外：取得 JSON 失敗 https://apps.bea.gov/api/data/: 503 Server Error: Service Unavailable for url: https://apps.bea.gov/api/data/?UserID=505B506A-7732-45AD-A7BB-85CA3DD13957&method=GetData&datasetname=NIPA&TableName=T10102&Frequency=Q&Year=ALL&ResultFormat=JSON",
+      "本次未取得，沿用 2026-04-01 的前值"
+     ],
      "note": "對GDP貢獻 +0.41pp，屬成長動能；位於近 24 期的第 62 百分位",
      "source_label": "BEA NIPA T10102 L5",
      "unit": "pp",
@@ -614,7 +629,7 @@
      "value_fmt": "+1.6pp",
      "asof": "2026-04-01",
      "asof_label": "",
-     "age_days": 94,
+     "age_days": null,
      "new_since": "",
      "history": [
       {
@@ -716,8 +731,11 @@
      ],
      "extras": {},
      "also": {},
-     "status": "green",
-     "notes": [],
+     "status": "yellow",
+     "notes": [
+      "抓取例外：取得 JSON 失敗 https://apps.bea.gov/api/data/: 503 Server Error: Service Unavailable for url: https://apps.bea.gov/api/data/?UserID=505B506A-7732-45AD-A7BB-85CA3DD13957&method=GetData&datasetname=NIPA&TableName=T10102&Frequency=Q&Year=ALL&ResultFormat=JSON",
+      "本次未取得，沿用 2026-04-01 的前值"
+     ],
      "note": "對GDP貢獻 +1.57pp，屬成長動能；位於近 24 期的第 62 百分位",
      "source_label": "BEA NIPA T10102 L6",
      "unit": "pp",
@@ -733,7 +751,7 @@
      "value_fmt": "+0.8pp",
      "asof": "2026-04-01",
      "asof_label": "",
-     "age_days": 94,
+     "age_days": null,
      "new_since": "",
      "history": [
       {
@@ -835,8 +853,11 @@
      ],
      "extras": {},
      "also": {},
-     "status": "green",
-     "notes": [],
+     "status": "yellow",
+     "notes": [
+      "抓取例外：取得 JSON 失敗 https://apps.bea.gov/api/data/: 503 Server Error: Service Unavailable for url: https://apps.bea.gov/api/data/?UserID=505B506A-7732-45AD-A7BB-85CA3DD13957&method=GetData&datasetname=NIPA&TableName=T10102&Frequency=Q&Year=ALL&ResultFormat=JSON",
+      "本次未取得，沿用 2026-04-01 的前值"
+     ],
      "note": "對GDP貢獻 +0.82pp，屬成長動能；位於近 24 期的第 54 百分位",
      "source_label": "BEA NIPA T10102 L7",
      "unit": "pp",
@@ -852,7 +873,7 @@
      "value_fmt": "-1.1pp",
      "asof": "2026-04-01",
      "asof_label": "",
-     "age_days": 94,
+     "age_days": null,
      "new_since": "",
      "history": [
       {
@@ -954,8 +975,11 @@
      ],
      "extras": {},
      "also": {},
-     "status": "green",
-     "notes": [],
+     "status": "yellow",
+     "notes": [
+      "抓取例外：取得 JSON 失敗 https://apps.bea.gov/api/data/: 503 Server Error: Service Unavailable for url: https://apps.bea.gov/api/data/?UserID=505B506A-7732-45AD-A7BB-85CA3DD13957&method=GetData&datasetname=NIPA&TableName=T10102&Frequency=Q&Year=ALL&ResultFormat=JSON",
+      "本次未取得，沿用 2026-04-01 的前值"
+     ],
      "note": "對GDP貢獻 -1.10pp，拖累整體成長；位於近 24 期的第 25 百分位",
      "source_label": "BEA NIPA T10102 L15",
      "unit": "pp",
@@ -971,7 +995,7 @@
      "value_fmt": "-0.0pp",
      "asof": "2026-04-01",
      "asof_label": "",
-     "age_days": 94,
+     "age_days": null,
      "new_since": "",
      "history": [
       {
@@ -1073,8 +1097,11 @@
      ],
      "extras": {},
      "also": {},
-     "status": "green",
-     "notes": [],
+     "status": "yellow",
+     "notes": [
+      "抓取例外：取得 JSON 失敗 https://apps.bea.gov/api/data/: 503 Server Error: Service Unavailable for url: https://apps.bea.gov/api/data/?UserID=505B506A-7732-45AD-A7BB-85CA3DD13957&method=GetData&datasetname=NIPA&TableName=T10102&Frequency=Q&Year=ALL&ResultFormat=JSON",
+      "本次未取得，沿用 2026-04-01 的前值"
+     ],
      "note": "對GDP貢獻 -0.01pp，拖累整體成長；位於近 24 期的第 38 百分位",
      "source_label": "BEA NIPA T10102 L22",
      "unit": "pp",
@@ -1099,7 +1126,7 @@
      "value_fmt": "3.4%",
      "asof": "2026-08-01",
      "asof_label": "",
-     "age_days": 33,
+     "age_days": 34,
      "new_since": "2026-09-12",
      "history": [
       {
@@ -1220,7 +1247,7 @@
      "value_fmt": "2.4%",
      "asof": "2026-08-01",
      "asof_label": "",
-     "age_days": 33,
+     "age_days": 34,
      "new_since": "2026-09-12",
      "history": [
       {
@@ -1341,7 +1368,7 @@
      "value_fmt": "2.6%",
      "asof": "2026-08-01",
      "asof_label": "",
-     "age_days": 33,
+     "age_days": 34,
      "new_since": "2026-09-12",
      "history": [
       {
@@ -1462,7 +1489,7 @@
      "value_fmt": "16.0%",
      "asof": "2026-08-01",
      "asof_label": "",
-     "age_days": 33,
+     "age_days": 34,
      "new_since": "2026-09-12",
      "history": [
       {
@@ -1583,7 +1610,7 @@
      "value_fmt": "3.1%",
      "asof": "2026-08-01",
      "asof_label": "",
-     "age_days": 33,
+     "age_days": 34,
      "new_since": "2026-09-12",
      "history": [
       {
@@ -1704,7 +1731,7 @@
      "value_fmt": "1.6%",
      "asof": "2026-08-01",
      "asof_label": "",
-     "age_days": 33,
+     "age_days": 34,
      "new_since": "2026-09-12",
      "history": [
       {
@@ -1825,7 +1852,7 @@
      "value_fmt": "6.0%",
      "asof": "2026-08-01",
      "asof_label": "",
-     "age_days": 33,
+     "age_days": 34,
      "new_since": "2026-09-12",
      "history": [
       {
@@ -1946,7 +1973,7 @@
      "value_fmt": "3.6%",
      "asof": "2026-08-01",
      "asof_label": "",
-     "age_days": 33,
+     "age_days": 34,
      "new_since": "2026-09-12",
      "history": [
       {
@@ -2067,7 +2094,7 @@
      "value_fmt": "2.2%",
      "asof": "2026-08-01",
      "asof_label": "",
-     "age_days": 33,
+     "age_days": 34,
      "new_since": "2026-09-12",
      "history": [
       {
@@ -2190,7 +2217,7 @@
      "value_fmt": "4.2%",
      "asof": "2026-08-01",
      "asof_label": "",
-     "age_days": 33,
+     "age_days": 34,
      "new_since": "2026-09-12",
      "history": [
       {
@@ -2311,7 +2338,7 @@
      "value_fmt": "3.1%",
      "asof": "2026-08-01",
      "asof_label": "",
-     "age_days": 33,
+     "age_days": 34,
      "new_since": "2026-09-12",
      "history": [
       {
@@ -2547,7 +2574,7 @@
      },
      "status": "yellow",
      "notes": [
-      "抓取例外：取得 JSON 失敗 https://apps.bea.gov/api/data/: HTTPSConnectionPool(host='apps.bea.gov', port=443): Read timed out. (read timeout=30)",
+      "抓取例外：取得 JSON 失敗 https://apps.bea.gov/api/data/: 503 Server Error: Service Unavailable for url: https://apps.bea.gov/api/data/?UserID=505B506A-7732-45AD-A7BB-85CA3DD13957&method=GetData&datasetname=NIUnderlyingDetail&TableName=U20404&Frequency=M&Year=ALL&ResultFormat=JSON",
       "本次未取得，沿用 2026-08-01 的前值"
      ],
      "note": "年增 3.4%，高於2%目標 1.4pp；位於近 24 期的第 88 百分位",
@@ -2671,7 +2698,7 @@
      },
      "status": "yellow",
      "notes": [
-      "抓取例外：取得 JSON 失敗 https://apps.bea.gov/api/data/: HTTPSConnectionPool(host='apps.bea.gov', port=443): Read timed out. (read timeout=30)",
+      "抓取例外：取得 JSON 失敗 https://apps.bea.gov/api/data/: 503 Server Error: Service Unavailable for url: https://apps.bea.gov/api/data/?UserID=505B506A-7732-45AD-A7BB-85CA3DD13957&method=GetData&datasetname=NIUnderlyingDetail&TableName=U20404&Frequency=M&Year=ALL&ResultFormat=JSON",
       "本次未取得，沿用 2026-08-01 的前值"
      ],
      "note": "年增 3.0%，高於2%目標 1.0pp；位於近 24 期的第 83 百分位",
@@ -2795,7 +2822,7 @@
      },
      "status": "yellow",
      "notes": [
-      "抓取例外：取得 JSON 失敗 https://apps.bea.gov/api/data/: HTTPSConnectionPool(host='apps.bea.gov', port=443): Read timed out. (read timeout=30)",
+      "抓取例外：取得 JSON 失敗 https://apps.bea.gov/api/data/: 503 Server Error: Service Unavailable for url: https://apps.bea.gov/api/data/?UserID=505B506A-7732-45AD-A7BB-85CA3DD13957&method=GetData&datasetname=NIUnderlyingDetail&TableName=U20404&Frequency=M&Year=ALL&ResultFormat=JSON",
       "本次未取得，沿用 2026-08-01 的前值"
      ],
      "note": "位於近 24 期的第 92 百分位",
@@ -2919,7 +2946,7 @@
      },
      "status": "yellow",
      "notes": [
-      "抓取例外：取得 JSON 失敗 https://apps.bea.gov/api/data/: HTTPSConnectionPool(host='apps.bea.gov', port=443): Read timed out. (read timeout=30)",
+      "抓取例外：取得 JSON 失敗 https://apps.bea.gov/api/data/: 503 Server Error: Service Unavailable for url: https://apps.bea.gov/api/data/?UserID=505B506A-7732-45AD-A7BB-85CA3DD13957&method=GetData&datasetname=NIUnderlyingDetail&TableName=U20404&Frequency=M&Year=ALL&ResultFormat=JSON",
       "本次未取得，沿用 2026-08-01 的前值"
      ],
      "note": "連續 3 期走降、位於近 24 期的第 29 百分位",
@@ -3043,7 +3070,7 @@
      },
      "status": "yellow",
      "notes": [
-      "抓取例外：取得 JSON 失敗 https://apps.bea.gov/api/data/: HTTPSConnectionPool(host='apps.bea.gov', port=443): Read timed out. (read timeout=30)",
+      "抓取例外：取得 JSON 失敗 https://apps.bea.gov/api/data/: 503 Server Error: Service Unavailable for url: https://apps.bea.gov/api/data/?UserID=505B506A-7732-45AD-A7BB-85CA3DD13957&method=GetData&datasetname=NIUnderlyingDetail&TableName=U20404&Frequency=M&Year=ALL&ResultFormat=JSON",
       "本次未取得，沿用 2026-08-01 的前值"
      ],
      "note": "位於近 24 期的第 75 百分位",
@@ -3070,7 +3097,7 @@
      "value_fmt": "+29k",
      "asof": "2026-09-01",
      "asof_label": "",
-     "age_days": 2,
+     "age_days": 3,
      "new_since": "2026-10-03",
      "history": [
       {
@@ -3189,7 +3216,7 @@
      "value_fmt": "-17k",
      "asof": "2026-09-01",
      "asof_label": "",
-     "age_days": 2,
+     "age_days": 3,
      "new_since": "2026-10-03",
      "history": [
       {
@@ -3308,7 +3335,7 @@
      "value_fmt": "+20k",
      "asof": "2026-09-01",
      "asof_label": "",
-     "age_days": 2,
+     "age_days": 3,
      "new_since": "2026-10-03",
      "history": [
       {
@@ -3427,7 +3454,7 @@
      "value_fmt": "-9k",
      "asof": "2026-09-01",
      "asof_label": "",
-     "age_days": 2,
+     "age_days": 3,
      "new_since": "2026-10-03",
      "history": [
       {
@@ -3546,7 +3573,7 @@
      "value_fmt": "+6k",
      "asof": "2026-09-01",
      "asof_label": "",
-     "age_days": 2,
+     "age_days": 3,
      "new_since": "2026-10-03",
      "history": [
       {
@@ -3665,7 +3692,7 @@
      "value_fmt": "+9k",
      "asof": "2026-09-01",
      "asof_label": "",
-     "age_days": 2,
+     "age_days": 3,
      "new_since": "2026-10-03",
      "history": [
       {
@@ -3784,7 +3811,7 @@
      "value_fmt": "+11k",
      "asof": "2026-09-01",
      "asof_label": "",
-     "age_days": 2,
+     "age_days": 3,
      "new_since": "2026-10-03",
      "history": [
       {
@@ -3903,7 +3930,7 @@
      "value_fmt": "+10k",
      "asof": "2026-09-01",
      "asof_label": "",
-     "age_days": 2,
+     "age_days": 3,
      "new_since": "2026-10-03",
      "history": [
       {
@@ -4022,7 +4049,7 @@
      "value_fmt": "4.2%",
      "asof": "2026-09-01",
      "asof_label": "",
-     "age_days": 2,
+     "age_days": 3,
      "new_since": "2026-10-03",
      "history": [
       {
@@ -4141,7 +4168,7 @@
      "value_fmt": "61.8%",
      "asof": "2026-09-01",
      "asof_label": "",
-     "age_days": 2,
+     "age_days": 3,
      "new_since": "2026-10-03",
      "history": [
       {
@@ -4260,7 +4287,7 @@
      "value_fmt": "3.0%",
      "asof": "2026-09-01",
      "asof_label": "",
-     "age_days": 2,
+     "age_days": 3,
      "new_since": "2026-10-03",
      "history": [
       {
@@ -4381,7 +4408,7 @@
      "value_fmt": "3.3%",
      "asof": "2026-09-01",
      "asof_label": "",
-     "age_days": 2,
+     "age_days": 3,
      "new_since": "2026-10-03",
      "history": [
       {
@@ -4502,7 +4529,7 @@
      "value_fmt": "34.4hrs",
      "asof": "2026-09-01",
      "asof_label": "",
-     "age_days": 2,
+     "age_days": 3,
      "new_since": "2026-10-03",
      "history": [
       {
@@ -4621,7 +4648,7 @@
      "value_fmt": "33.8hrs",
      "asof": "2026-09-01",
      "asof_label": "",
-     "age_days": 2,
+     "age_days": 3,
      "new_since": "2026-10-03",
      "history": [
       {
@@ -4749,7 +4776,7 @@
      "value_fmt": "54.5",
      "asof": "2026-09-01",
      "asof_label": "2026 September",
-     "age_days": 2,
+     "age_days": 3,
      "new_since": "2026-10-02",
      "history": [
       {
@@ -4868,7 +4895,7 @@
      "value_fmt": "55.3",
      "asof": "2026-09-01",
      "asof_label": "2026 September",
-     "age_days": 2,
+     "age_days": 3,
      "new_since": "2026-10-02",
      "history": [
       {
@@ -4987,7 +5014,7 @@
      "value_fmt": "56.7",
      "asof": "2026-09-01",
      "asof_label": "2026 September",
-     "age_days": 2,
+     "age_days": 3,
      "new_since": "2026-10-02",
      "history": [
       {
@@ -5106,7 +5133,7 @@
      "value_fmt": "52.7",
      "asof": "2026-09-01",
      "asof_label": "2026 September",
-     "age_days": 2,
+     "age_days": 3,
      "new_since": "2026-10-02",
      "history": [
       {
@@ -5225,7 +5252,7 @@
      "value_fmt": "59.0",
      "asof": "2026-09-01",
      "asof_label": "2026 September",
-     "age_days": 2,
+     "age_days": 3,
      "new_since": "2026-10-02",
      "history": [
       {
@@ -5344,7 +5371,7 @@
      "value_fmt": "48.6",
      "asof": "2026-09-01",
      "asof_label": "2026 September",
-     "age_days": 2,
+     "age_days": 3,
      "new_since": "2026-10-02",
      "history": [
       {
@@ -5463,7 +5490,7 @@
      "value_fmt": "41.6",
      "asof": "2026-09-01",
      "asof_label": "2026 September",
-     "age_days": 2,
+     "age_days": 3,
      "new_since": "2026-10-02",
      "history": [
       {
@@ -5582,7 +5609,7 @@
      "value_fmt": "77.9",
      "asof": "2026-09-01",
      "asof_label": "2026 September",
-     "age_days": 2,
+     "age_days": 3,
      "new_since": "2026-10-02",
      "history": [
       {
@@ -5701,7 +5728,7 @@
      "value_fmt": "56.4",
      "asof": "2026-09-01",
      "asof_label": "2026 September",
-     "age_days": 2,
+     "age_days": 3,
      "new_since": "2026-10-02",
      "history": [
       {
@@ -5820,7 +5847,7 @@
      "value_fmt": "50.9",
      "asof": "2026-09-01",
      "asof_label": "2026 September",
-     "age_days": 2,
+     "age_days": 3,
      "new_since": "2026-10-02",
      "history": [
       {
@@ -5939,7 +5966,7 @@
      "value_fmt": "51.0",
      "asof": "2026-09-01",
      "asof_label": "2026 September",
-     "age_days": 2,
+     "age_days": 3,
      "new_since": "2026-10-02",
      "history": [
       {
@@ -6067,7 +6094,7 @@
      "value_fmt": "55.4",
      "asof": "2026-08-01",
      "asof_label": "2026 August",
-     "age_days": 33,
+     "age_days": 34,
      "new_since": "2026-09-04",
      "history": [
       {
@@ -6186,7 +6213,7 @@
      "value_fmt": "61.7",
      "asof": "2026-08-01",
      "asof_label": "2026 August",
-     "age_days": 33,
+     "age_days": 34,
      "new_since": "2026-09-04",
      "history": [
       {
@@ -6305,7 +6332,7 @@
      "value_fmt": "60.9",
      "asof": "2026-08-01",
      "asof_label": "2026 August",
-     "age_days": 33,
+     "age_days": 34,
      "new_since": "2026-09-04",
      "history": [
       {
@@ -6424,7 +6451,7 @@
      "value_fmt": "47.8",
      "asof": "2026-08-01",
      "asof_label": "2026 August",
-     "age_days": 33,
+     "age_days": 34,
      "new_since": "2026-09-04",
      "history": [
       {
@@ -6543,7 +6570,7 @@
      "value_fmt": "51.3",
      "asof": "2026-08-01",
      "asof_label": "2026 August",
-     "age_days": 33,
+     "age_days": 34,
      "new_since": "2026-09-04",
      "history": [
       {
@@ -6662,7 +6689,7 @@
      "value_fmt": "56.7",
      "asof": "2026-08-01",
      "asof_label": "2026 August",
-     "age_days": 33,
+     "age_days": 34,
      "new_since": "2026-09-04",
      "history": [
       {
@@ -6781,7 +6808,7 @@
      "value_fmt": "72.6",
      "asof": "2026-08-01",
      "asof_label": "2026 August",
-     "age_days": 33,
+     "age_days": 34,
      "new_since": "2026-09-04",
      "history": [
       {
@@ -6900,7 +6927,7 @@
      "value_fmt": "55.6",
      "asof": "2026-08-01",
      "asof_label": "2026 August",
-     "age_days": 33,
+     "age_days": 34,
      "new_since": "2026-09-04",
      "history": [
       {
@@ -7019,7 +7046,7 @@
      "value_fmt": "56.3",
      "asof": "2026-08-01",
      "asof_label": "2026 August",
-     "age_days": 33,
+     "age_days": 34,
      "new_since": "2026-09-04",
      "history": [
       {
@@ -7138,7 +7165,7 @@
      "value_fmt": "56.3",
      "asof": "2026-08-01",
      "asof_label": "2026 August",
-     "age_days": 33,
+     "age_days": 34,
      "new_since": "2026-09-04",
      "history": [
       {
@@ -7257,7 +7284,7 @@
      "value_fmt": "54.1",
      "asof": "2026-08-01",
      "asof_label": "2026 August",
-     "age_days": 33,
+     "age_days": 34,
      "new_since": "2026-09-04",
      "history": [
       {
@@ -7385,7 +7412,7 @@
      "value_fmt": "1.1%",
      "asof": "2026-08-01",
      "asof_label": "",
-     "age_days": 33,
+     "age_days": 34,
      "new_since": "2026-09-17",
      "history": [
       {
@@ -7504,7 +7531,7 @@
      "value_fmt": "1.1%",
      "asof": "2026-08-01",
      "asof_label": "",
-     "age_days": 33,
+     "age_days": 34,
      "new_since": "2026-09-17",
      "history": [
       {
@@ -7623,7 +7650,7 @@
      "value_fmt": "1.22%",
      "asof": "2026-08-01",
      "asof_label": "",
-     "age_days": 33,
+     "age_days": 34,
      "new_since": "2026-09-17",
      "history": [
       {
@@ -7746,7 +7773,7 @@
      "value_fmt": "2.3%",
      "asof": "2026-08-01",
      "asof_label": "",
-     "age_days": 33,
+     "age_days": 34,
      "new_since": "2026-09-17",
      "history": [
       {
@@ -7867,7 +7894,7 @@
      "value_fmt": "1.0%",
      "asof": "2026-08-01",
      "asof_label": "",
-     "age_days": 33,
+     "age_days": 34,
      "new_since": "2026-09-17",
      "history": [
       {
@@ -7986,7 +8013,7 @@
      "value_fmt": "0.7%",
      "asof": "2026-08-01",
      "asof_label": "",
-     "age_days": 33,
+     "age_days": 34,
      "new_since": "2026-09-17",
      "history": [
       {
@@ -8105,7 +8132,7 @@
      "value_fmt": "0.0%",
      "asof": "2026-08-01",
      "asof_label": "",
-     "age_days": 33,
+     "age_days": 34,
      "new_since": "2026-09-17",
      "history": [
       {
