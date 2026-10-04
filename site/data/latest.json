@@ -1,8 +1,8 @@
 {
- "build_time": "2026-10-04 10:03",
+ "build_time": "2026-10-05 06:40",
  "summary": {
-  "green": 52,
-  "yellow": 16,
+  "green": 61,
+  "yellow": 7,
   "gray": 0
  },
  "indicators": {
@@ -19,7 +19,7 @@
      "value_fmt": "2.2%",
      "asof": "2026-04-01",
      "asof_label": "",
-     "age_days": null,
+     "age_days": 95,
      "new_since": "",
      "history": [
       {
@@ -121,11 +121,8 @@
      ],
      "extras": {},
      "also": {},
-     "status": "yellow",
-     "notes": [
-      "抓取例外：取得 JSON 失敗 https://apps.bea.gov/api/data/: 503 Server Error: Service Unavailable for url: https://apps.bea.gov/api/data/?UserID=505B506A-7732-45AD-A7BB-85CA3DD13957&method=GetData&datasetname=NIPA&TableName=T10101&Frequency=Q&Year=ALL&ResultFormat=JSON",
-      "本次未取得，沿用 2026-04-01 的前值"
-     ],
+     "status": "green",
+     "notes": [],
      "note": "位於近 24 期的第 29 百分位",
      "source_label": "BEA NIPA T10101 L1",
      "unit": "%",
@@ -141,7 +138,7 @@
      "value_fmt": "+2.5pp",
      "asof": "2026-04-01",
      "asof_label": "",
-     "age_days": null,
+     "age_days": 95,
      "new_since": "",
      "history": [
       {
@@ -243,11 +240,8 @@
      ],
      "extras": {},
      "also": {},
-     "status": "yellow",
-     "notes": [
-      "抓取例外：取得 JSON 失敗 https://apps.bea.gov/api/data/: 503 Server Error: Service Unavailable for url: https://apps.bea.gov/api/data/?UserID=505B506A-7732-45AD-A7BB-85CA3DD13957&method=GetData&datasetname=NIPA&TableName=T10102&Frequency=Q&Year=ALL&ResultFormat=JSON",
-      "本次未取得，沿用 2026-04-01 的前值"
-     ],
+     "status": "green",
+     "notes": [],
      "note": "對GDP貢獻 +2.51pp，屬成長動能；位於近 24 期的第 67 百分位",
      "source_label": "BEA NIPA T10102 L2",
      "unit": "pp",
@@ -263,7 +257,7 @@
      "value_fmt": "+0.9pp",
      "asof": "2026-04-01",
      "asof_label": "",
-     "age_days": null,
+     "age_days": 95,
      "new_since": "",
      "history": [
       {
@@ -365,11 +359,8 @@
      ],
      "extras": {},
      "also": {},
-     "status": "yellow",
-     "notes": [
-      "抓取例外：取得 JSON 失敗 https://apps.bea.gov/api/data/: 503 Server Error: Service Unavailable for url: https://apps.bea.gov/api/data/?UserID=505B506A-7732-45AD-A7BB-85CA3DD13957&method=GetData&datasetname=NIPA&TableName=T10102&Frequency=Q&Year=ALL&ResultFormat=JSON",
-      "本次未取得，沿用 2026-04-01 的前值"
-     ],
+     "status": "green",
+     "notes": [],
      "note": "對GDP貢獻 +0.94pp，屬成長動能；位於近 24 期的第 71 百分位",
      "source_label": "BEA NIPA T10102 L3",
      "unit": "pp",
@@ -385,7 +376,7 @@
      "value_fmt": "+0.5pp",
      "asof": "2026-04-01",
      "asof_label": "",
-     "age_days": null,
+     "age_days": 95,
      "new_since": "",
      "history": [
       {
@@ -487,11 +478,8 @@
      ],
      "extras": {},
      "also": {},
-     "status": "yellow",
-     "notes": [
-      "抓取例外：取得 JSON 失敗 https://apps.bea.gov/api/data/: 503 Server Error: Service Unavailable for url: https://apps.bea.gov/api/data/?UserID=505B506A-7732-45AD-A7BB-85CA3DD13957&method=GetData&datasetname=NIPA&TableName=T10102&Frequency=Q&Year=ALL&ResultFormat=JSON",
-      "本次未取得，沿用 2026-04-01 的前值"
-     ],
+     "status": "green",
+     "notes": [],
      "note": "對GDP貢獻 +0.52pp，屬成長動能；位於近 24 期的第 67 百分位",
      "source_label": "BEA NIPA T10102 L4",
      "unit": "pp",
@@ -507,7 +495,7 @@
      "value_fmt": "+0.4pp",
      "asof": "2026-04-01",
      "asof_label": "",
-     "age_days": null,
+     "age_days": 95,
      "new_since": "",
      "history": [
       {
@@ -609,11 +597,8 @@
      ],
      "extras": {},
      "also": {},
-     "status": "yellow",
-     "notes": [
-      "抓取例外：取得 JSON 失敗 https://apps.bea.gov/api/data/: 503 Server Error: Service Unavailable for url: https://apps.bea.gov/api/data/?UserID=505B506A-7732-45AD-A7BB-85CA3DD13957&method=GetData&datasetname=NIPA&TableName=T10102&Frequency=Q&Year=ALL&ResultFormat=JSON",
-      "本次未取得，沿用 2026-04-01 的前值"
-     ],
+     "status": "green",
+     "notes": [],
      "note": "對GDP貢獻 +0.41pp，屬成長動能；位於近 24 期的第 62 百分位",
      "source_label": "BEA NIPA T10102 L5",
      "unit": "pp",
@@ -629,7 +614,7 @@
      "value_fmt": "+1.6pp",
      "asof": "2026-04-01",
      "asof_label": "",
-     "age_days": null,
+     "age_days": 95,
      "new_since": "",
      "history": [
       {
@@ -731,11 +716,8 @@
      ],
      "extras": {},
      "also": {},
-     "status": "yellow",
-     "notes": [
-      "抓取例外：取得 JSON 失敗 https://apps.bea.gov/api/data/: 503 Server Error: Service Unavailable for url: https://apps.bea.gov/api/data/?UserID=505B506A-7732-45AD-A7BB-85CA3DD13957&method=GetData&datasetname=NIPA&TableName=T10102&Frequency=Q&Year=ALL&ResultFormat=JSON",
-      "本次未取得，沿用 2026-04-01 的前值"
-     ],
+     "status": "green",
+     "notes": [],
      "note": "對GDP貢獻 +1.57pp，屬成長動能；位於近 24 期的第 62 百分位",
      "source_label": "BEA NIPA T10102 L6",
      "unit": "pp",
@@ -751,7 +733,7 @@
      "value_fmt": "+0.8pp",
      "asof": "2026-04-01",
      "asof_label": "",
-     "age_days": null,
+     "age_days": 95,
      "new_since": "",
      "history": [
       {
@@ -853,11 +835,8 @@
      ],
      "extras": {},
      "also": {},
-     "status": "yellow",
-     "notes": [
-      "抓取例外：取得 JSON 失敗 https://apps.bea.gov/api/data/: 503 Server Error: Service Unavailable for url: https://apps.bea.gov/api/data/?UserID=505B506A-7732-45AD-A7BB-85CA3DD13957&method=GetData&datasetname=NIPA&TableName=T10102&Frequency=Q&Year=ALL&ResultFormat=JSON",
-      "本次未取得，沿用 2026-04-01 的前值"
-     ],
+     "status": "green",
+     "notes": [],
      "note": "對GDP貢獻 +0.82pp，屬成長動能；位於近 24 期的第 54 百分位",
      "source_label": "BEA NIPA T10102 L7",
      "unit": "pp",
@@ -873,7 +852,7 @@
      "value_fmt": "-1.1pp",
      "asof": "2026-04-01",
      "asof_label": "",
-     "age_days": null,
+     "age_days": 95,
      "new_since": "",
      "history": [
       {
@@ -975,11 +954,8 @@
      ],
      "extras": {},
      "also": {},
-     "status": "yellow",
-     "notes": [
-      "抓取例外：取得 JSON 失敗 https://apps.bea.gov/api/data/: 503 Server Error: Service Unavailable for url: https://apps.bea.gov/api/data/?UserID=505B506A-7732-45AD-A7BB-85CA3DD13957&method=GetData&datasetname=NIPA&TableName=T10102&Frequency=Q&Year=ALL&ResultFormat=JSON",
-      "本次未取得，沿用 2026-04-01 的前值"
-     ],
+     "status": "green",
+     "notes": [],
      "note": "對GDP貢獻 -1.10pp，拖累整體成長；位於近 24 期的第 25 百分位",
      "source_label": "BEA NIPA T10102 L15",
      "unit": "pp",
@@ -995,7 +971,7 @@
      "value_fmt": "-0.0pp",
      "asof": "2026-04-01",
      "asof_label": "",
-     "age_days": null,
+     "age_days": 95,
      "new_since": "",
      "history": [
       {
@@ -1097,11 +1073,8 @@
      ],
      "extras": {},
      "also": {},
-     "status": "yellow",
-     "notes": [
-      "抓取例外：取得 JSON 失敗 https://apps.bea.gov/api/data/: 503 Server Error: Service Unavailable for url: https://apps.bea.gov/api/data/?UserID=505B506A-7732-45AD-A7BB-85CA3DD13957&method=GetData&datasetname=NIPA&TableName=T10102&Frequency=Q&Year=ALL&ResultFormat=JSON",
-      "本次未取得，沿用 2026-04-01 的前值"
-     ],
+     "status": "green",
+     "notes": [],
      "note": "對GDP貢獻 -0.01pp，拖累整體成長；位於近 24 期的第 38 百分位",
      "source_label": "BEA NIPA T10102 L22",
      "unit": "pp",
@@ -2574,7 +2547,7 @@
      },
      "status": "yellow",
      "notes": [
-      "抓取例外：取得 JSON 失敗 https://apps.bea.gov/api/data/: 503 Server Error: Service Unavailable for url: https://apps.bea.gov/api/data/?UserID=505B506A-7732-45AD-A7BB-85CA3DD13957&method=GetData&datasetname=NIUnderlyingDetail&TableName=U20404&Frequency=M&Year=ALL&ResultFormat=JSON",
+      "抓取例外：取得 JSON 失敗 https://apps.bea.gov/api/data/: HTTPSConnectionPool(host='apps.bea.gov', port=443): Read timed out. (read timeout=30)",
       "本次未取得，沿用 2026-08-01 的前值"
      ],
      "note": "年增 3.4%，高於2%目標 1.4pp；位於近 24 期的第 88 百分位",
@@ -2698,7 +2671,7 @@
      },
      "status": "yellow",
      "notes": [
-      "抓取例外：取得 JSON 失敗 https://apps.bea.gov/api/data/: 503 Server Error: Service Unavailable for url: https://apps.bea.gov/api/data/?UserID=505B506A-7732-45AD-A7BB-85CA3DD13957&method=GetData&datasetname=NIUnderlyingDetail&TableName=U20404&Frequency=M&Year=ALL&ResultFormat=JSON",
+      "抓取例外：取得 JSON 失敗 https://apps.bea.gov/api/data/: HTTPSConnectionPool(host='apps.bea.gov', port=443): Read timed out. (read timeout=30)",
       "本次未取得，沿用 2026-08-01 的前值"
      ],
      "note": "年增 3.0%，高於2%目標 1.0pp；位於近 24 期的第 83 百分位",
@@ -2822,7 +2795,7 @@
      },
      "status": "yellow",
      "notes": [
-      "抓取例外：取得 JSON 失敗 https://apps.bea.gov/api/data/: 503 Server Error: Service Unavailable for url: https://apps.bea.gov/api/data/?UserID=505B506A-7732-45AD-A7BB-85CA3DD13957&method=GetData&datasetname=NIUnderlyingDetail&TableName=U20404&Frequency=M&Year=ALL&ResultFormat=JSON",
+      "抓取例外：取得 JSON 失敗 https://apps.bea.gov/api/data/: HTTPSConnectionPool(host='apps.bea.gov', port=443): Read timed out. (read timeout=30)",
       "本次未取得，沿用 2026-08-01 的前值"
      ],
      "note": "位於近 24 期的第 92 百分位",
@@ -2946,7 +2919,7 @@
      },
      "status": "yellow",
      "notes": [
-      "抓取例外：取得 JSON 失敗 https://apps.bea.gov/api/data/: 503 Server Error: Service Unavailable for url: https://apps.bea.gov/api/data/?UserID=505B506A-7732-45AD-A7BB-85CA3DD13957&method=GetData&datasetname=NIUnderlyingDetail&TableName=U20404&Frequency=M&Year=ALL&ResultFormat=JSON",
+      "抓取例外：取得 JSON 失敗 https://apps.bea.gov/api/data/: HTTPSConnectionPool(host='apps.bea.gov', port=443): Read timed out. (read timeout=30)",
       "本次未取得，沿用 2026-08-01 的前值"
      ],
      "note": "連續 3 期走降、位於近 24 期的第 29 百分位",
@@ -3070,7 +3043,7 @@
      },
      "status": "yellow",
      "notes": [
-      "抓取例外：取得 JSON 失敗 https://apps.bea.gov/api/data/: 503 Server Error: Service Unavailable for url: https://apps.bea.gov/api/data/?UserID=505B506A-7732-45AD-A7BB-85CA3DD13957&method=GetData&datasetname=NIUnderlyingDetail&TableName=U20404&Frequency=M&Year=ALL&ResultFormat=JSON",
+      "抓取例外：取得 JSON 失敗 https://apps.bea.gov/api/data/: HTTPSConnectionPool(host='apps.bea.gov', port=443): Read timed out. (read timeout=30)",
       "本次未取得，沿用 2026-08-01 的前值"
      ],
      "note": "位於近 24 期的第 75 百分位",
