@@ -1,5 +1,5 @@
 {
- "build_time": "2026-10-11 06:57",
+ "build_time": "2026-10-11 09:20",
  "summary": {
   "green": 57,
   "yellow": 11,
@@ -19,7 +19,7 @@
      "value_fmt": "2.2%",
      "asof": "2026-04-01",
      "asof_label": "",
-     "age_days": 101,
+     "age_days": 102,
      "new_since": "",
      "history": [
       {
@@ -123,7 +123,7 @@
      "also": {},
      "status": "yellow",
      "notes": [
-      "期別結束後已 101 天仍未更新（正常應在 100 天內）"
+      "期別結束後已 102 天仍未更新（正常應在 100 天內）"
      ],
      "note": "位於近 24 期的第 29 百分位",
      "source_label": "BEA NIPA T10101 L1",
@@ -140,7 +140,7 @@
      "value_fmt": "+2.5pp",
      "asof": "2026-04-01",
      "asof_label": "",
-     "age_days": 101,
+     "age_days": 102,
      "new_since": "",
      "history": [
       {
@@ -244,7 +244,7 @@
      "also": {},
      "status": "yellow",
      "notes": [
-      "期別結束後已 101 天仍未更新（正常應在 100 天內）"
+      "期別結束後已 102 天仍未更新（正常應在 100 天內）"
      ],
      "note": "對GDP貢獻 +2.51pp，屬成長動能；位於近 24 期的第 67 百分位",
      "source_label": "BEA NIPA T10102 L2",
@@ -261,7 +261,7 @@
      "value_fmt": "+0.9pp",
      "asof": "2026-04-01",
      "asof_label": "",
-     "age_days": 101,
+     "age_days": 102,
      "new_since": "",
      "history": [
       {
@@ -365,7 +365,7 @@
      "also": {},
      "status": "yellow",
      "notes": [
-      "期別結束後已 101 天仍未更新（正常應在 100 天內）"
+      "期別結束後已 102 天仍未更新（正常應在 100 天內）"
      ],
      "note": "對GDP貢獻 +0.94pp，屬成長動能；位於近 24 期的第 71 百分位",
      "source_label": "BEA NIPA T10102 L3",
@@ -382,7 +382,7 @@
      "value_fmt": "+0.5pp",
      "asof": "2026-04-01",
      "asof_label": "",
-     "age_days": 101,
+     "age_days": 102,
      "new_since": "",
      "history": [
       {
@@ -486,7 +486,7 @@
      "also": {},
      "status": "yellow",
      "notes": [
-      "期別結束後已 101 天仍未更新（正常應在 100 天內）"
+      "期別結束後已 102 天仍未更新（正常應在 100 天內）"
      ],
      "note": "對GDP貢獻 +0.52pp，屬成長動能；位於近 24 期的第 67 百分位",
      "source_label": "BEA NIPA T10102 L4",
@@ -503,7 +503,7 @@
      "value_fmt": "+0.4pp",
      "asof": "2026-04-01",
      "asof_label": "",
-     "age_days": 101,
+     "age_days": 102,
      "new_since": "",
      "history": [
       {
@@ -607,7 +607,7 @@
      "also": {},
      "status": "yellow",
      "notes": [
-      "期別結束後已 101 天仍未更新（正常應在 100 天內）"
+      "期別結束後已 102 天仍未更新（正常應在 100 天內）"
      ],
      "note": "對GDP貢獻 +0.41pp，屬成長動能；位於近 24 期的第 62 百分位",
      "source_label": "BEA NIPA T10102 L5",
@@ -624,7 +624,7 @@
      "value_fmt": "+1.6pp",
      "asof": "2026-04-01",
      "asof_label": "",
-     "age_days": 101,
+     "age_days": 102,
      "new_since": "",
      "history": [
       {
@@ -728,7 +728,7 @@
      "also": {},
      "status": "yellow",
      "notes": [
-      "期別結束後已 101 天仍未更新（正常應在 100 天內）"
+      "期別結束後已 102 天仍未更新（正常應在 100 天內）"
      ],
      "note": "對GDP貢獻 +1.57pp，屬成長動能；位於近 24 期的第 62 百分位",
      "source_label": "BEA NIPA T10102 L6",
@@ -745,7 +745,7 @@
      "value_fmt": "+0.8pp",
      "asof": "2026-04-01",
      "asof_label": "",
-     "age_days": 101,
+     "age_days": 102,
      "new_since": "",
      "history": [
       {
@@ -849,7 +849,7 @@
      "also": {},
      "status": "yellow",
      "notes": [
-      "期別結束後已 101 天仍未更新（正常應在 100 天內）"
+      "期別結束後已 102 天仍未更新（正常應在 100 天內）"
      ],
      "note": "對GDP貢獻 +0.82pp，屬成長動能；位於近 24 期的第 54 百分位",
      "source_label": "BEA NIPA T10102 L7",
@@ -866,7 +866,7 @@
      "value_fmt": "-1.1pp",
      "asof": "2026-04-01",
      "asof_label": "",
-     "age_days": 101,
+     "age_days": 102,
      "new_since": "",
      "history": [
       {
@@ -970,7 +970,7 @@
      "also": {},
      "status": "yellow",
      "notes": [
-      "期別結束後已 101 天仍未更新（正常應在 100 天內）"
+      "期別結束後已 102 天仍未更新（正常應在 100 天內）"
      ],
      "note": "對GDP貢獻 -1.10pp，拖累整體成長；位於近 24 期的第 25 百分位",
      "source_label": "BEA NIPA T10102 L15",
@@ -987,7 +987,7 @@
      "value_fmt": "-0.0pp",
      "asof": "2026-04-01",
      "asof_label": "",
-     "age_days": 101,
+     "age_days": 102,
      "new_since": "",
      "history": [
       {
@@ -1091,7 +1091,7 @@
      "also": {},
      "status": "yellow",
      "notes": [
-      "期別結束後已 101 天仍未更新（正常應在 100 天內）"
+      "期別結束後已 102 天仍未更新（正常應在 100 天內）"
      ],
      "note": "對GDP貢獻 -0.01pp，拖累整體成長；位於近 24 期的第 38 百分位",
      "source_label": "BEA NIPA T10102 L22",
@@ -1117,7 +1117,7 @@
      "value_fmt": "3.4%",
      "asof": "2026-08-01",
      "asof_label": "",
-     "age_days": 40,
+     "age_days": 41,
      "new_since": "2026-09-12",
      "history": [
       {
@@ -1238,7 +1238,7 @@
      "value_fmt": "2.4%",
      "asof": "2026-08-01",
      "asof_label": "",
-     "age_days": 40,
+     "age_days": 41,
      "new_since": "2026-09-12",
      "history": [
       {
@@ -1359,7 +1359,7 @@
      "value_fmt": "2.6%",
      "asof": "2026-08-01",
      "asof_label": "",
-     "age_days": 40,
+     "age_days": 41,
      "new_since": "2026-09-12",
      "history": [
       {
@@ -1480,7 +1480,7 @@
      "value_fmt": "16.0%",
      "asof": "2026-08-01",
      "asof_label": "",
-     "age_days": 40,
+     "age_days": 41,
      "new_since": "2026-09-12",
      "history": [
       {
@@ -1601,7 +1601,7 @@
      "value_fmt": "3.1%",
      "asof": "2026-08-01",
      "asof_label": "",
-     "age_days": 40,
+     "age_days": 41,
      "new_since": "2026-09-12",
      "history": [
       {
@@ -1722,7 +1722,7 @@
      "value_fmt": "1.6%",
      "asof": "2026-08-01",
      "asof_label": "",
-     "age_days": 40,
+     "age_days": 41,
      "new_since": "2026-09-12",
      "history": [
       {
@@ -1843,7 +1843,7 @@
      "value_fmt": "6.0%",
      "asof": "2026-08-01",
      "asof_label": "",
-     "age_days": 40,
+     "age_days": 41,
      "new_since": "2026-09-12",
      "history": [
       {
@@ -1964,7 +1964,7 @@
      "value_fmt": "3.6%",
      "asof": "2026-08-01",
      "asof_label": "",
-     "age_days": 40,
+     "age_days": 41,
      "new_since": "2026-09-12",
      "history": [
       {
@@ -2085,7 +2085,7 @@
      "value_fmt": "2.2%",
      "asof": "2026-08-01",
      "asof_label": "",
-     "age_days": 40,
+     "age_days": 41,
      "new_since": "2026-09-12",
      "history": [
       {
@@ -2208,7 +2208,7 @@
      "value_fmt": "4.2%",
      "asof": "2026-08-01",
      "asof_label": "",
-     "age_days": 40,
+     "age_days": 41,
      "new_since": "2026-09-12",
      "history": [
       {
@@ -2329,7 +2329,7 @@
      "value_fmt": "3.1%",
      "asof": "2026-08-01",
      "asof_label": "",
-     "age_days": 40,
+     "age_days": 41,
      "new_since": "2026-09-12",
      "history": [
       {
@@ -2459,7 +2459,7 @@
      "value_fmt": "3.4%",
      "asof": "2026-08-01",
      "asof_label": "",
-     "age_days": 40,
+     "age_days": 41,
      "new_since": "2026-10-01",
      "history": [
       {
@@ -2580,7 +2580,7 @@
      "value_fmt": "3.0%",
      "asof": "2026-08-01",
      "asof_label": "",
-     "age_days": 40,
+     "age_days": 41,
      "new_since": "2026-10-01",
      "history": [
       {
@@ -2701,7 +2701,7 @@
      "value_fmt": "3.6%",
      "asof": "2026-08-01",
      "asof_label": "",
-     "age_days": 40,
+     "age_days": 41,
      "new_since": "2026-10-01",
      "history": [
       {
@@ -2822,7 +2822,7 @@
      "value_fmt": "3.4%",
      "asof": "2026-08-01",
      "asof_label": "",
-     "age_days": 40,
+     "age_days": 41,
      "new_since": "2026-10-01",
      "history": [
       {
@@ -2943,7 +2943,7 @@
      "value_fmt": "3.5%",
      "asof": "2026-08-01",
      "asof_label": "",
-     "age_days": 40,
+     "age_days": 41,
      "new_since": "2026-10-01",
      "history": [
       {
@@ -3073,7 +3073,7 @@
      "value_fmt": "+29k",
      "asof": "2026-09-01",
      "asof_label": "",
-     "age_days": 9,
+     "age_days": 10,
      "new_since": "2026-10-03",
      "history": [
       {
@@ -3192,7 +3192,7 @@
      "value_fmt": "-17k",
      "asof": "2026-09-01",
      "asof_label": "",
-     "age_days": 9,
+     "age_days": 10,
      "new_since": "2026-10-03",
      "history": [
       {
@@ -3311,7 +3311,7 @@
      "value_fmt": "+20k",
      "asof": "2026-09-01",
      "asof_label": "",
-     "age_days": 9,
+     "age_days": 10,
      "new_since": "2026-10-03",
      "history": [
       {
@@ -3430,7 +3430,7 @@
      "value_fmt": "-9k",
      "asof": "2026-09-01",
      "asof_label": "",
-     "age_days": 9,
+     "age_days": 10,
      "new_since": "2026-10-03",
      "history": [
       {
@@ -3549,7 +3549,7 @@
      "value_fmt": "+6k",
      "asof": "2026-09-01",
      "asof_label": "",
-     "age_days": 9,
+     "age_days": 10,
      "new_since": "2026-10-03",
      "history": [
       {
@@ -3668,7 +3668,7 @@
      "value_fmt": "+9k",
      "asof": "2026-09-01",
      "asof_label": "",
-     "age_days": 9,
+     "age_days": 10,
      "new_since": "2026-10-03",
      "history": [
       {
@@ -3787,7 +3787,7 @@
      "value_fmt": "+11k",
      "asof": "2026-09-01",
      "asof_label": "",
-     "age_days": 9,
+     "age_days": 10,
      "new_since": "2026-10-03",
      "history": [
       {
@@ -3906,7 +3906,7 @@
      "value_fmt": "+10k",
      "asof": "2026-09-01",
      "asof_label": "",
-     "age_days": 9,
+     "age_days": 10,
      "new_since": "2026-10-03",
      "history": [
       {
@@ -4025,7 +4025,7 @@
      "value_fmt": "4.2%",
      "asof": "2026-09-01",
      "asof_label": "",
-     "age_days": 9,
+     "age_days": 10,
      "new_since": "2026-10-03",
      "history": [
       {
@@ -4144,7 +4144,7 @@
      "value_fmt": "61.8%",
      "asof": "2026-09-01",
      "asof_label": "",
-     "age_days": 9,
+     "age_days": 10,
      "new_since": "2026-10-03",
      "history": [
       {
@@ -4263,7 +4263,7 @@
      "value_fmt": "3.0%",
      "asof": "2026-09-01",
      "asof_label": "",
-     "age_days": 9,
+     "age_days": 10,
      "new_since": "2026-10-03",
      "history": [
       {
@@ -4384,7 +4384,7 @@
      "value_fmt": "3.3%",
      "asof": "2026-09-01",
      "asof_label": "",
-     "age_days": 9,
+     "age_days": 10,
      "new_since": "2026-10-03",
      "history": [
       {
@@ -4505,7 +4505,7 @@
      "value_fmt": "34.4hrs",
      "asof": "2026-09-01",
      "asof_label": "",
-     "age_days": 9,
+     "age_days": 10,
      "new_since": "2026-10-03",
      "history": [
       {
@@ -4624,7 +4624,7 @@
      "value_fmt": "33.8hrs",
      "asof": "2026-09-01",
      "asof_label": "",
-     "age_days": 9,
+     "age_days": 10,
      "new_since": "2026-10-03",
      "history": [
       {
@@ -4752,7 +4752,7 @@
      "value_fmt": "54.5",
      "asof": "2026-09-01",
      "asof_label": "2026 September",
-     "age_days": 9,
+     "age_days": 10,
      "new_since": "2026-10-02",
      "history": [
       {
@@ -4871,7 +4871,7 @@
      "value_fmt": "55.3",
      "asof": "2026-09-01",
      "asof_label": "2026 September",
-     "age_days": 9,
+     "age_days": 10,
      "new_since": "2026-10-02",
      "history": [
       {
@@ -4990,7 +4990,7 @@
      "value_fmt": "56.7",
      "asof": "2026-09-01",
      "asof_label": "2026 September",
-     "age_days": 9,
+     "age_days": 10,
      "new_since": "2026-10-02",
      "history": [
       {
@@ -5109,7 +5109,7 @@
      "value_fmt": "52.7",
      "asof": "2026-09-01",
      "asof_label": "2026 September",
-     "age_days": 9,
+     "age_days": 10,
      "new_since": "2026-10-02",
      "history": [
       {
@@ -5228,7 +5228,7 @@
      "value_fmt": "59.0",
      "asof": "2026-09-01",
      "asof_label": "2026 September",
-     "age_days": 9,
+     "age_days": 10,
      "new_since": "2026-10-02",
      "history": [
       {
@@ -5347,7 +5347,7 @@
      "value_fmt": "48.6",
      "asof": "2026-09-01",
      "asof_label": "2026 September",
-     "age_days": 9,
+     "age_days": 10,
      "new_since": "2026-10-02",
      "history": [
       {
@@ -5466,7 +5466,7 @@
      "value_fmt": "41.6",
      "asof": "2026-09-01",
      "asof_label": "2026 September",
-     "age_days": 9,
+     "age_days": 10,
      "new_since": "2026-10-02",
      "history": [
       {
@@ -5585,7 +5585,7 @@
      "value_fmt": "77.9",
      "asof": "2026-09-01",
      "asof_label": "2026 September",
-     "age_days": 9,
+     "age_days": 10,
      "new_since": "2026-10-02",
      "history": [
       {
@@ -5704,7 +5704,7 @@
      "value_fmt": "56.4",
      "asof": "2026-09-01",
      "asof_label": "2026 September",
-     "age_days": 9,
+     "age_days": 10,
      "new_since": "2026-10-02",
      "history": [
       {
@@ -5823,7 +5823,7 @@
      "value_fmt": "50.9",
      "asof": "2026-09-01",
      "asof_label": "2026 September",
-     "age_days": 9,
+     "age_days": 10,
      "new_since": "2026-10-02",
      "history": [
       {
@@ -5942,7 +5942,7 @@
      "value_fmt": "51.0",
      "asof": "2026-09-01",
      "asof_label": "2026 September",
-     "age_days": 9,
+     "age_days": 10,
      "new_since": "2026-10-02",
      "history": [
       {
@@ -6070,7 +6070,7 @@
      "value_fmt": "54.9",
      "asof": "2026-09-01",
      "asof_label": "2026 September",
-     "age_days": 9,
+     "age_days": 10,
      "new_since": "2026-10-06",
      "history": [
       {
@@ -6189,7 +6189,7 @@
      "value_fmt": "56.5",
      "asof": "2026-09-01",
      "asof_label": "2026 September",
-     "age_days": 9,
+     "age_days": 10,
      "new_since": "2026-10-06",
      "history": [
       {
@@ -6308,7 +6308,7 @@
      "value_fmt": "59.8",
      "asof": "2026-09-01",
      "asof_label": "2026 September",
-     "age_days": 9,
+     "age_days": 10,
      "new_since": "2026-10-06",
      "history": [
       {
@@ -6427,7 +6427,7 @@
      "value_fmt": "50.1",
      "asof": "2026-09-01",
      "asof_label": "2026 September",
-     "age_days": 9,
+     "age_days": 10,
      "new_since": "2026-10-06",
      "history": [
       {
@@ -6546,7 +6546,7 @@
      "value_fmt": "53.2",
      "asof": "2026-09-01",
      "asof_label": "2026 September",
-     "age_days": 9,
+     "age_days": 10,
      "new_since": "2026-10-06",
      "history": [
       {
@@ -6665,7 +6665,7 @@
      "value_fmt": "57.8",
      "asof": "2026-09-01",
      "asof_label": "2026 September",
-     "age_days": 9,
+     "age_days": 10,
      "new_since": "2026-10-06",
      "history": [
       {
@@ -6784,7 +6784,7 @@
      "value_fmt": "74.0",
      "asof": "2026-09-01",
      "asof_label": "2026 September",
-     "age_days": 9,
+     "age_days": 10,
      "new_since": "2026-10-06",
      "history": [
       {
@@ -6903,7 +6903,7 @@
      "value_fmt": "56.6",
      "asof": "2026-09-01",
      "asof_label": "2026 September",
-     "age_days": 9,
+     "age_days": 10,
      "new_since": "2026-10-06",
      "history": [
       {
@@ -7022,7 +7022,7 @@
      "value_fmt": "46.9",
      "asof": "2026-09-01",
      "asof_label": "2026 September",
-     "age_days": 9,
+     "age_days": 10,
      "new_since": "2026-10-06",
      "history": [
       {
@@ -7141,7 +7141,7 @@
      "value_fmt": "52.9",
      "asof": "2026-09-01",
      "asof_label": "2026 September",
-     "age_days": 9,
+     "age_days": 10,
      "new_since": "2026-10-06",
      "history": [
       {
@@ -7260,7 +7260,7 @@
      "value_fmt": "51.7",
      "asof": "2026-09-01",
      "asof_label": "2026 September",
-     "age_days": 9,
+     "age_days": 10,
      "new_since": "2026-10-06",
      "history": [
       {
@@ -7388,7 +7388,7 @@
      "value_fmt": "1.1%",
      "asof": "2026-08-01",
      "asof_label": "",
-     "age_days": 40,
+     "age_days": 41,
      "new_since": "2026-09-17",
      "history": [
       {
@@ -7507,7 +7507,7 @@
      "value_fmt": "1.1%",
      "asof": "2026-08-01",
      "asof_label": "",
-     "age_days": 40,
+     "age_days": 41,
      "new_since": "2026-09-17",
      "history": [
       {
@@ -7626,7 +7626,7 @@
      "value_fmt": "1.22%",
      "asof": "2026-08-01",
      "asof_label": "",
-     "age_days": 40,
+     "age_days": 41,
      "new_since": "2026-09-17",
      "history": [
       {
@@ -7749,7 +7749,7 @@
      "value_fmt": "2.3%",
      "asof": "2026-08-01",
      "asof_label": "",
-     "age_days": 40,
+     "age_days": 41,
      "new_since": "2026-09-17",
      "history": [
       {
@@ -7870,7 +7870,7 @@
      "value_fmt": "1.0%",
      "asof": "2026-08-01",
      "asof_label": "",
-     "age_days": 40,
+     "age_days": 41,
      "new_since": "2026-09-17",
      "history": [
       {
@@ -7989,7 +7989,7 @@
      "value_fmt": "0.7%",
      "asof": "2026-08-01",
      "asof_label": "",
-     "age_days": 40,
+     "age_days": 41,
      "new_since": "2026-09-17",
      "history": [
       {
@@ -8108,7 +8108,7 @@
      "value_fmt": "0.0%",
      "asof": "2026-08-01",
      "asof_label": "",
-     "age_days": 40,
+     "age_days": 41,
      "new_since": "2026-09-17",
      "history": [
       {
