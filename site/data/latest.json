@@ -1,5 +1,5 @@
 {
- "build_time": "2026-10-16 08:57",
+ "build_time": "2026-10-17 06:12",
  "summary": {
   "green": 54,
   "yellow": 14,
@@ -2457,7 +2457,7 @@
      "value_fmt": "3.4%",
      "asof": "2026-08-01",
      "asof_label": "",
-     "age_days": null,
+     "age_days": 46,
      "new_since": "2026-10-01",
      "history": [
       {
@@ -2563,8 +2563,7 @@
      },
      "status": "yellow",
      "notes": [
-      "抓取例外：取得 JSON 失敗 https://apps.bea.gov/api/data/: HTTPSConnectionPool(host='apps.bea.gov', port=443): Read timed out. (read timeout=30)",
-      "本次未取得，沿用 2026-08-01 的前值"
+      "期別結束後已 46 天仍未更新（正常應在 45 天內）"
      ],
      "note": "年增 3.4%，高於2%目標 1.4pp；位於近 24 期的第 88 百分位",
      "source_label": "BEA NIUnderlyingDetail U20404 L1",
@@ -2581,7 +2580,7 @@
      "value_fmt": "3.0%",
      "asof": "2026-08-01",
      "asof_label": "",
-     "age_days": null,
+     "age_days": 46,
      "new_since": "2026-10-01",
      "history": [
       {
@@ -2687,8 +2686,7 @@
      },
      "status": "yellow",
      "notes": [
-      "抓取例外：取得 JSON 失敗 https://apps.bea.gov/api/data/: HTTPSConnectionPool(host='apps.bea.gov', port=443): Read timed out. (read timeout=30)",
-      "本次未取得，沿用 2026-08-01 的前值"
+      "期別結束後已 46 天仍未更新（正常應在 45 天內）"
      ],
      "note": "年增 3.0%，高於2%目標 1.0pp；位於近 24 期的第 83 百分位",
      "source_label": "BEA NIUnderlyingDetail U20404 L374",
@@ -2705,7 +2703,7 @@
      "value_fmt": "3.6%",
      "asof": "2026-08-01",
      "asof_label": "",
-     "age_days": null,
+     "age_days": 46,
      "new_since": "2026-10-01",
      "history": [
       {
@@ -2811,8 +2809,7 @@
      },
      "status": "yellow",
      "notes": [
-      "抓取例外：取得 JSON 失敗 https://apps.bea.gov/api/data/: HTTPSConnectionPool(host='apps.bea.gov', port=443): Read timed out. (read timeout=30)",
-      "本次未取得，沿用 2026-08-01 的前值"
+      "期別結束後已 46 天仍未更新（正常應在 45 天內）"
      ],
      "note": "位於近 24 期的第 92 百分位",
      "source_label": "BEA NIUnderlyingDetail U20404 L2",
@@ -2829,7 +2826,7 @@
      "value_fmt": "3.4%",
      "asof": "2026-08-01",
      "asof_label": "",
-     "age_days": null,
+     "age_days": 46,
      "new_since": "2026-10-01",
      "history": [
       {
@@ -2935,8 +2932,7 @@
      },
      "status": "yellow",
      "notes": [
-      "抓取例外：取得 JSON 失敗 https://apps.bea.gov/api/data/: HTTPSConnectionPool(host='apps.bea.gov', port=443): Read timed out. (read timeout=30)",
-      "本次未取得，沿用 2026-08-01 的前值"
+      "期別結束後已 46 天仍未更新（正常應在 45 天內）"
      ],
      "note": "連續 3 期走降、位於近 24 期的第 29 百分位",
      "source_label": "BEA NIUnderlyingDetail U20404 L150",
@@ -2953,7 +2949,7 @@
      "value_fmt": "3.5%",
      "asof": "2026-08-01",
      "asof_label": "",
-     "age_days": null,
+     "age_days": 46,
      "new_since": "2026-10-01",
      "history": [
       {
@@ -3059,8 +3055,7 @@
      },
      "status": "yellow",
      "notes": [
-      "抓取例外：取得 JSON 失敗 https://apps.bea.gov/api/data/: HTTPSConnectionPool(host='apps.bea.gov', port=443): Read timed out. (read timeout=30)",
-      "本次未取得，沿用 2026-08-01 的前值"
+      "期別結束後已 46 天仍未更新（正常應在 45 天內）"
      ],
      "note": "位於近 24 期的第 75 百分位",
      "source_label": "derived：BEA名目權重反推（非BEA官方直接數字）",
