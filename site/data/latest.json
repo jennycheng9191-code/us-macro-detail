@@ -1,8 +1,8 @@
 {
- "build_time": "2026-10-29 09:57",
+ "build_time": "2026-10-30 07:36",
  "summary": {
-  "green": 54,
-  "yellow": 14,
+  "green": 68,
+  "yellow": 0,
   "gray": 0
  },
  "indicators": {
@@ -15,17 +15,13 @@
    "items": {
     "gdp_headline": {
      "name": "實質GDP年化季增率",
-     "value": 2.2,
-     "value_fmt": "2.2%",
-     "asof": "2026-04-01",
+     "value": 3.4,
+     "value_fmt": "3.4%",
+     "asof": "2026-07-01",
      "asof_label": "",
-     "age_days": 120,
-     "new_since": "",
+     "age_days": 29,
+     "new_since": "2026-10-30",
      "history": [
-      {
-       "date": "2020-07-01",
-       "value": 34.9
-      },
       {
        "date": "2020-10-01",
        "value": 4.6
@@ -117,15 +113,17 @@
       {
        "date": "2026-04-01",
        "value": 2.2
+      },
+      {
+       "date": "2026-07-01",
+       "value": 3.4
       }
      ],
      "extras": {},
      "also": {},
-     "status": "yellow",
-     "notes": [
-      "期別結束後已 120 天仍未更新（正常應在 100 天內）"
-     ],
-     "note": "位於近 24 期的第 29 百分位",
+     "status": "green",
+     "notes": [],
+     "note": "位於近 24 期的第 62 百分位",
      "source_label": "BEA NIPA T10101 L1",
      "unit": "%",
      "decimals": null,
@@ -136,17 +134,13 @@
     },
     "gdp_pce_contrib": {
      "name": "消費貢獻度",
-     "value": 2.51,
+     "value": 2.52,
      "value_fmt": "+2.5pp",
-     "asof": "2026-04-01",
+     "asof": "2026-07-01",
      "asof_label": "",
-     "age_days": 120,
-     "new_since": "",
+     "age_days": 29,
+     "new_since": "2026-10-30",
      "history": [
-      {
-       "date": "2020-07-01",
-       "value": 24.95
-      },
       {
        "date": "2020-10-01",
        "value": 3.6
@@ -238,15 +232,17 @@
       {
        "date": "2026-04-01",
        "value": 2.51
+      },
+      {
+       "date": "2026-07-01",
+       "value": 2.52
       }
      ],
      "extras": {},
      "also": {},
-     "status": "yellow",
-     "notes": [
-      "期別結束後已 120 天仍未更新（正常應在 100 天內）"
-     ],
-     "note": "對GDP貢獻 +2.51pp，屬成長動能；位於近 24 期的第 67 百分位",
+     "status": "green",
+     "notes": [],
+     "note": "對GDP貢獻 +2.52pp，屬成長動能；位於近 24 期的第 71 百分位",
      "source_label": "BEA NIPA T10102 L2",
      "unit": "pp",
      "decimals": null,
@@ -257,17 +253,13 @@
     },
     "gdp_pce_goods_contrib": {
      "name": "消費－商品貢獻度",
-     "value": 0.94,
-     "value_fmt": "+0.9pp",
-     "asof": "2026-04-01",
+     "value": 0.63,
+     "value_fmt": "+0.6pp",
+     "asof": "2026-07-01",
      "asof_label": "",
-     "age_days": 120,
-     "new_since": "",
+     "age_days": 29,
+     "new_since": "2026-10-30",
      "history": [
-      {
-       "date": "2020-07-01",
-       "value": 9.88
-      },
       {
        "date": "2020-10-01",
        "value": 0.47
@@ -359,15 +351,17 @@
       {
        "date": "2026-04-01",
        "value": 0.94
+      },
+      {
+       "date": "2026-07-01",
+       "value": 0.63
       }
      ],
      "extras": {},
      "also": {},
-     "status": "yellow",
-     "notes": [
-      "期別結束後已 120 天仍未更新（正常應在 100 天內）"
-     ],
-     "note": "對GDP貢獻 +0.94pp，屬成長動能；位於近 24 期的第 71 百分位",
+     "status": "green",
+     "notes": [],
+     "note": "對GDP貢獻 +0.63pp，屬成長動能；位於近 24 期的第 62 百分位",
      "source_label": "BEA NIPA T10102 L3",
      "unit": "pp",
      "decimals": null,
@@ -378,17 +372,13 @@
     },
     "gdp_pce_durable_contrib": {
      "name": "消費－耐久財貢獻度",
-     "value": 0.52,
-     "value_fmt": "+0.5pp",
-     "asof": "2026-04-01",
+     "value": 0.17,
+     "value_fmt": "+0.2pp",
+     "asof": "2026-07-01",
      "asof_label": "",
-     "age_days": 120,
-     "new_since": "",
+     "age_days": 29,
+     "new_since": "2026-10-30",
      "history": [
-      {
-       "date": "2020-07-01",
-       "value": 5.69
-      },
       {
        "date": "2020-10-01",
        "value": 0.22
@@ -480,15 +470,17 @@
       {
        "date": "2026-04-01",
        "value": 0.52
+      },
+      {
+       "date": "2026-07-01",
+       "value": 0.17
       }
      ],
      "extras": {},
      "also": {},
-     "status": "yellow",
-     "notes": [
-      "期別結束後已 120 天仍未更新（正常應在 100 天內）"
-     ],
-     "note": "對GDP貢獻 +0.52pp，屬成長動能；位於近 24 期的第 67 百分位",
+     "status": "green",
+     "notes": [],
+     "note": "對GDP貢獻 +0.17pp，屬成長動能；位於近 24 期的第 54 百分位",
      "source_label": "BEA NIPA T10102 L4",
      "unit": "pp",
      "decimals": null,
@@ -499,17 +491,13 @@
     },
     "gdp_pce_nondurable_contrib": {
      "name": "消費－非耐久財貢獻度",
-     "value": 0.41,
-     "value_fmt": "+0.4pp",
-     "asof": "2026-04-01",
+     "value": 0.47,
+     "value_fmt": "+0.5pp",
+     "asof": "2026-07-01",
      "asof_label": "",
-     "age_days": 120,
-     "new_since": "",
+     "age_days": 29,
+     "new_since": "2026-10-30",
      "history": [
-      {
-       "date": "2020-07-01",
-       "value": 4.19
-      },
       {
        "date": "2020-10-01",
        "value": 0.25
@@ -601,15 +589,17 @@
       {
        "date": "2026-04-01",
        "value": 0.41
+      },
+      {
+       "date": "2026-07-01",
+       "value": 0.47
       }
      ],
      "extras": {},
      "also": {},
-     "status": "yellow",
-     "notes": [
-      "期別結束後已 120 天仍未更新（正常應在 100 天內）"
-     ],
-     "note": "對GDP貢獻 +0.41pp，屬成長動能；位於近 24 期的第 62 百分位",
+     "status": "green",
+     "notes": [],
+     "note": "對GDP貢獻 +0.47pp，屬成長動能；位於近 24 期的第 75 百分位",
      "source_label": "BEA NIPA T10102 L5",
      "unit": "pp",
      "decimals": null,
@@ -620,17 +610,13 @@
     },
     "gdp_pce_services_contrib": {
      "name": "消費－服務貢獻度",
-     "value": 1.57,
-     "value_fmt": "+1.6pp",
-     "asof": "2026-04-01",
+     "value": 1.89,
+     "value_fmt": "+1.9pp",
+     "asof": "2026-07-01",
      "asof_label": "",
-     "age_days": 120,
-     "new_since": "",
+     "age_days": 29,
+     "new_since": "2026-10-30",
      "history": [
-      {
-       "date": "2020-07-01",
-       "value": 15.07
-      },
       {
        "date": "2020-10-01",
        "value": 3.13
@@ -722,15 +708,17 @@
       {
        "date": "2026-04-01",
        "value": 1.57
+      },
+      {
+       "date": "2026-07-01",
+       "value": 1.89
       }
      ],
      "extras": {},
      "also": {},
-     "status": "yellow",
-     "notes": [
-      "期別結束後已 120 天仍未更新（正常應在 100 天內）"
-     ],
-     "note": "對GDP貢獻 +1.57pp，屬成長動能；位於近 24 期的第 62 百分位",
+     "status": "green",
+     "notes": [],
+     "note": "對GDP貢獻 +1.89pp，屬成長動能；位於近 24 期的第 79 百分位",
      "source_label": "BEA NIPA T10102 L6",
      "unit": "pp",
      "decimals": null,
@@ -741,17 +729,13 @@
     },
     "gdp_investment_contrib": {
      "name": "私人投資貢獻度",
-     "value": 0.82,
-     "value_fmt": "+0.8pp",
-     "asof": "2026-04-01",
+     "value": 3.27,
+     "value_fmt": "+3.3pp",
+     "asof": "2026-07-01",
      "asof_label": "",
-     "age_days": 120,
-     "new_since": "",
+     "age_days": 29,
+     "new_since": "2026-10-30",
      "history": [
-      {
-       "date": "2020-07-01",
-       "value": 13.54
-      },
       {
        "date": "2020-10-01",
        "value": 2.46
@@ -843,15 +827,17 @@
       {
        "date": "2026-04-01",
        "value": 0.82
+      },
+      {
+       "date": "2026-07-01",
+       "value": 3.27
       }
      ],
      "extras": {},
      "also": {},
-     "status": "yellow",
-     "notes": [
-      "期別結束後已 120 天仍未更新（正常應在 100 天內）"
-     ],
-     "note": "對GDP貢獻 +0.82pp，屬成長動能；位於近 24 期的第 54 百分位",
+     "status": "green",
+     "notes": [],
+     "note": "對GDP貢獻 +3.27pp，屬成長動能；位於近 24 期的第 92 百分位",
      "source_label": "BEA NIPA T10102 L7",
      "unit": "pp",
      "decimals": null,
@@ -862,17 +848,13 @@
     },
     "gdp_netexports_contrib": {
      "name": "淨出口貢獻度",
-     "value": -1.1,
-     "value_fmt": "-1.1pp",
-     "asof": "2026-04-01",
+     "value": -3.32,
+     "value_fmt": "-3.3pp",
+     "asof": "2026-07-01",
      "asof_label": "",
-     "age_days": 120,
-     "new_since": "",
+     "age_days": 29,
+     "new_since": "2026-10-30",
      "history": [
-      {
-       "date": "2020-07-01",
-       "value": -2.5
-      },
       {
        "date": "2020-10-01",
        "value": -1.53
@@ -964,15 +946,17 @@
       {
        "date": "2026-04-01",
        "value": -1.1
+      },
+      {
+       "date": "2026-07-01",
+       "value": -3.32
       }
      ],
      "extras": {},
      "also": {},
-     "status": "yellow",
-     "notes": [
-      "期別結束後已 120 天仍未更新（正常應在 100 天內）"
-     ],
-     "note": "對GDP貢獻 -1.10pp，拖累整體成長；位於近 24 期的第 25 百分位",
+     "status": "green",
+     "notes": [],
+     "note": "對GDP貢獻 -3.32pp，拖累整體成長；位於近 24 期的第 8 百分位",
      "source_label": "BEA NIPA T10102 L15",
      "unit": "pp",
      "decimals": null,
@@ -983,17 +967,13 @@
     },
     "gdp_government_contrib": {
      "name": "政府支出貢獻度",
-     "value": -0.01,
-     "value_fmt": "-0.0pp",
-     "asof": "2026-04-01",
+     "value": 0.9,
+     "value_fmt": "+0.9pp",
+     "asof": "2026-07-01",
      "asof_label": "",
-     "age_days": 120,
-     "new_since": "",
+     "age_days": 29,
+     "new_since": "2026-10-30",
      "history": [
-      {
-       "date": "2020-07-01",
-       "value": -1.14
-      },
       {
        "date": "2020-10-01",
        "value": 0.08
@@ -1085,15 +1065,17 @@
       {
        "date": "2026-04-01",
        "value": -0.01
+      },
+      {
+       "date": "2026-07-01",
+       "value": 0.9
       }
      ],
      "extras": {},
      "also": {},
-     "status": "yellow",
-     "notes": [
-      "期別結束後已 120 天仍未更新（正常應在 100 天內）"
-     ],
-     "note": "對GDP貢獻 -0.01pp，拖累整體成長；位於近 24 期的第 38 百分位",
+     "status": "green",
+     "notes": [],
+     "note": "對GDP貢獻 +0.90pp，屬成長動能；位於近 24 期的第 88 百分位",
      "source_label": "BEA NIPA T10102 L22",
      "unit": "pp",
      "decimals": null,
@@ -2453,17 +2435,13 @@
    "items": {
     "pce_headline": {
      "name": "總PCE",
-     "value": 3.419031824505425,
-     "value_fmt": "3.4%",
-     "asof": "2026-08-01",
+     "value": 3.648874225123633,
+     "value_fmt": "3.6%",
+     "asof": "2026-09-01",
      "asof_label": "",
-     "age_days": 59,
-     "new_since": "2026-10-01",
+     "age_days": 28,
+     "new_since": "2026-10-30",
      "history": [
-      {
-       "date": "2024-09-01",
-       "value": 2.2594169831058553
-      },
       {
        "date": "2024-10-01",
        "value": 2.4062785359954653
@@ -2550,22 +2528,24 @@
       },
       {
        "date": "2026-07-01",
-       "value": 3.3615431894473025
+       "value": 3.3733629615620986
       },
       {
        "date": "2026-08-01",
-       "value": 3.419031824505425
+       "value": 3.4441833229845287
+      },
+      {
+       "date": "2026-09-01",
+       "value": 3.648874225123633
       }
      ],
      "extras": {},
      "also": {
-      "mom": 0.3102796328484869
+      "mom": 0.4908404312709447
      },
-     "status": "yellow",
-     "notes": [
-      "期別結束後已 59 天仍未更新（正常應在 45 天內）"
-     ],
-     "note": "年增 3.4%，高於2%目標 1.4pp；位於近 24 期的第 88 百分位",
+     "status": "green",
+     "notes": [],
+     "note": "年增 3.6%，高於2%目標 1.6pp；位於近 24 期的第 96 百分位",
      "source_label": "BEA NIUnderlyingDetail U20404 L1",
      "unit": "%",
      "decimals": null,
@@ -2576,17 +2556,13 @@
     },
     "pce_core": {
      "name": "核心PCE（排除食品能源）",
-     "value": 3.0075959761856064,
-     "value_fmt": "3.0%",
-     "asof": "2026-08-01",
+     "value": 3.1211596029620203,
+     "value_fmt": "3.1%",
+     "asof": "2026-09-01",
      "asof_label": "",
-     "age_days": 59,
-     "new_since": "2026-10-01",
+     "age_days": 28,
+     "new_since": "2026-10-30",
      "history": [
-      {
-       "date": "2024-09-01",
-       "value": 2.8395791858595754
-      },
       {
        "date": "2024-10-01",
        "value": 2.904729847657528
@@ -2673,22 +2649,24 @@
       },
       {
        "date": "2026-07-01",
-       "value": 2.983468262070388
+       "value": 2.9953388254473134
       },
       {
        "date": "2026-08-01",
-       "value": 3.0075959761856064
+       "value": 3.034442461664799
+      },
+      {
+       "date": "2026-09-01",
+       "value": 3.1211596029620203
       }
      ],
      "extras": {},
      "also": {
-      "mom": 0.24743915839948727
+      "mom": 0.31650177409587865
      },
-     "status": "yellow",
-     "notes": [
-      "期別結束後已 59 天仍未更新（正常應在 45 天內）"
-     ],
-     "note": "年增 3.0%，高於2%目標 1.0pp；位於近 24 期的第 83 百分位",
+     "status": "green",
+     "notes": [],
+     "note": "年增 3.1%，高於2%目標 1.1pp；位於近 24 期的第 96 百分位",
      "source_label": "BEA NIUnderlyingDetail U20404 L374",
      "unit": "%",
      "decimals": null,
@@ -2699,17 +2677,13 @@
     },
     "pce_goods": {
      "name": "商品",
-     "value": 3.5506745070909673,
-     "value_fmt": "3.6%",
-     "asof": "2026-08-01",
+     "value": 3.947617653642821,
+     "value_fmt": "3.9%",
+     "asof": "2026-09-01",
      "asof_label": "",
-     "age_days": 59,
-     "new_since": "2026-10-01",
+     "age_days": 28,
+     "new_since": "2026-10-30",
      "history": [
-      {
-       "date": "2024-09-01",
-       "value": -1.1442438059708016
-      },
       {
        "date": "2024-10-01",
        "value": -1.0298234094757608
@@ -2800,17 +2774,19 @@
       },
       {
        "date": "2026-08-01",
-       "value": 3.5506745070909673
+       "value": 3.5696990660671
+      },
+      {
+       "date": "2026-09-01",
+       "value": 3.947617653642821
       }
      ],
      "extras": {},
      "also": {
-      "mom": 0.33095659022546187
+      "mom": 0.8040545053770609
      },
-     "status": "yellow",
-     "notes": [
-      "期別結束後已 59 天仍未更新（正常應在 45 天內）"
-     ],
+     "status": "green",
+     "notes": [],
      "note": "位於近 24 期的第 92 百分位",
      "source_label": "BEA NIUnderlyingDetail U20404 L2",
      "unit": "%",
@@ -2822,17 +2798,13 @@
     },
     "pce_services": {
      "name": "服務",
-     "value": 3.3607377375946657,
-     "value_fmt": "3.4%",
-     "asof": "2026-08-01",
+     "value": 3.5144729041118428,
+     "value_fmt": "3.5%",
+     "asof": "2026-09-01",
      "asof_label": "",
-     "age_days": 59,
-     "new_since": "2026-10-01",
+     "age_days": 28,
+     "new_since": "2026-10-30",
      "history": [
-      {
-       "date": "2024-09-01",
-       "value": 3.893559906812527
-      },
       {
        "date": "2024-10-01",
        "value": 4.052771297562563
@@ -2919,22 +2891,24 @@
       },
       {
        "date": "2026-07-01",
-       "value": 3.3719903722092104
+       "value": 3.3885900115443013
       },
       {
        "date": "2026-08-01",
-       "value": 3.3607377375946657
+       "value": 3.3878161974320475
+      },
+      {
+       "date": "2026-09-01",
+       "value": 3.5144729041118428
       }
      ],
      "extras": {},
      "also": {
-      "mom": 0.3014554532050573
+      "mom": 0.3499428887385303
      },
-     "status": "yellow",
-     "notes": [
-      "期別結束後已 59 天仍未更新（正常應在 45 天內）"
-     ],
-     "note": "連續 3 期走降、位於近 24 期的第 29 百分位",
+     "status": "green",
+     "notes": [],
+     "note": "位於近 24 期的第 62 百分位",
      "source_label": "BEA NIUnderlyingDetail U20404 L150",
      "unit": "%",
      "decimals": null,
@@ -2945,17 +2919,13 @@
     },
     "pce_core_services_ex_housing": {
      "name": "核心服務排除房租（近似計算）",
-     "value": 3.4553969244973004,
-     "value_fmt": "3.5%",
-     "asof": "2026-08-01",
+     "value": 3.5950713869922213,
+     "value_fmt": "3.6%",
+     "asof": "2026-09-01",
      "asof_label": "",
-     "age_days": 59,
-     "new_since": "2026-10-01",
+     "age_days": 28,
+     "new_since": "2026-10-30",
      "history": [
-      {
-       "date": "2024-09-01",
-       "value": 3.5454666585545747
-      },
       {
        "date": "2024-10-01",
        "value": 3.7508530851306343
@@ -3042,22 +3012,24 @@
       },
       {
        "date": "2026-07-01",
-       "value": 3.4163467219120225
+       "value": 3.439045436147148
       },
       {
        "date": "2026-08-01",
-       "value": 3.4553969244973004
+       "value": 3.4927314909884544
+      },
+      {
+       "date": "2026-09-01",
+       "value": 3.5950713869922213
       }
      ],
      "extras": {},
      "also": {
-      "mom": 0.35929549300215413
+      "mom": 0.3663669649762502
      },
-     "status": "yellow",
-     "notes": [
-      "期別結束後已 59 天仍未更新（正常應在 45 天內）"
-     ],
-     "note": "位於近 24 期的第 75 百分位",
+     "status": "green",
+     "notes": [],
+     "note": "位於近 24 期的第 88 百分位",
      "source_label": "derived：BEA名目權重反推（非BEA官方直接數字）",
      "unit": "%",
      "decimals": null,
