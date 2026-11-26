@@ -1,8 +1,8 @@
 {
- "build_time": "2026-11-25 13:04",
+ "build_time": "2026-11-26 10:27",
  "summary": {
-  "green": 52,
-  "yellow": 16,
+  "green": 57,
+  "yellow": 11,
   "gray": 0
  },
  "indicators": {
@@ -15,11 +15,11 @@
    "items": {
     "gdp_headline": {
      "name": "實質GDP年化季增率",
-     "value": 3.4,
-     "value_fmt": "3.4%",
+     "value": 4.3,
+     "value_fmt": "4.3%",
      "asof": "2026-07-01",
      "asof_label": "",
-     "age_days": 56,
+     "age_days": 57,
      "new_since": "2026-10-30",
      "history": [
       {
@@ -116,14 +116,14 @@
       },
       {
        "date": "2026-07-01",
-       "value": 3.4
+       "value": 4.3
       }
      ],
      "extras": {},
      "also": {},
      "status": "green",
      "notes": [],
-     "note": "位於近 24 期的第 62 百分位",
+     "note": "位於近 24 期的第 79 百分位",
      "source_label": "BEA NIPA T10101 L1",
      "unit": "%",
      "decimals": null,
@@ -134,11 +134,11 @@
     },
     "gdp_pce_contrib": {
      "name": "消費貢獻度",
-     "value": 2.52,
-     "value_fmt": "+2.5pp",
+     "value": 2.78,
+     "value_fmt": "+2.8pp",
      "asof": "2026-07-01",
      "asof_label": "",
-     "age_days": 56,
+     "age_days": 57,
      "new_since": "2026-10-30",
      "history": [
       {
@@ -235,14 +235,14 @@
       },
       {
        "date": "2026-07-01",
-       "value": 2.52
+       "value": 2.78
       }
      ],
      "extras": {},
      "also": {},
      "status": "green",
      "notes": [],
-     "note": "對GDP貢獻 +2.52pp，屬成長動能；位於近 24 期的第 71 百分位",
+     "note": "對GDP貢獻 +2.78pp，屬成長動能；位於近 24 期的第 79 百分位",
      "source_label": "BEA NIPA T10102 L2",
      "unit": "pp",
      "decimals": null,
@@ -253,11 +253,11 @@
     },
     "gdp_pce_goods_contrib": {
      "name": "消費－商品貢獻度",
-     "value": 0.63,
-     "value_fmt": "+0.6pp",
+     "value": 0.98,
+     "value_fmt": "+1.0pp",
      "asof": "2026-07-01",
      "asof_label": "",
-     "age_days": 56,
+     "age_days": 57,
      "new_since": "2026-10-30",
      "history": [
       {
@@ -354,14 +354,14 @@
       },
       {
        "date": "2026-07-01",
-       "value": 0.63
+       "value": 0.98
       }
      ],
      "extras": {},
      "also": {},
      "status": "green",
      "notes": [],
-     "note": "對GDP貢獻 +0.63pp，屬成長動能；位於近 24 期的第 62 百分位",
+     "note": "對GDP貢獻 +0.98pp，屬成長動能；位於近 24 期的第 75 百分位",
      "source_label": "BEA NIPA T10102 L3",
      "unit": "pp",
      "decimals": null,
@@ -372,11 +372,11 @@
     },
     "gdp_pce_durable_contrib": {
      "name": "消費－耐久財貢獻度",
-     "value": 0.17,
-     "value_fmt": "+0.2pp",
+     "value": 0.3,
+     "value_fmt": "+0.3pp",
      "asof": "2026-07-01",
      "asof_label": "",
-     "age_days": 56,
+     "age_days": 57,
      "new_since": "2026-10-30",
      "history": [
       {
@@ -473,14 +473,14 @@
       },
       {
        "date": "2026-07-01",
-       "value": 0.17
+       "value": 0.3
       }
      ],
      "extras": {},
      "also": {},
      "status": "green",
      "notes": [],
-     "note": "對GDP貢獻 +0.17pp，屬成長動能；位於近 24 期的第 54 百分位",
+     "note": "對GDP貢獻 +0.30pp，屬成長動能；位於近 24 期的第 62 百分位",
      "source_label": "BEA NIPA T10102 L4",
      "unit": "pp",
      "decimals": null,
@@ -491,11 +491,11 @@
     },
     "gdp_pce_nondurable_contrib": {
      "name": "消費－非耐久財貢獻度",
-     "value": 0.47,
-     "value_fmt": "+0.5pp",
+     "value": 0.68,
+     "value_fmt": "+0.7pp",
      "asof": "2026-07-01",
      "asof_label": "",
-     "age_days": 56,
+     "age_days": 57,
      "new_since": "2026-10-30",
      "history": [
       {
@@ -592,14 +592,14 @@
       },
       {
        "date": "2026-07-01",
-       "value": 0.47
+       "value": 0.68
       }
      ],
      "extras": {},
      "also": {},
      "status": "green",
      "notes": [],
-     "note": "對GDP貢獻 +0.47pp，屬成長動能；位於近 24 期的第 75 百分位",
+     "note": "對GDP貢獻 +0.68pp，屬成長動能；位於近 24 期的第 92 百分位",
      "source_label": "BEA NIPA T10102 L5",
      "unit": "pp",
      "decimals": null,
@@ -610,11 +610,11 @@
     },
     "gdp_pce_services_contrib": {
      "name": "消費－服務貢獻度",
-     "value": 1.89,
-     "value_fmt": "+1.9pp",
+     "value": 1.8,
+     "value_fmt": "+1.8pp",
      "asof": "2026-07-01",
      "asof_label": "",
-     "age_days": 56,
+     "age_days": 57,
      "new_since": "2026-10-30",
      "history": [
       {
@@ -711,14 +711,14 @@
       },
       {
        "date": "2026-07-01",
-       "value": 1.89
+       "value": 1.8
       }
      ],
      "extras": {},
      "also": {},
      "status": "green",
      "notes": [],
-     "note": "對GDP貢獻 +1.89pp，屬成長動能；位於近 24 期的第 79 百分位",
+     "note": "對GDP貢獻 +1.80pp，屬成長動能；位於近 24 期的第 75 百分位",
      "source_label": "BEA NIPA T10102 L6",
      "unit": "pp",
      "decimals": null,
@@ -729,11 +729,11 @@
     },
     "gdp_investment_contrib": {
      "name": "私人投資貢獻度",
-     "value": 3.27,
-     "value_fmt": "+3.3pp",
+     "value": 3.74,
+     "value_fmt": "+3.7pp",
      "asof": "2026-07-01",
      "asof_label": "",
-     "age_days": 56,
+     "age_days": 57,
      "new_since": "2026-10-30",
      "history": [
       {
@@ -830,14 +830,14 @@
       },
       {
        "date": "2026-07-01",
-       "value": 3.27
+       "value": 3.74
       }
      ],
      "extras": {},
      "also": {},
      "status": "green",
      "notes": [],
-     "note": "對GDP貢獻 +3.27pp，屬成長動能；位於近 24 期的第 92 百分位",
+     "note": "對GDP貢獻 +3.74pp，屬成長動能；位於近 24 期的第 92 百分位",
      "source_label": "BEA NIPA T10102 L7",
      "unit": "pp",
      "decimals": null,
@@ -848,11 +848,11 @@
     },
     "gdp_netexports_contrib": {
      "name": "淨出口貢獻度",
-     "value": -3.32,
-     "value_fmt": "-3.3pp",
+     "value": -3.21,
+     "value_fmt": "-3.2pp",
      "asof": "2026-07-01",
      "asof_label": "",
-     "age_days": 56,
+     "age_days": 57,
      "new_since": "2026-10-30",
      "history": [
       {
@@ -949,14 +949,14 @@
       },
       {
        "date": "2026-07-01",
-       "value": -3.32
+       "value": -3.21
       }
      ],
      "extras": {},
      "also": {},
      "status": "green",
      "notes": [],
-     "note": "對GDP貢獻 -3.32pp，拖累整體成長；位於近 24 期的第 8 百分位",
+     "note": "對GDP貢獻 -3.21pp，拖累整體成長；位於近 24 期的第 8 百分位",
      "source_label": "BEA NIPA T10102 L15",
      "unit": "pp",
      "decimals": null,
@@ -967,11 +967,11 @@
     },
     "gdp_government_contrib": {
      "name": "政府支出貢獻度",
-     "value": 0.9,
-     "value_fmt": "+0.9pp",
+     "value": 0.97,
+     "value_fmt": "+1.0pp",
      "asof": "2026-07-01",
      "asof_label": "",
-     "age_days": 56,
+     "age_days": 57,
      "new_since": "2026-10-30",
      "history": [
       {
@@ -1068,14 +1068,14 @@
       },
       {
        "date": "2026-07-01",
-       "value": 0.9
+       "value": 0.97
       }
      ],
      "extras": {},
      "also": {},
      "status": "green",
      "notes": [],
-     "note": "對GDP貢獻 +0.90pp，屬成長動能；位於近 24 期的第 88 百分位",
+     "note": "對GDP貢獻 +0.97pp，屬成長動能；位於近 24 期的第 88 百分位",
      "source_label": "BEA NIPA T10102 L22",
      "unit": "pp",
      "decimals": null,
@@ -1099,7 +1099,7 @@
      "value_fmt": "3.7%",
      "asof": "2026-09-01",
      "asof_label": "",
-     "age_days": 55,
+     "age_days": 56,
      "new_since": "2026-10-15",
      "history": [
       {
@@ -1205,7 +1205,7 @@
      },
      "status": "yellow",
      "notes": [
-      "期別結束後已 55 天仍未更新（正常應在 45 天內）"
+      "期別結束後已 56 天仍未更新（正常應在 45 天內）"
      ],
      "note": "年增 3.7%，高於2%目標 1.7pp；位於近 24 期的第 92 百分位",
      "source_label": "BLS API CUUR0000SA0",
@@ -1222,7 +1222,7 @@
      "value_fmt": "2.6%",
      "asof": "2026-09-01",
      "asof_label": "",
-     "age_days": 55,
+     "age_days": 56,
      "new_since": "2026-10-15",
      "history": [
       {
@@ -1328,7 +1328,7 @@
      },
      "status": "yellow",
      "notes": [
-      "期別結束後已 55 天仍未更新（正常應在 45 天內）"
+      "期別結束後已 56 天仍未更新（正常應在 45 天內）"
      ],
      "note": "年增 2.6%，高於2%目標 0.6pp；位於近 24 期的第 21 百分位",
      "source_label": "BLS API CUUR0000SA0L1E",
@@ -1345,7 +1345,7 @@
      "value_fmt": "2.4%",
      "asof": "2026-09-01",
      "asof_label": "",
-     "age_days": 55,
+     "age_days": 56,
      "new_since": "2026-10-15",
      "history": [
       {
@@ -1451,7 +1451,7 @@
      },
      "status": "yellow",
      "notes": [
-      "期別結束後已 55 天仍未更新（正常應在 45 天內）"
+      "期別結束後已 56 天仍未更新（正常應在 45 天內）"
      ],
      "note": "連續 5 期走降、位於近 24 期的第 21 百分位",
      "source_label": "BLS API CUSR0000SAF",
@@ -1468,7 +1468,7 @@
      "value_fmt": "20.4%",
      "asof": "2026-09-01",
      "asof_label": "",
-     "age_days": 55,
+     "age_days": 56,
      "new_since": "2026-10-15",
      "history": [
       {
@@ -1574,7 +1574,7 @@
      },
      "status": "yellow",
      "notes": [
-      "期別結束後已 55 天仍未更新（正常應在 45 天內）"
+      "期別結束後已 56 天仍未更新（正常應在 45 天內）"
      ],
      "note": "位於近 24 期的第 96 百分位",
      "source_label": "BLS API CUSR0000SA0E",
@@ -1591,7 +1591,7 @@
      "value_fmt": "3.3%",
      "asof": "2026-09-01",
      "asof_label": "",
-     "age_days": 55,
+     "age_days": 56,
      "new_since": "2026-10-15",
      "history": [
       {
@@ -1697,7 +1697,7 @@
      },
      "status": "yellow",
      "notes": [
-      "期別結束後已 55 天仍未更新（正常應在 45 天內）"
+      "期別結束後已 56 天仍未更新（正常應在 45 天內）"
      ],
      "note": "位於近 24 期的第 21 百分位",
      "source_label": "BLS API CUSR0000SAH",
@@ -1714,7 +1714,7 @@
      "value_fmt": "1.5%",
      "asof": "2026-09-01",
      "asof_label": "",
-     "age_days": 55,
+     "age_days": 56,
      "new_since": "2026-10-15",
      "history": [
       {
@@ -1820,7 +1820,7 @@
      },
      "status": "yellow",
      "notes": [
-      "期別結束後已 55 天仍未更新（正常應在 45 天內）"
+      "期別結束後已 56 天仍未更新（正常應在 45 天內）"
      ],
      "note": "連續 4 期走降、創近 24 期新低",
      "source_label": "BLS API CUSR0000SAM",
@@ -1837,7 +1837,7 @@
      "value_fmt": "7.8%",
      "asof": "2026-09-01",
      "asof_label": "",
-     "age_days": 55,
+     "age_days": 56,
      "new_since": "2026-10-15",
      "history": [
       {
@@ -1943,7 +1943,7 @@
      },
      "status": "yellow",
      "notes": [
-      "期別結束後已 55 天仍未更新（正常應在 45 天內）"
+      "期別結束後已 56 天仍未更新（正常應在 45 天內）"
      ],
      "note": "位於近 24 期的第 96 百分位",
      "source_label": "BLS API CUSR0000SAT",
@@ -1960,7 +1960,7 @@
      "value_fmt": "3.4%",
      "asof": "2026-09-01",
      "asof_label": "",
-     "age_days": 55,
+     "age_days": 56,
      "new_since": "2026-10-15",
      "history": [
       {
@@ -2066,7 +2066,7 @@
      },
      "status": "yellow",
      "notes": [
-      "期別結束後已 55 天仍未更新（正常應在 45 天內）"
+      "期別結束後已 56 天仍未更新（正常應在 45 天內）"
      ],
      "note": "連續 4 期走降、位於近 24 期的第 79 百分位",
      "source_label": "BLS API CUSR0000SAA",
@@ -2083,7 +2083,7 @@
      "value_fmt": "2.3%",
      "asof": "2026-09-01",
      "asof_label": "",
-     "age_days": 55,
+     "age_days": 56,
      "new_since": "2026-10-15",
      "history": [
       {
@@ -2189,7 +2189,7 @@
      },
      "status": "yellow",
      "notes": [
-      "期別結束後已 55 天仍未更新（正常應在 45 天內）"
+      "期別結束後已 56 天仍未更新（正常應在 45 天內）"
      ],
      "note": "連續 3 期走升、創近 24 期新高",
      "source_label": "BLS API CUSR0000SAE",
@@ -2206,7 +2206,7 @@
      "value_fmt": "4.1%",
      "asof": "2026-09-01",
      "asof_label": "",
-     "age_days": 55,
+     "age_days": 56,
      "new_since": "2026-10-15",
      "history": [
       {
@@ -2312,7 +2312,7 @@
      },
      "status": "yellow",
      "notes": [
-      "期別結束後已 55 天仍未更新（正常應在 45 天內）"
+      "期別結束後已 56 天仍未更新（正常應在 45 天內）"
      ],
      "note": "連續 4 期走降、位於近 24 期的第 67 百分位",
      "source_label": "BLS API CUSR0000SAG",
@@ -2329,7 +2329,7 @@
      "value_fmt": "3.2%",
      "asof": "2026-09-01",
      "asof_label": "",
-     "age_days": 55,
+     "age_days": 56,
      "new_since": "2026-10-15",
      "history": [
       {
@@ -2435,7 +2435,7 @@
      },
      "status": "yellow",
      "notes": [
-      "期別結束後已 55 天仍未更新（正常應在 45 天內）"
+      "期別結束後已 56 天仍未更新（正常應在 45 天內）"
      ],
      "note": "位於近 24 期的第 17 百分位",
      "source_label": "BLS API CUSR0000SASL2RS",
@@ -2457,17 +2457,13 @@
    "items": {
     "pce_headline": {
      "name": "總PCE",
-     "value": 3.648874225123633,
-     "value_fmt": "3.6%",
-     "asof": "2026-09-01",
+     "value": 3.844588778464675,
+     "value_fmt": "3.8%",
+     "asof": "2026-10-01",
      "asof_label": "",
-     "age_days": 55,
-     "new_since": "2026-10-30",
+     "age_days": 26,
+     "new_since": "2026-11-26",
      "history": [
-      {
-       "date": "2024-10-01",
-       "value": 2.4062785359954653
-      },
       {
        "date": "2024-11-01",
        "value": 2.4910388371863545
@@ -2550,26 +2546,28 @@
       },
       {
        "date": "2026-07-01",
-       "value": 3.3733629615620986
+       "value": 3.3717869919468013
       },
       {
        "date": "2026-08-01",
-       "value": 3.4441833229845287
+       "value": 3.4551871035691573
       },
       {
        "date": "2026-09-01",
-       "value": 3.648874225123633
+       "value": 3.6692502409855665
+      },
+      {
+       "date": "2026-10-01",
+       "value": 3.844588778464675
       }
      ],
      "extras": {},
      "also": {
-      "mom": 0.4908404312709447
+      "mom": 0.3175011150336804
      },
-     "status": "yellow",
-     "notes": [
-      "期別結束後已 55 天仍未更新（正常應在 45 天內）"
-     ],
-     "note": "年增 3.6%，高於2%目標 1.6pp；位於近 24 期的第 96 百分位",
+     "status": "green",
+     "notes": [],
+     "note": "年增 3.8%，高於2%目標 1.8pp；連續 3 期走升、創近 24 期新高",
      "source_label": "BEA NIUnderlyingDetail U20404 L1",
      "unit": "%",
      "decimals": null,
@@ -2580,17 +2578,13 @@
     },
     "pce_core": {
      "name": "核心PCE（排除食品能源）",
-     "value": 3.1211596029620203,
-     "value_fmt": "3.1%",
-     "asof": "2026-09-01",
+     "value": 3.26111744583808,
+     "value_fmt": "3.3%",
+     "asof": "2026-10-01",
      "asof_label": "",
-     "age_days": 55,
-     "new_since": "2026-10-30",
+     "age_days": 26,
+     "new_since": "2026-11-26",
      "history": [
-      {
-       "date": "2024-10-01",
-       "value": 2.904729847657528
-      },
       {
        "date": "2024-11-01",
        "value": 2.8740925119269845
@@ -2677,22 +2671,24 @@
       },
       {
        "date": "2026-08-01",
-       "value": 3.034442461664799
+       "value": 3.0470761018903003
       },
       {
        "date": "2026-09-01",
-       "value": 3.1211596029620203
+       "value": 3.1424294942492548
+      },
+      {
+       "date": "2026-10-01",
+       "value": 3.26111744583808
       }
      ],
      "extras": {},
      "also": {
-      "mom": 0.31650177409587865
+      "mom": 0.29252495627400954
      },
-     "status": "yellow",
-     "notes": [
-      "期別結束後已 55 天仍未更新（正常應在 45 天內）"
-     ],
-     "note": "年增 3.1%，高於2%目標 1.1pp；位於近 24 期的第 96 百分位",
+     "status": "green",
+     "notes": [],
+     "note": "年增 3.3%，高於2%目標 1.3pp；連續 3 期走升、創近 24 期新高",
      "source_label": "BEA NIUnderlyingDetail U20404 L374",
      "unit": "%",
      "decimals": null,
@@ -2703,17 +2699,13 @@
     },
     "pce_goods": {
      "name": "商品",
-     "value": 3.947617653642821,
-     "value_fmt": "3.9%",
-     "asof": "2026-09-01",
+     "value": 4.445344408637353,
+     "value_fmt": "4.4%",
+     "asof": "2026-10-01",
      "asof_label": "",
-     "age_days": 55,
-     "new_since": "2026-10-30",
+     "age_days": 26,
+     "new_since": "2026-11-26",
      "history": [
-      {
-       "date": "2024-10-01",
-       "value": -1.0298234094757608
-      },
       {
        "date": "2024-11-01",
        "value": -0.5126244634820143
@@ -2796,26 +2788,28 @@
       },
       {
        "date": "2026-07-01",
-       "value": 3.338672669812537
+       "value": 3.3352093164206176
       },
       {
        "date": "2026-08-01",
-       "value": 3.5696990660671
+       "value": 3.5818056035973767
       },
       {
        "date": "2026-09-01",
-       "value": 3.947617653642821
+       "value": 3.9484786389544224
+      },
+      {
+       "date": "2026-10-01",
+       "value": 4.445344408637353
       }
      ],
      "extras": {},
      "also": {
-      "mom": 0.8040545053770609
+      "mom": 0.39840307457839064
      },
-     "status": "yellow",
-     "notes": [
-      "期別結束後已 55 天仍未更新（正常應在 45 天內）"
-     ],
-     "note": "位於近 24 期的第 92 百分位",
+     "status": "green",
+     "notes": [],
+     "note": "連續 3 期走升、位於近 24 期的第 96 百分位",
      "source_label": "BEA NIUnderlyingDetail U20404 L2",
      "unit": "%",
      "decimals": null,
@@ -2826,17 +2820,13 @@
     },
     "pce_services": {
      "name": "服務",
-     "value": 3.5144729041118428,
-     "value_fmt": "3.5%",
-     "asof": "2026-09-01",
+     "value": 3.575305240936344,
+     "value_fmt": "3.6%",
+     "asof": "2026-10-01",
      "asof_label": "",
-     "age_days": 55,
-     "new_since": "2026-10-30",
+     "age_days": 26,
+     "new_since": "2026-11-26",
      "history": [
-      {
-       "date": "2024-10-01",
-       "value": 4.052771297562563
-      },
       {
        "date": "2024-11-01",
        "value": 3.91609960967243
@@ -2919,26 +2909,28 @@
       },
       {
        "date": "2026-07-01",
-       "value": 3.3885900115443013
+       "value": 3.3893445406049993
       },
       {
        "date": "2026-08-01",
-       "value": 3.3878161974320475
+       "value": 3.3990988890309604
       },
       {
        "date": "2026-09-01",
-       "value": 3.5144729041118428
+       "value": 3.5437414164459113
+      },
+      {
+       "date": "2026-10-01",
+       "value": 3.575305240936344
       }
      ],
      "extras": {},
      "also": {
-      "mom": 0.3499428887385303
+      "mom": 0.28121851693472255
      },
-     "status": "yellow",
-     "notes": [
-      "期別結束後已 55 天仍未更新（正常應在 45 天內）"
-     ],
-     "note": "位於近 24 期的第 62 百分位",
+     "status": "green",
+     "notes": [],
+     "note": "連續 3 期走升、位於近 24 期的第 75 百分位",
      "source_label": "BEA NIUnderlyingDetail U20404 L150",
      "unit": "%",
      "decimals": null,
@@ -2949,17 +2941,13 @@
     },
     "pce_core_services_ex_housing": {
      "name": "核心服務排除房租（近似計算）",
-     "value": 3.5950713869922213,
+     "value": 3.637974896836127,
      "value_fmt": "3.6%",
-     "asof": "2026-09-01",
+     "asof": "2026-10-01",
      "asof_label": "",
-     "age_days": 55,
-     "new_since": "2026-10-30",
+     "age_days": 26,
+     "new_since": "2026-11-26",
      "history": [
-      {
-       "date": "2024-10-01",
-       "value": 3.7508530851306343
-      },
       {
        "date": "2024-11-01",
        "value": 3.683894059339332
@@ -3042,26 +3030,28 @@
       },
       {
        "date": "2026-07-01",
-       "value": 3.439045436147148
+       "value": 3.4400323367660857
       },
       {
        "date": "2026-08-01",
-       "value": 3.4927314909884544
+       "value": 3.5084748170135294
       },
       {
        "date": "2026-09-01",
-       "value": 3.5950713869922213
+       "value": 3.63332063168309
+      },
+      {
+       "date": "2026-10-01",
+       "value": 3.637974896836127
       }
      ],
      "extras": {},
      "also": {
-      "mom": 0.3663669649762502
+      "mom": 0.2706246279365443
      },
-     "status": "yellow",
-     "notes": [
-      "期別結束後已 55 天仍未更新（正常應在 45 天內）"
-     ],
-     "note": "位於近 24 期的第 88 百分位",
+     "status": "green",
+     "notes": [],
+     "note": "連續 3 期走升、位於近 24 期的第 92 百分位",
      "source_label": "derived：BEA名目權重反推（非BEA官方直接數字）",
      "unit": "%",
      "decimals": null,
@@ -3085,7 +3075,7 @@
      "value_fmt": "+165k",
      "asof": "2026-10-01",
      "asof_label": "",
-     "age_days": 25,
+     "age_days": 26,
      "new_since": "2026-11-07",
      "history": [
       {
@@ -3204,7 +3194,7 @@
      "value_fmt": "+6k",
      "asof": "2026-10-01",
      "asof_label": "",
-     "age_days": 25,
+     "age_days": 26,
      "new_since": "2026-11-07",
      "history": [
       {
@@ -3323,7 +3313,7 @@
      "value_fmt": "+53k",
      "asof": "2026-10-01",
      "asof_label": "",
-     "age_days": 25,
+     "age_days": 26,
      "new_since": "2026-11-07",
      "history": [
       {
@@ -3442,7 +3432,7 @@
      "value_fmt": "+70k",
      "asof": "2026-10-01",
      "asof_label": "",
-     "age_days": 25,
+     "age_days": 26,
      "new_since": "2026-11-07",
      "history": [
       {
@@ -3561,7 +3551,7 @@
      "value_fmt": "+6k",
      "asof": "2026-10-01",
      "asof_label": "",
-     "age_days": 25,
+     "age_days": 26,
      "new_since": "2026-11-07",
      "history": [
       {
@@ -3680,7 +3670,7 @@
      "value_fmt": "+19k",
      "asof": "2026-10-01",
      "asof_label": "",
-     "age_days": 25,
+     "age_days": 26,
      "new_since": "2026-11-07",
      "history": [
       {
@@ -3799,7 +3789,7 @@
      "value_fmt": "-3k",
      "asof": "2026-10-01",
      "asof_label": "",
-     "age_days": 25,
+     "age_days": 26,
      "new_since": "2026-11-07",
      "history": [
       {
@@ -3918,7 +3908,7 @@
      "value_fmt": "-13k",
      "asof": "2026-10-01",
      "asof_label": "",
-     "age_days": 25,
+     "age_days": 26,
      "new_since": "2026-11-07",
      "history": [
       {
@@ -4037,7 +4027,7 @@
      "value_fmt": "4.1%",
      "asof": "2026-10-01",
      "asof_label": "",
-     "age_days": 25,
+     "age_days": 26,
      "new_since": "2026-11-07",
      "history": [
       {
@@ -4156,7 +4146,7 @@
      "value_fmt": "61.9%",
      "asof": "2026-10-01",
      "asof_label": "",
-     "age_days": 25,
+     "age_days": 26,
      "new_since": "2026-11-07",
      "history": [
       {
@@ -4275,7 +4265,7 @@
      "value_fmt": "3.1%",
      "asof": "2026-10-01",
      "asof_label": "",
-     "age_days": 25,
+     "age_days": 26,
      "new_since": "2026-11-07",
      "history": [
       {
@@ -4396,7 +4386,7 @@
      "value_fmt": "3.3%",
      "asof": "2026-10-01",
      "asof_label": "",
-     "age_days": 25,
+     "age_days": 26,
      "new_since": "2026-11-07",
      "history": [
       {
@@ -4517,7 +4507,7 @@
      "value_fmt": "34.4hrs",
      "asof": "2026-10-01",
      "asof_label": "",
-     "age_days": 25,
+     "age_days": 26,
      "new_since": "2026-11-07",
      "history": [
       {
@@ -4636,7 +4626,7 @@
      "value_fmt": "33.8hrs",
      "asof": "2026-10-01",
      "asof_label": "",
-     "age_days": 25,
+     "age_days": 26,
      "new_since": "2026-11-07",
      "history": [
       {
@@ -4764,7 +4754,7 @@
      "value_fmt": "55.5",
      "asof": "2026-10-01",
      "asof_label": "2026 October",
-     "age_days": 25,
+     "age_days": 26,
      "new_since": "2026-11-03",
      "history": [
       {
@@ -4883,7 +4873,7 @@
      "value_fmt": "55.5",
      "asof": "2026-10-01",
      "asof_label": "2026 October",
-     "age_days": 25,
+     "age_days": 26,
      "new_since": "2026-11-03",
      "history": [
       {
@@ -5002,7 +4992,7 @@
      "value_fmt": "59.0",
      "asof": "2026-10-01",
      "asof_label": "2026 October",
-     "age_days": 25,
+     "age_days": 26,
      "new_since": "2026-11-03",
      "history": [
       {
@@ -5121,7 +5111,7 @@
      "value_fmt": "52.4",
      "asof": "2026-10-01",
      "asof_label": "2026 October",
-     "age_days": 25,
+     "age_days": 26,
      "new_since": "2026-11-03",
      "history": [
       {
@@ -5240,7 +5230,7 @@
      "value_fmt": "59.1",
      "asof": "2026-10-01",
      "asof_label": "2026 October",
-     "age_days": 25,
+     "age_days": 26,
      "new_since": "2026-11-03",
      "history": [
       {
@@ -5359,7 +5349,7 @@
      "value_fmt": "51.4",
      "asof": "2026-10-01",
      "asof_label": "2026 October",
-     "age_days": 25,
+     "age_days": 26,
      "new_since": "2026-11-03",
      "history": [
       {
@@ -5478,7 +5468,7 @@
      "value_fmt": "41.6",
      "asof": "2026-10-01",
      "asof_label": "2026 October",
-     "age_days": 25,
+     "age_days": 26,
      "new_since": "2026-11-03",
      "history": [
       {
@@ -5597,7 +5587,7 @@
      "value_fmt": "75.2",
      "asof": "2026-10-01",
      "asof_label": "2026 October",
-     "age_days": 25,
+     "age_days": 26,
      "new_since": "2026-11-03",
      "history": [
       {
@@ -5716,7 +5706,7 @@
      "value_fmt": "54.6",
      "asof": "2026-10-01",
      "asof_label": "2026 October",
-     "age_days": 25,
+     "age_days": 26,
      "new_since": "2026-11-03",
      "history": [
       {
@@ -5835,7 +5825,7 @@
      "value_fmt": "51.2",
      "asof": "2026-10-01",
      "asof_label": "2026 October",
-     "age_days": 25,
+     "age_days": 26,
      "new_since": "2026-11-03",
      "history": [
       {
@@ -5954,7 +5944,7 @@
      "value_fmt": "52.9",
      "asof": "2026-10-01",
      "asof_label": "2026 October",
-     "age_days": 25,
+     "age_days": 26,
      "new_since": "2026-11-03",
      "history": [
       {
@@ -6082,7 +6072,7 @@
      "value_fmt": "54.5",
      "asof": "2026-10-01",
      "asof_label": "2026 October",
-     "age_days": 25,
+     "age_days": 26,
      "new_since": "2026-11-05",
      "history": [
       {
@@ -6201,7 +6191,7 @@
      "value_fmt": "53.8",
      "asof": "2026-10-01",
      "asof_label": "2026 October",
-     "age_days": 25,
+     "age_days": 26,
      "new_since": "2026-11-05",
      "history": [
       {
@@ -6320,7 +6310,7 @@
      "value_fmt": "55.9",
      "asof": "2026-10-01",
      "asof_label": "2026 October",
-     "age_days": 25,
+     "age_days": 26,
      "new_since": "2026-11-05",
      "history": [
       {
@@ -6439,7 +6429,7 @@
      "value_fmt": "51.4",
      "asof": "2026-10-01",
      "asof_label": "2026 October",
-     "age_days": 25,
+     "age_days": 26,
      "new_since": "2026-11-05",
      "history": [
       {
@@ -6558,7 +6548,7 @@
      "value_fmt": "56.7",
      "asof": "2026-10-01",
      "asof_label": "2026 October",
-     "age_days": 25,
+     "age_days": 26,
      "new_since": "2026-11-05",
      "history": [
       {
@@ -6677,7 +6667,7 @@
      "value_fmt": "55.4",
      "asof": "2026-10-01",
      "asof_label": "2026 October",
-     "age_days": 25,
+     "age_days": 26,
      "new_since": "2026-11-05",
      "history": [
       {
@@ -6796,7 +6786,7 @@
      "value_fmt": "73.0",
      "asof": "2026-10-01",
      "asof_label": "2026 October",
-     "age_days": 25,
+     "age_days": 26,
      "new_since": "2026-11-05",
      "history": [
       {
@@ -6915,7 +6905,7 @@
      "value_fmt": "58.0",
      "asof": "2026-10-01",
      "asof_label": "2026 October",
-     "age_days": 25,
+     "age_days": 26,
      "new_since": "2026-11-05",
      "history": [
       {
@@ -7034,7 +7024,7 @@
      "value_fmt": "55.2",
      "asof": "2026-10-01",
      "asof_label": "2026 October",
-     "age_days": 25,
+     "age_days": 26,
      "new_since": "2026-11-05",
      "history": [
       {
@@ -7153,7 +7143,7 @@
      "value_fmt": "54.2",
      "asof": "2026-10-01",
      "asof_label": "2026 October",
-     "age_days": 25,
+     "age_days": 26,
      "new_since": "2026-11-05",
      "history": [
       {
@@ -7272,7 +7262,7 @@
      "value_fmt": "52.1",
      "asof": "2026-10-01",
      "asof_label": "2026 October",
-     "age_days": 25,
+     "age_days": 26,
      "new_since": "2026-11-05",
      "history": [
       {
@@ -7400,7 +7390,7 @@
      "value_fmt": "0.2%",
      "asof": "2026-10-01",
      "asof_label": "",
-     "age_days": 25,
+     "age_days": 26,
      "new_since": "2026-11-18",
      "history": [
       {
@@ -7519,7 +7509,7 @@
      "value_fmt": "0.5%",
      "asof": "2026-10-01",
      "asof_label": "",
-     "age_days": 25,
+     "age_days": 26,
      "new_since": "2026-11-18",
      "history": [
       {
@@ -7638,7 +7628,7 @@
      "value_fmt": "0.57%",
      "asof": "2026-10-01",
      "asof_label": "",
-     "age_days": 25,
+     "age_days": 26,
      "new_since": "2026-11-18",
      "history": [
       {
@@ -7761,7 +7751,7 @@
      "value_fmt": "1.2%",
      "asof": "2026-10-01",
      "asof_label": "",
-     "age_days": 25,
+     "age_days": 26,
      "new_since": "2026-11-18",
      "history": [
       {
@@ -7880,7 +7870,7 @@
      "value_fmt": "0.2%",
      "asof": "2026-10-01",
      "asof_label": "",
-     "age_days": 25,
+     "age_days": 26,
      "new_since": "2026-11-18",
      "history": [
       {
@@ -7999,7 +7989,7 @@
      "value_fmt": "-0.7%",
      "asof": "2026-10-01",
      "asof_label": "",
-     "age_days": 25,
+     "age_days": 26,
      "new_since": "2026-11-18",
      "history": [
       {
@@ -8118,7 +8108,7 @@
      "value_fmt": "0.5%",
      "asof": "2026-10-01",
      "asof_label": "",
-     "age_days": 25,
+     "age_days": 26,
      "new_since": "2026-11-18",
      "history": [
       {
