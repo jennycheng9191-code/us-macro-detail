@@ -1,8 +1,8 @@
 {
- "build_time": "2026-11-27 10:25",
+ "build_time": "2026-11-27 12:35",
  "summary": {
-  "green": 56,
-  "yellow": 12,
+  "green": 57,
+  "yellow": 11,
   "gray": 0
  },
  "indicators": {
@@ -2461,7 +2461,7 @@
      "value_fmt": "3.8%",
      "asof": "2026-10-01",
      "asof_label": "",
-     "age_days": null,
+     "age_days": 27,
      "new_since": "2026-11-26",
      "history": [
       {
@@ -2565,11 +2565,8 @@
      "also": {
       "mom": 0.3175011150336804
      },
-     "status": "yellow",
-     "notes": [
-      "抓取例外：取得 JSON 失敗 https://apps.bea.gov/api/data/: 503 Server Error: Service Unavailable for url: https://apps.bea.gov/api/data/?UserID=505B506A-7732-45AD-A7BB-85CA3DD13957&method=GetData&datasetname=NIUnderlyingDetail&TableName=U20404&Frequency=M&Year=ALL&ResultFormat=JSON",
-      "本次未取得，沿用 2026-10-01 的前值"
-     ],
+     "status": "green",
+     "notes": [],
      "note": "年增 3.8%，高於2%目標 1.8pp；連續 3 期走升、創近 24 期新高",
      "source_label": "BEA NIUnderlyingDetail U20404 L1",
      "unit": "%",
